@@ -1,0 +1,48 @@
+[0.016s] Invoking command in '/home/ruize/dev_ws/build/usv_gazebo_plugins': AMENT_PREFIX_PATH=/home/ruize/dev_ws/install/wave_gazebo_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ruize/dev_ws/install/wave_gazebo_plugins:/home/ruize/dev_ws/install/usv_msgs:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ruize/dev_ws/install/wave_gazebo_plugins/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ruize/dev_ws/build/usv_gazebo_plugins -- -j4 -l4
+[0.059s] [  7%] [32mBuilding CXX object CMakeFiles/usv_gazebo_wind_plugin.dir/src/usv_gazebo_wind_plugin.cc.o[0m
+[0.060s] [ 15%] [32mBuilding CXX object CMakeFiles/usv_gazebo_acoustic_pinger_plugin.dir/src/acoustic_pinger_plugin.cc.o[0m
+[0.061s] [ 23%] [32mBuilding CXX object CMakeFiles/buoyancy_gazebo_plugin.dir/src/buoyancy_gazebo_plugin.cc.o[0m
+[0.061s] [ 30%] [32mBuilding CXX object CMakeFiles/usv_gazebo_dynamics_plugin.dir/src/usv_gazebo_dynamics_plugin.cc.o[0m
+[0.065s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_wind_plugin.cc:18:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.065s]    18 | #include [01;31m[K<rclcpp/rclcpp.hpp>[m[K
+[0.065s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.066s] compilation terminated.
+[0.066s] make[2]: *** [CMakeFiles/usv_gazebo_wind_plugin.dir/build.make:63: CMakeFiles/usv_gazebo_wind_plugin.dir/src/usv_gazebo_wind_plugin.cc.o] Error 1
+[0.066s] make[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/usv_gazebo_wind_plugin.dir/all] Error 2
+[0.066s] make[1]: *** Waiting for unfinished jobs....
+[0.067s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/acoustic_pinger_plugin.cc:46:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.067s]    46 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.068s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.068s] compilation terminated.
+[0.068s] make[2]: *** [CMakeFiles/usv_gazebo_acoustic_pinger_plugin.dir/build.make:63: CMakeFiles/usv_gazebo_acoustic_pinger_plugin.dir/src/acoustic_pinger_plugin.cc.o] Error 1
+[0.069s] make[1]: *** [CMakeFiles/Makefile2:196: CMakeFiles/usv_gazebo_acoustic_pinger_plugin.dir/all] Error 2
+[0.071s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:18:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.071s]    18 | #include [01;31m[K<rclcpp/rclcpp.hpp>[m[K
+[0.072s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.072s] compilation terminated.
+[0.074s] make[2]: *** [CMakeFiles/usv_gazebo_dynamics_plugin.dir/build.make:63: CMakeFiles/usv_gazebo_dynamics_plugin.dir/src/usv_gazebo_dynamics_plugin.cc.o] Error 1
+[0.075s] make[1]: *** [CMakeFiles/Makefile2:115: CMakeFiles/usv_gazebo_dynamics_plugin.dir/all] Error 2
+[0.077s] [ 38%] [32mBuilding CXX object CMakeFiles/buoyancy_gazebo_plugin.dir/src/shape_volume.cc.o[0m
+[0.083s] [ 46%] [32mBuilding CXX object CMakeFiles/buoyancy_gazebo_plugin.dir/src/polyhedron_volume.cc.o[0m
+[0.097s] In file included from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/polyhedron_volume.cc:18[m[K:
+[0.097s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/include/usv_gazebo_plugins/polyhedron_volume.hh:22:10:[m[K [01;31m[Kfatal error: [m[Kgazebo/common/common.hh: No such file or directory
+[0.098s]    22 | #include [01;31m[K<gazebo/common/common.hh>[m[K
+[0.098s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.098s] compilation terminated.
+[0.099s] make[2]: *** [CMakeFiles/buoyancy_gazebo_plugin.dir/build.make:89: CMakeFiles/buoyancy_gazebo_plugin.dir/src/polyhedron_volume.cc.o] Error 1
+[0.099s] make[2]: *** Waiting for unfinished jobs....
+[0.102s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/buoyancy_gazebo_plugin.cc:20:10:[m[K [01;31m[Kfatal error: [m[Kgazebo/common/Assert.hh: No such file or directory
+[0.103s]    20 | #include [01;31m[K<gazebo/common/Assert.hh>[m[K
+[0.103s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.103s] compilation terminated.
+[0.103s] make[2]: *** [CMakeFiles/buoyancy_gazebo_plugin.dir/build.make:63: CMakeFiles/buoyancy_gazebo_plugin.dir/src/buoyancy_gazebo_plugin.cc.o] Error 1
+[0.177s] In file included from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/include/usv_gazebo_plugins/shape_volume.hh:26[m[K,
+[0.177s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/shape_volume.cc:18[m[K:
+[0.177s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/include/usv_gazebo_plugins/polyhedron_volume.hh:22:10:[m[K [01;31m[Kfatal error: [m[Kgazebo/common/common.hh: No such file or directory
+[0.177s]    22 | #include [01;31m[K<gazebo/common/common.hh>[m[K
+[0.177s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.178s] compilation terminated.
+[0.179s] make[2]: *** [CMakeFiles/buoyancy_gazebo_plugin.dir/build.make:76: CMakeFiles/buoyancy_gazebo_plugin.dir/src/shape_volume.cc.o] Error 1
+[0.180s] make[1]: *** [CMakeFiles/Makefile2:88: CMakeFiles/buoyancy_gazebo_plugin.dir/all] Error 2
+[0.181s] make: *** [Makefile:141: all] Error 2
+[0.183s] Invoked command in '/home/ruize/dev_ws/build/usv_gazebo_plugins' returned '2': AMENT_PREFIX_PATH=/home/ruize/dev_ws/install/wave_gazebo_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ruize/dev_ws/install/wave_gazebo_plugins:/home/ruize/dev_ws/install/usv_msgs:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ruize/dev_ws/install/wave_gazebo_plugins/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ruize/dev_ws/build/usv_gazebo_plugins -- -j4 -l4

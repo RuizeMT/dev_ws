@@ -1,0 +1,88 @@
+[0.015s] Invoking command in '/home/ruize/dev_ws/build/usv_gazebo_plugins': AMENT_PREFIX_PATH=/home/ruize/dev_ws/install/wave_gazebo_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ruize/dev_ws/install/wave_gazebo_plugins:/home/ruize/dev_ws/install/usv_msgs:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ruize/dev_ws/install/wave_gazebo_plugins/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ruize/dev_ws/src/usv_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/ruize/dev_ws/install/usv_gazebo_plugins
+[0.028s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.045s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.169s] -- Found gazebo_dev: 3.5.0 (/opt/ros/foxy/share/gazebo_dev/cmake)
+[0.201s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.225s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[0.227s] -- Looking for ignition-math6 -- found version 6.8.0
+[0.231s] -- Searching for dependencies of ignition-math6
+[0.233s] -- Looking for OGRE...
+[0.238s] -- Found Ogre Ghadamon (1.9.0)
+[0.238s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.247s] -- Looking for OGRE_Paging...
+[0.247s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.248s] -- Looking for OGRE_Terrain...
+[0.248s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.248s] -- Looking for OGRE_Property...
+[0.248s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.248s] -- Looking for OGRE_RTShaderSystem...
+[0.248s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.249s] -- Looking for OGRE_Volume...
+[0.249s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.249s] -- Looking for OGRE_Overlay...
+[0.249s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.343s] -- Looking for ignition-math6 -- found version 6.8.0
+[0.343s] -- Looking for ignition-transport8 -- found version 8.2.0
+[0.344s] -- Searching for dependencies of ignition-transport8
+[0.360s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[0.370s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.374s] -- Checking for module 'libzmq >= 4'
+[0.385s] --   Found libzmq , version 4.3.2
+[0.417s] -- Checking for module 'uuid'
+[0.428s] --   Found uuid, version 2.34.0
+[0.451s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[0.453s] -- Searching for dependencies of ignition-msgs5
+[0.468s] -- Looking for ignition-math6 -- found version 6.8.0
+[0.470s] -- Checking for module 'tinyxml2'
+[0.480s] --   Found tinyxml2, version 6.2.0
+[0.506s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[0.506s] -- Looking for ignition-common3 -- found version 3.11.1
+[0.506s] -- Searching for dependencies of ignition-common3
+[0.507s] -- Looking for dlfcn.h - found
+[0.507s] -- Looking for libdl - found
+[0.512s] -- Searching for <ignition-common3> component [graphics]
+[0.513s] -- Looking for ignition-common3-graphics -- found version 3.11.1
+[0.513s] -- Searching for dependencies of ignition-common3-graphics
+[0.514s] -- Looking for ignition-math6 -- found version 6.8.0
+[0.514s] -- Looking for ignition-fuel_tools4 -- found version 4.3.0
+[0.515s] -- Searching for dependencies of ignition-fuel_tools4
+[0.533s] -- Checking for module 'jsoncpp'
+[0.544s] --   Found jsoncpp, version 1.7.4
+[0.570s] -- Checking for module 'libzip'
+[0.580s] --   Found libzip, version 1.5.1
+[0.611s] -- Looking for ignition-common3 -- found version 3.11.1
+[0.612s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[0.613s] -- Gazebo version: 11.3
+[0.614s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.632s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.635s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.725s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.761s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.763s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.868s] -- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.875s] -- Found xacro: 2.0.4 (/opt/ros/foxy/share/xacro/cmake)
+[0.876s] -- Found wave_gazebo_plugins: 1.3.0 (/home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/cmake)
+[0.895s] -- Found usv_msgs: 0.0.0 (/home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/cmake)
+[0.926s] -- xacro: determining deps for: worlds/buoyancy_plugin_demo.world.xacro ...
+[0.975s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.035s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.035s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.035s] -- Configured cppcheck include dirs: /home/ruize/dev_ws/src/usv_gazebo_plugins/include
+[1.035s] -- Configured cppcheck exclude dirs and/or files: 
+[1.035s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.035s] -- Configured cpplint exclude dirs and/or files: 
+[1.035s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.038s] -- Added test 'lint_cmake' to check CMake code style
+[1.038s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.038s] -- Added test 'uncrustify' to check C / C++ code style
+[1.038s] -- Configured uncrustify additional arguments: 
+[1.038s] -- Added test 'xmllint' to check XML markup files
+[1.043s] -- Configuring done
+[1.047s] CMake Error at CMakeLists.txt:99 (add_dependencies):
+[1.047s]   The dependency target "usv_msgs_generate_messages_cpp" of target
+[1.047s]   "usv_gazebo_acoustic_pinger_plugin" does not exist.
+[1.047s] 
+[1.047s] 
+[1.061s] -- Generating done
+[1.063s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[1.076s] Invoked command in '/home/ruize/dev_ws/build/usv_gazebo_plugins' returned '1': AMENT_PREFIX_PATH=/home/ruize/dev_ws/install/wave_gazebo_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ruize/dev_ws/install/wave_gazebo_plugins:/home/ruize/dev_ws/install/usv_msgs:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ruize/dev_ws/install/wave_gazebo_plugins/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ruize/dev_ws/src/usv_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/ruize/dev_ws/install/usv_gazebo_plugins

@@ -1,0 +1,27 @@
+[0.009s] Invoking command in '/home/ruize/dev_ws/build/usv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ruize/dev_ws/src/usv_msgs -DCMAKE_INSTALL_PREFIX=/home/ruize/dev_ws/install/usv_msgs
+[0.019s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.035s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.153s] -- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.154s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.156s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.255s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.279s] CMake Error at CMakeLists.txt:21 (find_package):
+[0.279s]   By not providing "Findmessage_package.cmake" in CMAKE_MODULE_PATH this
+[0.279s]   project has asked CMake to find a package configuration file provided by
+[0.279s]   "message_package", but CMake did not find one.
+[0.279s] 
+[0.279s]   Could not find a package configuration file provided by "message_package"
+[0.279s]   with any of the following names:
+[0.279s] 
+[0.279s]     message_packageConfig.cmake
+[0.279s]     message_package-config.cmake
+[0.279s] 
+[0.279s]   Add the installation prefix of "message_package" to CMAKE_PREFIX_PATH or
+[0.279s]   set "message_package_DIR" to a directory containing one of the above files.
+[0.279s]   If "message_package" provides a separate development package or SDK, be
+[0.279s]   sure it has been installed.
+[0.279s] 
+[0.279s] 
+[0.280s] -- Configuring incomplete, errors occurred!
+[0.280s] See also "/home/ruize/dev_ws/build/usv_msgs/CMakeFiles/CMakeOutput.log".
+[0.283s] Invoked command in '/home/ruize/dev_ws/build/usv_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ruize/dev_ws/src/usv_msgs -DCMAKE_INSTALL_PREFIX=/home/ruize/dev_ws/install/usv_msgs

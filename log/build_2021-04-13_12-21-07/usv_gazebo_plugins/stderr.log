@@ -1,0 +1,40 @@
+[01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:18:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+   18 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/usv_gazebo_dynamics_plugin.dir/build.make:63: CMakeFiles/usv_gazebo_dynamics_plugin.dir/src/usv_gazebo_dynamics_plugin.cc.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:115: CMakeFiles/usv_gazebo_dynamics_plugin.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/acoustic_pinger_plugin.cc:46:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+   46 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/usv_gazebo_acoustic_pinger_plugin.dir/build.make:63: CMakeFiles/usv_gazebo_acoustic_pinger_plugin.dir/src/acoustic_pinger_plugin.cc.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:196: CMakeFiles/usv_gazebo_acoustic_pinger_plugin.dir/all] Error 2
+[01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_wind_plugin.cc:18:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+   18 | #include [01;31m[K<rclcpp/rclcpp.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/usv_gazebo_wind_plugin.dir/build.make:63: CMakeFiles/usv_gazebo_wind_plugin.dir/src/usv_gazebo_wind_plugin.cc.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/usv_gazebo_wind_plugin.dir/all] Error 2
+In file included from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/polyhedron_volume.cc:18[m[K:
+[01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/include/usv_gazebo_plugins/polyhedron_volume.hh:22:10:[m[K [01;31m[Kfatal error: [m[Kgazebo/common/common.hh: No such file or directory
+   22 | #include [01;31m[K<gazebo/common/common.hh>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/buoyancy_gazebo_plugin.dir/build.make:89: CMakeFiles/buoyancy_gazebo_plugin.dir/src/polyhedron_volume.cc.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/buoyancy_gazebo_plugin.cc:20:10:[m[K [01;31m[Kfatal error: [m[Kgazebo/common/Assert.hh: No such file or directory
+   20 | #include [01;31m[K<gazebo/common/Assert.hh>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/buoyancy_gazebo_plugin.dir/build.make:63: CMakeFiles/buoyancy_gazebo_plugin.dir/src/buoyancy_gazebo_plugin.cc.o] Error 1
+In file included from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/include/usv_gazebo_plugins/shape_volume.hh:26[m[K,
+                 from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/shape_volume.cc:18[m[K:
+[01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/include/usv_gazebo_plugins/polyhedron_volume.hh:22:10:[m[K [01;31m[Kfatal error: [m[Kgazebo/common/common.hh: No such file or directory
+   22 | #include [01;31m[K<gazebo/common/common.hh>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/buoyancy_gazebo_plugin.dir/build.make:76: CMakeFiles/buoyancy_gazebo_plugin.dir/src/shape_volume.cc.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:88: CMakeFiles/buoyancy_gazebo_plugin.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

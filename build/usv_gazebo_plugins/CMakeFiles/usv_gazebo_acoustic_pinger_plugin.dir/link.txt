@@ -1,0 +1,2 @@
+/usr/bin/ar qc libusv_gazebo_acoustic_pinger_plugin.a  CMakeFiles/usv_gazebo_acoustic_pinger_plugin.dir/src/acoustic_pinger_plugin.cc.o
+/usr/bin/ranlib libusv_gazebo_acoustic_pinger_plugin.a

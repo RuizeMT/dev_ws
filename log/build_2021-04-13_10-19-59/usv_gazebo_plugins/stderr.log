@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:24 (find_package):
+  By not providing "Findwave_gazebo_plugins.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "wave_gazebo_plugins", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "wave_gazebo_plugins" with any of the following names:
+
+    wave_gazebo_pluginsConfig.cmake
+    wave_gazebo_plugins-config.cmake
+
+  Add the installation prefix of "wave_gazebo_plugins" to CMAKE_PREFIX_PATH
+  or set "wave_gazebo_plugins_DIR" to a directory containing one of the above
+  files.  If "wave_gazebo_plugins" provides a separate development package or
+  SDK, be sure it has been installed.
+
+

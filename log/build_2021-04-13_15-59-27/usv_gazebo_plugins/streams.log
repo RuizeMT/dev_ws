@@ -1,0 +1,556 @@
+[0.016s] Invoking command in '/home/ruize/dev_ws/build/usv_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/usv_gazebo_plugins -- -j4 -l4
+[0.066s] [ 14%] Built target usv_gazebo_plugins__xacro_auto_generate
+[0.078s] [ 42%] [32mBuilding CXX object CMakeFiles/usv_gazebo_dynamics_plugin.dir/src/usv_gazebo_dynamics_plugin.cc.o[0m
+[0.078s] [ 85%] Built target buoyancy_gazebo_plugin
+[1.278s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:46:70:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_INFO_STREAM" requires 2 arguments, but only 1 given
+[1.279s]    46 |                     "Using default value of <" << _defaultVal << ">."[01;31m[K)[m[K;
+[1.279s]       |                                                                      [01;31m[K^[m[K
+[1.279s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.279s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.279s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.279s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.279s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.279s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.279s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.279s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.279s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.279s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.280s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17[m[K:
+[1.280s] [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:736:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_INFO_STREAM" defined here
+[1.280s]   736 | #define RCLCPP_INFO_STREAM(logger, stream_arg) \
+[1.280s]       | 
+[1.280s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:52:42:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_DEBUG_STREAM" requires 2 arguments, but only 1 given
+[1.280s]    52 |                   "> to <" << val << ">."[01;31m[K)[m[K;
+[1.280s]       |                                          [01;31m[K^[m[K
+[1.280s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.280s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.280s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.280s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.280s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.280s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.280s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.280s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.280s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.280s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.280s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17[m[K:
+[1.280s] [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:294:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_DEBUG_STREAM" defined here
+[1.280s]   294 | #define RCLCPP_DEBUG_STREAM(logger, stream_arg) \
+[1.280s]       | 
+[1.280s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:69:61:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_INFO_STREAM" requires 2 arguments, but only 1 given
+[1.280s]    69 |     RCLCPP_INFO_STREAM("Did not find SDF parameter bodyName"[01;31m[K)[m[K;
+[1.281s]       |                                                             [01;31m[K^[m[K
+[1.281s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.281s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.281s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.281s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.281s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.281s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.281s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.281s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.281s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.281s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.281s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17[m[K:
+[1.281s] [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:736:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_INFO_STREAM" defined here
+[1.281s]   736 | #define RCLCPP_INFO_STREAM(logger, stream_arg) \
+[1.281s]       | 
+[1.281s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:76:78:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_DEBUG_STREAM" requires 2 arguments, but only 1 given
+[1.281s]    76 |     RCLCPP_DEBUG_STREAM("Found SDF parameter bodyName as <" << linkName<< ">"[01;31m[K)[m[K;
+[1.281s]       |                                                                              [01;31m[K^[m[K
+[1.281s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.281s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.281s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.281s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.282s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.282s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.282s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.282s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.282s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.282s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.282s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17[m[K:
+[1.282s] [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:294:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_DEBUG_STREAM" defined here
+[1.282s]   294 | #define RCLCPP_DEBUG_STREAM(logger, stream_arg) \
+[1.282s]       | 
+[1.282s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:86:70:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_DEBUG_STREAM" requires 2 arguments, but only 1 given
+[1.282s]    86 |     RCLCPP_DEBUG_STREAM("USV Dynamics Model Link Name = " << linkName[01;31m[K)[m[K;
+[1.282s]       |                                                                      [01;31m[K^[m[K
+[1.282s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.282s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.282s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.282s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.282s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.282s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.282s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.282s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.282s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.283s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.283s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17[m[K:
+[1.283s] [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:294:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_DEBUG_STREAM" defined here
+[1.283s]   294 | #define RCLCPP_DEBUG_STREAM(logger, stream_arg) \
+[1.283s]       | 
+[1.283s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:117:69:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_INFO_STREAM" requires 2 arguments, but only 1 given
+[1.283s]   117 |                     "Using default value of <" << defaultVal << ">."[01;31m[K)[m[K;
+[1.283s]       |                                                                     [01;31m[K^[m[K
+[1.283s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.283s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.283s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.283s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.283s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.283s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.283s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.283s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.283s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.283s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.283s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17[m[K:
+[1.284s] [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:736:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_INFO_STREAM" defined here
+[1.284s]   736 | #define RCLCPP_INFO_STREAM(logger, stream_arg) \
+[1.284s]       | 
+[1.284s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:146:60:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_DEBUG_STREAM" requires 2 arguments, but only 1 given
+[1.284s]   146 |   RCLCPP_DEBUG_STREAM("Vessel Mass (rigid-body): " << kMass[01;31m[K)[m[K;
+[1.284s]       |                                                            [01;31m[K^[m[K
+[1.284s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.284s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.284s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.284s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.284s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.284s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.284s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.284s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.284s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.284s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.284s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17[m[K:
+[1.284s] [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:294:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_DEBUG_STREAM" defined here
+[1.284s]   294 | #define RCLCPP_DEBUG_STREAM(logger, stream_arg) \
+[1.284s]       | 
+[1.284s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:148:63:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_DEBUG_STREAM" requires 2 arguments, but only 1 given
+[1.284s]   148 |                   " Y:" << kInertia[1] << " Z:" << kInertia[2][01;31m[K)[m[K;
+[1.285s]       |                                                               [01;31m[K^[m[K
+[1.285s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.285s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.285s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.285s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.285s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.285s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.285s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.285s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.285s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.285s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.285s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17[m[K:
+[1.285s] [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:294:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_DEBUG_STREAM" defined here
+[1.285s]   294 | #define RCLCPP_DEBUG_STREAM(logger, stream_arg) \
+[1.285s]       | 
+[1.285s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:213:69:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" requires 4 arguments, but only 2 given
+[1.285s]   213 |   RCLCPP_DEBUG_STREAM_THROTTLE(0.5, "Vel linear: " << kVelLinearBody[01;31m[K)[m[K;
+[1.285s]       |                                                                     [01;31m[K^[m[K
+[1.285s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.286s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.286s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.286s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.286s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.286s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.286s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.286s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.286s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.286s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.286s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17[m[K:
+[1.286s] [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:420:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" defined here
+[1.286s]   420 | #define RCLCPP_DEBUG_STREAM_THROTTLE(logger, clock, duration, stream_arg) \
+[1.286s]       | 
+[1.286s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:222:71:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" requires 4 arguments, but only 2 given
+[1.286s]   222 |   RCLCPP_DEBUG_STREAM_THROTTLE(0.5, "Vel angular: " << kVelAngularBody[01;31m[K)[m[K;
+[1.286s]       |                                                                       [01;31m[K^[m[K
+[1.286s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.286s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.286s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.286s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.287s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.287s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.287s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.287s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.287s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.287s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.287s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17[m[K:
+[1.287s] [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:420:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" defined here
+[1.287s]   420 | #define RCLCPP_DEBUG_STREAM_THROTTLE(logger, clock, duration, stream_arg) \
+[1.287s]       | 
+[1.287s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:230:73:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" requires 4 arguments, but only 2 given
+[1.287s]   230 |   RCLCPP_DEBUG_STREAM_THROTTLE(0.5, "Accel linear: " << kAccelLinearBody[01;31m[K)[m[K;
+[1.287s]       |                                                                         [01;31m[K^[m[K
+[1.287s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.287s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.288s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.288s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.288s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.288s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.288s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.288s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.288s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.288s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.289s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17[m[K:
+[1.289s] [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:420:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" defined here
+[1.289s]   420 | #define RCLCPP_DEBUG_STREAM_THROTTLE(logger, clock, duration, stream_arg) \
+[1.289s]       | 
+[1.289s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:234:75:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" requires 4 arguments, but only 2 given
+[1.289s]   234 |   RCLCPP_DEBUG_STREAM_THROTTLE(0.5, "Accel angular: " << kAccelAngularBody[01;31m[K)[m[K;
+[1.289s]       |                                                                           [01;31m[K^[m[K
+[1.289s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.289s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.289s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.290s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.290s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.290s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.290s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.290s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.290s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.290s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.290s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17[m[K:
+[1.291s] [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:420:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" defined here
+[1.291s]   420 | #define RCLCPP_DEBUG_STREAM_THROTTLE(logger, clock, duration, stream_arg) \
+[1.291s]       | 
+[1.291s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:250:63:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" requires 4 arguments, but only 2 given
+[1.291s]   250 |   RCLCPP_DEBUG_STREAM_THROTTLE(1.0, "stateDot: \n" << stateDot[01;31m[K)[m[K;
+[1.291s]       |                                                               [01;31m[K^[m[K
+[1.291s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.291s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.291s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.291s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.291s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.291s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.292s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.292s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.292s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.292s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.292s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17[m[K:
+[1.292s] [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:420:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" defined here
+[1.292s]   420 | #define RCLCPP_DEBUG_STREAM_THROTTLE(logger, clock, duration, stream_arg) \
+[1.292s]       | 
+[1.292s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:251:64:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" requires 4 arguments, but only 2 given
+[1.292s]   251 |   RCLCPP_DEBUG_STREAM_THROTTLE(1.0, "amassVec :\n" << kAmassVec[01;31m[K)[m[K;
+[1.292s]       |                                                                [01;31m[K^[m[K
+[1.293s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.293s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.293s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.293s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.293s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.293s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.293s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.293s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.294s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.294s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.294s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17[m[K:
+[1.294s] [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:420:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" defined here
+[1.294s]   420 | #define RCLCPP_DEBUG_STREAM_THROTTLE(logger, clock, duration, stream_arg) \
+[1.294s]       | 
+[1.294s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:266:55:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" requires 4 arguments, but only 2 given
+[1.294s]   266 |   RCLCPP_DEBUG_STREAM_THROTTLE(1.0, "Dmat :\n" << Dmat[01;31m[K)[m[K;
+[1.294s]       |                                                       [01;31m[K^[m[K
+[1.294s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.295s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.295s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.295s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.295s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.295s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.295s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.295s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.295s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.296s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.296s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17[m[K:
+[1.296s] [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:420:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" defined here
+[1.296s]   420 | #define RCLCPP_DEBUG_STREAM_THROTTLE(logger, clock, duration, stream_arg) \
+[1.296s]       | 
+[1.296s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:268:56:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" requires 4 arguments, but only 2 given
+[1.296s]   268 |   RCLCPP_DEBUG_STREAM_THROTTLE(1.0, "Dvec :\n" << kDvec[01;31m[K)[m[K;
+[1.297s]       |                                                        [01;31m[K^[m[K
+[1.297s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.297s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.297s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.297s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.297s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.297s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.297s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.297s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.297s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.297s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.298s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17[m[K:
+[1.298s] [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:420:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" defined here
+[1.298s]   420 | #define RCLCPP_DEBUG_STREAM_THROTTLE(logger, clock, duration, stream_arg) \
+[1.298s]       | 
+[1.298s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:281:64:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" requires 4 arguments, but only 2 given
+[1.298s]   281 |   RCLCPP_DEBUG_STREAM_THROTTLE(1.0, "forceSum :\n" << kForceSum[01;31m[K)[m[K;
+[1.298s]       |                                                                [01;31m[K^[m[K
+[1.298s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.298s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.299s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.299s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.299s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.299s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.299s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.299s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.299s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.300s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.300s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17[m[K:
+[1.300s] [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:420:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" defined here
+[1.300s]   420 | #define RCLCPP_DEBUG_STREAM_THROTTLE(logger, clock, duration, stream_arg) \
+[1.300s]       | 
+[1.300s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:310:76:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" requires 4 arguments, but only 2 given
+[1.300s]   310 |           "] grid points" << bpnt.x() << "," << bpnt.y() << "," << bpnt.z()[01;31m[K)[m[K;
+[1.300s]       |                                                                            [01;31m[K^[m[K
+[1.301s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.301s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.301s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.301s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.301s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.301s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.301s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.301s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.301s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.301s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.302s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17[m[K:
+[1.302s] [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:420:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" defined here
+[1.302s]   420 | #define RCLCPP_DEBUG_STREAM_THROTTLE(logger, clock, duration, stream_arg) \
+[1.302s]       | 
+[1.302s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:311:67:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" requires 4 arguments, but only 2 given
+[1.302s]   311 |       RCLCPP_DEBUG_STREAM_THROTTLE(1.0, "v frame euler " << kEuler[01;31m[K)[m[K;
+[1.302s]       |                                                                   [01;31m[K^[m[K
+[1.303s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.303s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.303s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.303s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.303s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.303s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.303s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.304s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.304s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.304s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.304s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17[m[K:
+[1.304s] [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:420:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" defined here
+[1.304s]   420 | #define RCLCPP_DEBUG_STREAM_THROTTLE(logger, clock, duration, stream_arg) \
+[1.304s]       | 
+[1.304s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:313:40:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" requires 4 arguments, but only 2 given
+[1.304s]   313 |           bpntW.y() << "," << bpntW.z()[01;31m[K)[m[K;
+[1.304s]       |                                        [01;31m[K^[m[K
+[1.305s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.305s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.305s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.305s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.305s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.305s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.305s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.305s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.306s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.306s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.306s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17[m[K:
+[1.306s] [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:420:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" defined here
+[1.306s]   420 | #define RCLCPP_DEBUG_STREAM_THROTTLE(logger, clock, duration, stream_arg) \
+[1.306s]       | 
+[1.306s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:318:41:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_DEBUG_STREAM" requires 2 arguments, but only 1 given
+[1.306s]   318 |         << bpntW.z() << ", dd: " << kDdz[01;31m[K)[m[K;
+[1.306s]       |                                         [01;31m[K^[m[K
+[1.306s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.306s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.306s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.306s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.306s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.306s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.306s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.306s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.306s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.306s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.306s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17[m[K:
+[1.306s] [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:294:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_DEBUG_STREAM" defined here
+[1.306s]   294 | #define RCLCPP_DEBUG_STREAM(logger, stream_arg) \
+[1.307s]       | 
+[1.307s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:347:54:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_DEBUG_STREAM" requires 2 arguments, but only 1 given
+[1.307s]   347 |       RCLCPP_DEBUG_STREAM("buoyForce: " << kBuoyForce[01;31m[K)[m[K;
+[1.307s]       |                                                      [01;31m[K^[m[K
+[1.307s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.307s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.307s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.307s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.307s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.307s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.307s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.307s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.307s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.307s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.307s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17[m[K:
+[1.307s] [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:294:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_DEBUG_STREAM" defined here
+[1.307s]   294 | #define RCLCPP_DEBUG_STREAM(logger, stream_arg) \
+[1.307s]       | 
+[6.624s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:[m[K In member function ‘[01m[Kdouble gazebo::UsvDynamicsPlugin::SdfParamDouble(sdf::v9::ElementPtr, const string&, double) const[m[K’:
+[6.624s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:45:5:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO_STREAM[m[K’ was not declared in this scope
+[6.625s]    45 |     [01;31m[KRCLCPP_INFO_STREAM[m[K("Parameter <" << _paramName << "> not found: "
+[6.625s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.636s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:51:3:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_DEBUG_STREAM[m[K’ was not declared in this scope
+[6.636s]    51 |   [01;31m[KRCLCPP_DEBUG_STREAM[m[K("Parameter found - setting <" << _paramName <<
+[6.636s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[6.637s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[6.637s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[6.637s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[6.637s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[6.637s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[6.637s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[6.637s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[6.637s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.637s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[6.637s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[6.637s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17[m[K:
+[6.637s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:[m[K In member function ‘[01m[Kvirtual void gazebo::UsvDynamicsPlugin::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)[m[K’:
+[6.637s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:59:3:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: First argument to logging macros must be an rclcpp::Logger
+[6.637s]    59 |   [01;31m[KRCLCPP_DEBUG[m[K("Loading usv_gazebo_dynamics_plugin");
+[6.637s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[6.638s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[6.638s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[6.638s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[6.638s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[6.638s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[6.638s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[6.638s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[6.638s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.638s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[6.638s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[6.638s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17[m[K:
+[6.638s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:59:3:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K"Loading usv_gazebo_dynamics_plugin"[m[K’, which is of non-class type ‘[01m[Kconst char [35][m[K’
+[6.638s]    59 |   [01;31m[KRCLCPP_DEBUG[m[K("Loading usv_gazebo_dynamics_plugin");
+[6.638s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[6.638s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:59:3:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K"Loading usv_gazebo_dynamics_plugin"[m[K’, which is of non-class type ‘[01m[Kconst char [35][m[K’
+[6.638s]    59 |   [01;31m[KRCLCPP_DEBUG[m[K("Loading usv_gazebo_dynamics_plugin");
+[6.638s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[6.638s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:59:3:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kget_c_string()[m[K’
+[6.638s]    59 |   [01;31m[KRCLCPP_DEBUG[m[K("Loading usv_gazebo_dynamics_plugin");
+[6.638s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[6.639s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:36[m[K,
+[6.639s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[6.639s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[6.639s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[6.639s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[6.639s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[6.639s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[6.639s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.639s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[6.639s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[6.639s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17[m[K:
+[6.639s] [01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:296:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst char* rclcpp::get_c_string(const char*)[m[K’
+[6.639s]   296 | [01;36m[Kget_c_string[m[K(const char * string_in);
+[6.639s]       | [01;36m[K^~~~~~~~~~~~[m[K
+[6.639s] [01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:296:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[6.639s] [01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:305:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst char* rclcpp::get_c_string(const string&)[m[K’
+[6.639s]   305 | [01;36m[Kget_c_string[m[K(const std::string & string_in);
+[6.639s]       | [01;36m[K^~~~~~~~~~~~[m[K
+[6.639s] [01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:305:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[6.650s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:69:5:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO_STREAM[m[K’ was not declared in this scope
+[6.650s]    69 |     [01;31m[KRCLCPP_INFO_STREAM[m[K("Did not find SDF parameter bodyName");
+[6.650s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.664s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:76:5:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_DEBUG_STREAM[m[K’ was not declared in this scope
+[6.664s]    76 |     [01;31m[KRCLCPP_DEBUG_STREAM[m[K("Found SDF parameter bodyName as <" << linkName<< ">");
+[6.664s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[6.664s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[6.664s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[6.664s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[6.664s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[6.664s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[6.664s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[6.665s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[6.665s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.665s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[6.665s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[6.665s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17[m[K:
+[6.665s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:80:5:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: First argument to logging macros must be an rclcpp::Logger
+[6.665s]    80 |     [01;31m[KRCLCPP_FATAL[m[K("usv_gazebo_dynamics_plugin error: bodyName: %s does not exist\n",
+[6.665s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[6.665s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[6.665s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[6.665s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[6.665s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[6.665s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[6.665s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[6.665s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[6.666s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.666s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[6.666s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[6.666s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17[m[K:
+[6.666s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:80:5:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K"usv_gazebo_dynamics_plugin error: bodyName: %s does not exist\012"[m[K’, which is of non-class type ‘[01m[Kconst char [63][m[K’
+[6.666s]    80 |     [01;31m[KRCLCPP_FATAL[m[K("usv_gazebo_dynamics_plugin error: bodyName: %s does not exist\n",
+[6.666s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[6.666s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:80:5:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K"usv_gazebo_dynamics_plugin error: bodyName: %s does not exist\012"[m[K’, which is of non-class type ‘[01m[Kconst char [63][m[K’
+[6.666s]    80 |     [01;31m[KRCLCPP_FATAL[m[K("usv_gazebo_dynamics_plugin error: bodyName: %s does not exist\n",
+[6.666s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[6.679s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:86:5:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_DEBUG_STREAM[m[K’ was not declared in this scope
+[6.679s]    86 |     [01;31m[KRCLCPP_DEBUG_STREAM[m[K("USV Dynamics Model Link Name = " << linkName);
+[6.679s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[6.693s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:116:5:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO_STREAM[m[K’ was not declared in this scope
+[6.693s]   116 |     [01;31m[KRCLCPP_INFO_STREAM[m[K("Parameter <length_n> not found: "
+[6.693s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.694s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[6.694s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[6.694s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[6.694s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[6.694s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[6.695s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[6.695s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[6.695s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.695s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[6.695s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[6.695s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17[m[K:
+[6.695s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:145:3:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: First argument to logging macros must be an rclcpp::Logger
+[6.695s]   145 |   [01;31m[KRCLCPP_DEBUG[m[K("USV Dynamics Parameters: From URDF XACRO model definition");
+[6.695s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[6.696s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[6.696s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[6.696s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[6.696s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[6.696s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[6.696s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[6.696s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[6.696s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.696s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[6.697s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[6.697s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17[m[K:
+[6.697s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:145:3:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K"USV Dynamics Parameters: From URDF XACRO model definition"[m[K’, which is of non-class type ‘[01m[Kconst char [58][m[K’
+[6.697s]   145 |   [01;31m[KRCLCPP_DEBUG[m[K("USV Dynamics Parameters: From URDF XACRO model definition");
+[6.697s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[6.697s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:145:3:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K"USV Dynamics Parameters: From URDF XACRO model definition"[m[K’, which is of non-class type ‘[01m[Kconst char [58][m[K’
+[6.697s]   145 |   [01;31m[KRCLCPP_DEBUG[m[K("USV Dynamics Parameters: From URDF XACRO model definition");
+[6.697s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[6.697s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:145:3:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kget_c_string()[m[K’
+[6.697s]   145 |   [01;31m[KRCLCPP_DEBUG[m[K("USV Dynamics Parameters: From URDF XACRO model definition");
+[6.697s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[6.697s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:36[m[K,
+[6.697s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[6.697s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[6.697s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[6.697s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[6.697s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[6.697s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[6.697s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.697s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[6.697s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[6.698s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17[m[K:
+[6.698s] [01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:296:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst char* rclcpp::get_c_string(const char*)[m[K’
+[6.698s]   296 | [01;36m[Kget_c_string[m[K(const char * string_in);
+[6.698s]       | [01;36m[K^~~~~~~~~~~~[m[K
+[6.698s] [01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:296:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[6.698s] [01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:305:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst char* rclcpp::get_c_string(const string&)[m[K’
+[6.698s]   305 | [01;36m[Kget_c_string[m[K(const std::string & string_in);
+[6.698s]       | [01;36m[K^~~~~~~~~~~~[m[K
+[6.698s] [01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:305:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[6.709s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:146:3:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_DEBUG_STREAM[m[K’ was not declared in this scope
+[6.709s]   146 |   [01;31m[KRCLCPP_DEBUG_STREAM[m[K("Vessel Mass (rigid-body): " << kMass);
+[6.709s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[6.714s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:137:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KkMass[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[6.714s]   137 |     const double [01;35m[KkMass[m[K = this->link->GetInertial()->Mass();
+[6.714s]       |                  [01;35m[K^~~~~[m[K
+[6.732s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:[m[K In member function ‘[01m[Kvirtual void gazebo::UsvDynamicsPlugin::Update()[m[K’:
+[6.732s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:213:3:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_DEBUG_STREAM_THROTTLE[m[K’ was not declared in this scope
+[6.732s]   213 |   [01;31m[KRCLCPP_DEBUG_STREAM_THROTTLE[m[K(0.5, "Vel linear: " << kVelLinearBody);
+[6.732s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.790s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:317:7:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_DEBUG_STREAM[m[K’ was not declared in this scope
+[6.790s]   317 |       [01;31m[KRCLCPP_DEBUG_STREAM[m[K("Z, pose: " << kPose.Pos().Z() << ", bpnt: "
+[6.791s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[6.791s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:[m[K At global scope:
+[6.791s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:359:44:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[6.791s]   359 | GZ_REGISTER_MODEL_PLUGIN(UsvDynamicsPlugin)[01;35m[K;[m[K
+[6.792s]       |                                            [01;35m[K^[m[K
+[8.515s] make[2]: *** [CMakeFiles/usv_gazebo_dynamics_plugin.dir/build.make:63: CMakeFiles/usv_gazebo_dynamics_plugin.dir/src/usv_gazebo_dynamics_plugin.cc.o] Error 1
+[8.516s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/usv_gazebo_dynamics_plugin.dir/all] Error 2
+[8.516s] make: *** [Makefile:141: all] Error 2
+[8.519s] Invoked command in '/home/ruize/dev_ws/build/usv_gazebo_plugins' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/usv_gazebo_plugins -- -j4 -l4

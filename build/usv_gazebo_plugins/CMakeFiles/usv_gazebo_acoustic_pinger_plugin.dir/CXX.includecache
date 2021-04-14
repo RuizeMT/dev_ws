@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ruize/dev_ws/src/usv_gazebo_plugins/include/usv_gazebo_plugins/acoustic_pinger_plugin.hh
+geometry_msgs/Vector3.h
+-
+rclcpp/rclcpp.hpp
+/home/ruize/dev_ws/src/usv_gazebo_plugins/include/usv_gazebo_plugins/rclcpp/rclcpp.hpp
+memory
+-
+mutex
+-
+string
+-
+gazebo/common/Events.hh
+-
+gazebo/common/Plugin.hh
+-
+gazebo/common/Time.hh
+-
+gazebo/physics/physics.hh
+-
+gazebo/sensors/GaussianNoiseModel.hh
+-
+ignition/math/Vector3.hh
+-
+
+/home/ruize/dev_ws/src/usv_gazebo_plugins/src/acoustic_pinger_plugin.cc
+rclcpp/rclcpp.hpp
+/home/ruize/dev_ws/src/usv_gazebo_plugins/src/rclcpp/rclcpp.hpp
+rclcpp/time.hpp
+/home/ruize/dev_ws/src/usv_gazebo_plugins/src/rclcpp/time.hpp
+usv_msgs/RangeBearing.h
+-
+cmath
+-
+ignition/math/Pose3.hh
+-
+usv_gazebo_plugins/acoustic_pinger_plugin.hh
+/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_plugins/acoustic_pinger_plugin.hh
+

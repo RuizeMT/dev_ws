@@ -1,0 +1,25 @@
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+CMake Error at CMakeLists.txt:21 (find_package):
+  By not providing "Findmessage_package.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "message_package", but CMake did not find one.
+
+  Could not find a package configuration file provided by "message_package"
+  with any of the following names:
+
+    message_packageConfig.cmake
+    message_package-config.cmake
+
+  Add the installation prefix of "message_package" to CMAKE_PREFIX_PATH or
+  set "message_package_DIR" to a directory containing one of the above files.
+  If "message_package" provides a separate development package or SDK, be
+  sure it has been installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/ruize/dev_ws/build/usv_msgs/CMakeFiles/CMakeOutput.log".

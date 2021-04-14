@@ -1,0 +1,52 @@
+[0.021s] Invoking command in '/home/ruize/dev_ws/build/vrx_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/vrx_gazebo -- -j4 -l4
+[0.065s] Invoked command in '/home/ruize/dev_ws/build/vrx_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/vrx_gazebo -- -j4 -l4
+[0.094s] Invoking command in '/home/ruize/dev_ws/build/vrx_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ruize/dev_ws/build/vrx_gazebo
+[0.120s] -- Install configuration: ""
+[0.121s] -- Up-to-date: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models
+[0.123s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models/sensor_post
+[0.123s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models/sensor_post/model.sdf
+[0.127s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models/sensor_post/model.config
+[0.127s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models/sensor_post/mesh
+[0.128s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models/sensor_post/mesh/sensor_post.dae
+[0.128s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models/sensor_post/mesh/sensor_post.png
+[0.128s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models/sensor_post/mesh/sensor_post_arm.dae
+[0.128s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models/3d_lidar
+[0.128s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models/3d_lidar/model.sdf
+[0.128s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models/3d_lidar/model.config
+[0.128s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models/3d_lidar/mesh
+[0.128s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models/3d_lidar/mesh/3d_lidar.dae
+[0.128s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models/3d_lidar/mesh/3d_lidar.png
+[0.132s] -- Up-to-date: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models/battery
+[0.133s] -- Up-to-date: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models/battery/model.sdf
+[0.133s] -- Up-to-date: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models/battery/model.config
+[0.133s] -- Up-to-date: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models/battery/mesh
+[0.133s] -- Up-to-date: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models/battery/mesh/battery.dae
+[0.133s] -- Up-to-date: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models/battery/mesh/battery.png
+[0.133s] -- Up-to-date: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models/cpu_cases
+[0.133s] -- Up-to-date: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models/cpu_cases/model.sdf
+[0.134s] -- Up-to-date: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models/cpu_cases/model.config
+[0.135s] -- Up-to-date: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models/cpu_cases/mesh
+[0.135s] -- Up-to-date: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models/cpu_cases/mesh/cpu_cases.png
+[0.136s] -- Up-to-date: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models/cpu_cases/mesh/cpu_cases.dae
+[0.136s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models/mono_camera
+[0.136s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models/mono_camera/model.sdf
+[0.136s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models/mono_camera/model.config
+[0.136s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models/mono_camera/mesh
+[0.136s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models/mono_camera/mesh/mono_camera.png
+[0.136s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/models/mono_camera/mesh/mono_camera.dae
+[0.136s] -- Up-to-date: /home/ruize/dev_ws/install/vrx_gazebo/share/ament_index/resource_index/package_run_dependencies/vrx_gazebo
+[0.136s] -- Up-to-date: /home/ruize/dev_ws/install/vrx_gazebo/share/ament_index/resource_index/parent_prefix_path/vrx_gazebo
+[0.137s] -- Up-to-date: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/environment/ament_prefix_path.sh
+[0.137s] -- Up-to-date: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/environment/ament_prefix_path.dsv
+[0.137s] -- Up-to-date: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/environment/path.sh
+[0.137s] -- Up-to-date: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/environment/path.dsv
+[0.137s] -- Up-to-date: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/local_setup.bash
+[0.137s] -- Up-to-date: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/local_setup.sh
+[0.137s] -- Up-to-date: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/local_setup.zsh
+[0.137s] -- Up-to-date: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/local_setup.dsv
+[0.137s] -- Up-to-date: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/package.dsv
+[0.137s] -- Up-to-date: /home/ruize/dev_ws/install/vrx_gazebo/share/ament_index/resource_index/packages/vrx_gazebo
+[0.137s] -- Up-to-date: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/cmake/vrx_gazeboConfig.cmake
+[0.137s] -- Up-to-date: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/cmake/vrx_gazeboConfig-version.cmake
+[0.137s] -- Up-to-date: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/package.xml
+[0.137s] Invoked command in '/home/ruize/dev_ws/build/vrx_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ruize/dev_ws/build/vrx_gazebo

@@ -1,0 +1,10 @@
+[0.011s] Invoking command in '/home/ruize/dev_ws/build/wamv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/wamv_description -- -j4 -l4
+[0.038s] -- Found xacro: 2.0.4 (/opt/ros/foxy/share/xacro/cmake)
+[0.038s] CMake Error at CMakeLists.txt:20 (ament_export_dependencies):
+[0.038s]   Unknown CMake command "ament_export_dependencies".
+[0.038s] 
+[0.038s] 
+[0.040s] -- Configuring incomplete, errors occurred!
+[0.040s] See also "/home/ruize/dev_ws/build/wamv_description/CMakeFiles/CMakeOutput.log".
+[0.048s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.052s] Invoked command in '/home/ruize/dev_ws/build/wamv_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/wamv_description -- -j4 -l4

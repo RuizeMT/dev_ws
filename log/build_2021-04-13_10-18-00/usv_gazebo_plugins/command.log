@@ -1,0 +1,2 @@
+Invoking command in '/home/ruize/dev_ws/build/usv_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ruize/dev_ws/src/usv_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/ruize/dev_ws/install/usv_gazebo_plugins
+Invoked command in '/home/ruize/dev_ws/build/usv_gazebo_plugins' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ruize/dev_ws/src/usv_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/ruize/dev_ws/install/usv_gazebo_plugins

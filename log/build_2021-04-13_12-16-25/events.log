@@ -1,0 +1,558 @@
+[0.000000] (-) TimerEvent: {}
+[0.000895] (-) JobUnselected: {'identifier': 'usv_gazebo_plugins'}
+[0.000931] (-) JobUnselected: {'identifier': 'usv_msgs'}
+[0.000953] (wave_gazebo_plugins) JobQueued: {'identifier': 'wave_gazebo_plugins', 'dependencies': OrderedDict()}
+[0.000983] (wave_gazebo_plugins) JobStarted: {'identifier': 'wave_gazebo_plugins'}
+[0.008143] (wave_gazebo_plugins) JobProgress: {'identifier': 'wave_gazebo_plugins', 'progress': 'cmake'}
+[0.008695] (wave_gazebo_plugins) Command: {'cmd': ['/usr/bin/cmake', '/home/ruize/dev_ws/src/wave_gazebo_plugins', '-DCMAKE_INSTALL_PREFIX=/home/ruize/dev_ws/install/wave_gazebo_plugins'], 'cwd': '/home/ruize/dev_ws/build/wave_gazebo_plugins', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SDKMAN_VERSION', '5.11.0+644'), ('LANGUAGE', 'en_CA:en'), ('USER', 'ruize'), ('SSH_AGENT_PID', '1737'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ruize/dev_ws/install/usv_msgs/lib:/home/ruize/px4_ros_com_ros2/install/px4_ros_com/lib:/home/ruize/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ruize'), ('OLDPWD', '/home/ruize'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GRADLE_HOME', '/home/ruize/.sdkman/candidates/gradle/current'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1513'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13751'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ruize/dev_ws/install:/home/ruize/px4_ros_com_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ruize'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('JOURNAL_STREAM', '8:36603'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ruize'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ruize/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/foxy/bin:/home/ruize/.sdkman/candidates/gradle/current/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ruize/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ruize-VirtualBox:@/tmp/.ICE-unix/1814,unix/ruize-VirtualBox:/tmp/.ICE-unix/1814'), ('SDKMAN_CANDIDATES_DIR', '/home/ruize/.sdkman/candidates'), ('INVOCATION_ID', '76cc08ac53ce4a818519e1842b465061'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SDKMAN_DIR', '/home/ruize/.sdkman'), ('SDKMAN_PLATFORM', 'LinuxX64'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ruize/dev_ws/install/usv_msgs:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:07890c3e-3af8-461b-93b3-85e1e02519d9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ruize/dev_ws/build/wave_gazebo_plugins'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ruize/dev_ws/install/usv_msgs/lib/python3.8/site-packages:/home/ruize/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ruize/dev_ws/install/usv_msgs:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy')]), 'shell': False}
+[0.048549] (wave_gazebo_plugins) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.083841] (wave_gazebo_plugins) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.087033] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.099317] (-) TimerEvent: {}
+[0.136385] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.136549] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.182779] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.190385] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.190635] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.192194] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.200128] (-) TimerEvent: {}
+[0.245788] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.246516] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.298729] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.300775] (-) TimerEvent: {}
+[0.306547] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.306975] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.308538] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.324619] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[0.324794] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.400885] (-) TimerEvent: {}
+[0.468251] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found gazebo_ros: 3.5.0 (/opt/ros/foxy/share/gazebo_ros/cmake)\n'}
+[0.501810] (-) TimerEvent: {}
+[0.504356] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.509563] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.560942] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.583154] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.602134] (-) TimerEvent: {}
+[0.642535] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.680927] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.682592] (wave_gazebo_plugins) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.683969] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.702721] (-) TimerEvent: {}
+[0.743438] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.743596] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.805062] (-) TimerEvent: {}
+[0.828072] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.828440] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.891254] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.903113] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.907541] (-) TimerEvent: {}
+[0.957265] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.959005] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.008036] (-) TimerEvent: {}
+[1.076288] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[1.077605] (wave_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.088066] (wave_gazebo_plugins) StdoutLine: {'line': b'--   Found bullet, version 2.88\n'}
+[1.108311] (-) TimerEvent: {}
+[1.165131] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") \n'}
+[1.202379] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") \n'}
+[1.208434] (-) TimerEvent: {}
+[1.238450] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.0.0") \n'}
+[1.256572] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.275597] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[1.288964] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[1.293038] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.8.0\n'}
+[1.297430] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.298567] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.299235] (wave_gazebo_plugins) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.302992] (wave_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.308805] (-) TimerEvent: {}
+[1.312998] (wave_gazebo_plugins) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.337491] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.343492] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.351810] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.356272] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.356404] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.360181] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.360286] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.364218] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.364314] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.368585] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.368698] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.372954] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.373064] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.377006] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.409208] (-) TimerEvent: {}
+[1.463810] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.8.0\n'}
+[1.465427] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.0\n'}
+[1.465770] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.481029] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[1.490227] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.493810] (wave_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.504307] (wave_gazebo_plugins) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[1.509535] (-) TimerEvent: {}
+[1.533384] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[1.537729] (wave_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.549350] (wave_gazebo_plugins) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[1.576738] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[1.578314] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.7.0\n'}
+[1.578674] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[1.593877] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.8.0\n'}
+[1.597383] (wave_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.608208] (wave_gazebo_plugins) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[1.609964] (-) TimerEvent: {}
+[1.633538] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.7.0\n'}
+[1.635208] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.11.1\n'}
+[1.635568] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.635834] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.636933] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.639107] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[1.643899] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.645462] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.11.1\n'}
+[1.645879] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.646099] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.8.0\n'}
+[1.648201] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.3.0\n'}
+[1.648626] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.695914] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  \n'}
+[1.701426] (wave_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.710014] (-) TimerEvent: {}
+[1.710755] (wave_gazebo_plugins) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[1.734354] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[1.739208] (wave_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.748888] (wave_gazebo_plugins) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[1.773878] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[1.774183] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.11.1\n'}
+[1.774416] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.7.0\n'}
+[1.775313] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Gazebo version: 11.3\n'}
+[1.811244] (-) TimerEvent: {}
+[1.824819] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.901780] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Generating done\n'}
+[1.903526] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Build files have been written to: /home/ruize/dev_ws/build/wave_gazebo_plugins\n'}
+[1.912969] (wave_gazebo_plugins) CommandEnded: {'returncode': 0}
+[1.913559] (-) TimerEvent: {}
+[1.913663] (wave_gazebo_plugins) JobProgress: {'identifier': 'wave_gazebo_plugins', 'progress': 'build'}
+[1.913683] (wave_gazebo_plugins) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ruize/dev_ws/build/wave_gazebo_plugins', '--', '-j4', '-l4'], 'cwd': '/home/ruize/dev_ws/build/wave_gazebo_plugins', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SDKMAN_VERSION', '5.11.0+644'), ('LANGUAGE', 'en_CA:en'), ('USER', 'ruize'), ('SSH_AGENT_PID', '1737'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ruize/dev_ws/install/usv_msgs/lib:/home/ruize/px4_ros_com_ros2/install/px4_ros_com/lib:/home/ruize/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ruize'), ('OLDPWD', '/home/ruize'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GRADLE_HOME', '/home/ruize/.sdkman/candidates/gradle/current'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1513'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13751'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ruize/dev_ws/install:/home/ruize/px4_ros_com_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ruize'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('JOURNAL_STREAM', '8:36603'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ruize'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ruize/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/foxy/bin:/home/ruize/.sdkman/candidates/gradle/current/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ruize/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ruize-VirtualBox:@/tmp/.ICE-unix/1814,unix/ruize-VirtualBox:/tmp/.ICE-unix/1814'), ('SDKMAN_CANDIDATES_DIR', '/home/ruize/.sdkman/candidates'), ('INVOCATION_ID', '76cc08ac53ce4a818519e1842b465061'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SDKMAN_DIR', '/home/ruize/.sdkman'), ('SDKMAN_PLATFORM', 'LinuxX64'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ruize/dev_ws/install/usv_msgs:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:07890c3e-3af8-461b-93b3-85e1e02519d9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ruize/dev_ws/build/wave_gazebo_plugins'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ruize/dev_ws/install/usv_msgs/lib/python3.8/site-packages:/home/ruize/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ruize/dev_ws/install/usv_msgs:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy')]), 'shell': False}
+[1.942808] (wave_gazebo_plugins) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target Hydrodynamics\x1b[0m\n'}
+[2.013945] (-) TimerEvent: {}
+[2.047184] (wave_gazebo_plugins) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/Gazebo.cc.o\x1b[0m\n'}
+[2.048114] (wave_gazebo_plugins) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/Geometry.cc.o\x1b[0m\n'}
+[2.048934] (wave_gazebo_plugins) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/PhysicalConstants.cc.o\x1b[0m\n'}
+[2.054958] (wave_gazebo_plugins) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/Physics.cc.o\x1b[0m\n'}
+[2.074871] (wave_gazebo_plugins) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/Utilities.cc.o\x1b[0m\n'}
+[2.114409] (-) TimerEvent: {}
+[2.213098] (wave_gazebo_plugins) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/Wavefield.cc.o\x1b[0m\n'}
+[2.214556] (-) TimerEvent: {}
+[2.314998] (-) TimerEvent: {}
+[2.415270] (-) TimerEvent: {}
+[2.516028] (-) TimerEvent: {}
+[2.616604] (-) TimerEvent: {}
+[2.717162] (-) TimerEvent: {}
+[2.817775] (-) TimerEvent: {}
+[2.918818] (-) TimerEvent: {}
+[3.019526] (-) TimerEvent: {}
+[3.119964] (-) TimerEvent: {}
+[3.220817] (-) TimerEvent: {}
+[3.321284] (-) TimerEvent: {}
+[3.422004] (-) TimerEvent: {}
+[3.522575] (-) TimerEvent: {}
+[3.623328] (-) TimerEvent: {}
+[3.724246] (-) TimerEvent: {}
+[3.825284] (-) TimerEvent: {}
+[3.872408] (wave_gazebo_plugins) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/WavefieldEntity.cc.o\x1b[0m\n'}
+[3.925965] (-) TimerEvent: {}
+[4.026479] (-) TimerEvent: {}
+[4.127178] (-) TimerEvent: {}
+[4.228151] (-) TimerEvent: {}
+[4.328908] (-) TimerEvent: {}
+[4.429425] (-) TimerEvent: {}
+[4.529699] (-) TimerEvent: {}
+[4.630175] (-) TimerEvent: {}
+[4.730538] (-) TimerEvent: {}
+[4.831310] (-) TimerEvent: {}
+[4.932262] (-) TimerEvent: {}
+[5.032724] (-) TimerEvent: {}
+[5.133624] (-) TimerEvent: {}
+[5.233964] (-) TimerEvent: {}
+[5.334227] (-) TimerEvent: {}
+[5.434889] (-) TimerEvent: {}
+[5.535264] (-) TimerEvent: {}
+[5.636067] (-) TimerEvent: {}
+[5.736882] (-) TimerEvent: {}
+[5.838208] (-) TimerEvent: {}
+[5.938844] (-) TimerEvent: {}
+[6.039278] (-) TimerEvent: {}
+[6.139615] (-) TimerEvent: {}
+[6.240369] (-) TimerEvent: {}
+[6.341043] (-) TimerEvent: {}
+[6.441452] (-) TimerEvent: {}
+[6.541857] (-) TimerEvent: {}
+[6.644583] (-) TimerEvent: {}
+[6.745723] (-) TimerEvent: {}
+[6.846139] (-) TimerEvent: {}
+[6.946552] (-) TimerEvent: {}
+[7.047828] (-) TimerEvent: {}
+[7.149380] (-) TimerEvent: {}
+[7.238522] (wave_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/wave_gazebo_plugins/src/Wavefield.cc:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kasv::WaveParametersPrivate::WaveParametersPrivate()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.238903] (wave_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/wave_gazebo_plugins/src/Wavefield.cc:116:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kasv::WaveParametersPrivate::wavenumber\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[7.239069] (wave_gazebo_plugins) StderrLine: {'line': b'  116 |     public: double \x1b[01;35m\x1b[Kwavenumber\x1b[m\x1b[K;\n'}
+[7.239118] (wave_gazebo_plugins) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.239162] (wave_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/wave_gazebo_plugins/src/Wavefield.cc:104:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kdouble asv::WaveParametersPrivate::tau\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[7.239269] (wave_gazebo_plugins) StderrLine: {'line': b'  104 |     public: double \x1b[01;35m\x1b[Ktau\x1b[m\x1b[K;\n'}
+[7.239315] (wave_gazebo_plugins) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.239357] (wave_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/wave_gazebo_plugins/src/Wavefield.cc:58:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[7.239418] (wave_gazebo_plugins) StderrLine: {'line': b'   58 |     public: \x1b[01;35m\x1b[KWaveParametersPrivate\x1b[m\x1b[K():\n'}
+[7.239465] (wave_gazebo_plugins) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.251540] (-) TimerEvent: {}
+[7.296728] (wave_gazebo_plugins) StderrLine: {'line': b'/home/ruize/dev_ws/src/wave_gazebo_plugins/src/Wavefield.cc: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kasv::WavefieldSampler::ComputeDepthDirectly(const asv::WaveParameters&, const Vector3d&, double, double)::<lambda(auto:24, auto:25, auto:26, auto:27&, auto:28&, auto:29&)> [with auto:24 = Eigen::Matrix<double, 2, 1>; auto:25 = Eigen::Matrix<double, 2, 1>; auto:26 = double; auto:27 = asv::WavefieldSampler::ComputeDepthDirectly(const asv::WaveParameters&, const Vector3d&, double, double)::WaveParams; auto:28 = Eigen::Matrix<double, 2, 1>; auto:29 = Eigen::Matrix<double, 2, 2>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.297075] (wave_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/wave_gazebo_plugins/src/Wavefield.cc:619:20:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kasv::WavefieldSampler::ComputeDepthDirectly(const asv::WaveParameters&, const Vector3d&, double, double)::<lambda(auto:30&, auto:31, auto:32, auto:33, auto:34&, auto:35, auto:36)> [with auto:30 = asv::WavefieldSampler::ComputeDepthDirectly(const asv::WaveParameters&, const Vector3d&, double, double)::<lambda(auto:24, auto:25, auto:26, auto:27&, auto:28&, auto:29&)>; auto:31 = Eigen::Matrix<double, 2, 1>; auto:32 = Eigen::Matrix<double, 2, 1>; auto:33 = double; auto:34 = asv::WavefieldSampler::ComputeDepthDirectly(const asv::WaveParameters&, const Vector3d&, double, double)::WaveParams; auto:35 = double; auto:36 = double]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.297260] (wave_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/wave_gazebo_plugins/src/Wavefield.cc:644:67:\x1b[m\x1b[K   required from here\n'}
+[7.297311] (wave_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/wave_gazebo_plugins/src/Wavefield.cc:577:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst size_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst long unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[7.297416] (wave_gazebo_plugins) StderrLine: {'line': b'  577 |       for (auto&& i = 0; \x1b[01;35m\x1b[Ki < n\x1b[m\x1b[K; ++i) // NOLINT\n'}
+[7.297462] (wave_gazebo_plugins) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~^~~\x1b[m\x1b[K\n'}
+[7.351987] (-) TimerEvent: {}
+[7.452689] (-) TimerEvent: {}
+[7.554261] (-) TimerEvent: {}
+[7.655286] (-) TimerEvent: {}
+[7.756055] (-) TimerEvent: {}
+[7.856577] (-) TimerEvent: {}
+[7.959687] (-) TimerEvent: {}
+[8.060235] (-) TimerEvent: {}
+[8.161311] (-) TimerEvent: {}
+[8.262186] (-) TimerEvent: {}
+[8.363124] (-) TimerEvent: {}
+[8.463883] (-) TimerEvent: {}
+[8.564778] (-) TimerEvent: {}
+[8.665565] (-) TimerEvent: {}
+[8.766489] (-) TimerEvent: {}
+[8.867440] (-) TimerEvent: {}
+[8.968572] (-) TimerEvent: {}
+[9.068968] (-) TimerEvent: {}
+[9.169212] (-) TimerEvent: {}
+[9.269579] (-) TimerEvent: {}
+[9.370025] (-) TimerEvent: {}
+[9.470681] (-) TimerEvent: {}
+[9.571589] (-) TimerEvent: {}
+[9.672245] (-) TimerEvent: {}
+[9.772961] (-) TimerEvent: {}
+[9.873754] (-) TimerEvent: {}
+[9.974395] (-) TimerEvent: {}
+[10.075063] (-) TimerEvent: {}
+[10.175490] (-) TimerEvent: {}
+[10.277067] (-) TimerEvent: {}
+[10.377517] (-) TimerEvent: {}
+[10.478136] (-) TimerEvent: {}
+[10.579038] (-) TimerEvent: {}
+[10.679587] (-) TimerEvent: {}
+[10.782276] (-) TimerEvent: {}
+[10.883100] (-) TimerEvent: {}
+[10.983891] (-) TimerEvent: {}
+[11.084793] (-) TimerEvent: {}
+[11.185409] (-) TimerEvent: {}
+[11.286650] (-) TimerEvent: {}
+[11.387047] (-) TimerEvent: {}
+[11.488541] (-) TimerEvent: {}
+[11.589368] (-) TimerEvent: {}
+[11.690285] (-) TimerEvent: {}
+[11.791408] (-) TimerEvent: {}
+[11.891875] (-) TimerEvent: {}
+[11.993111] (-) TimerEvent: {}
+[12.093688] (-) TimerEvent: {}
+[12.194985] (-) TimerEvent: {}
+[12.295544] (-) TimerEvent: {}
+[12.340787] (wave_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ruize/dev_ws/src/wave_gazebo_plugins/src/Gazebo.cc:27\x1b[m\x1b[K:\n'}
+[12.341003] (wave_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/wave_gazebo_plugins/include/wave_gazebo_plugins/Gazebo.hh:47:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[12.341052] (wave_gazebo_plugins) StderrLine: {'line': b'   47 |   }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[12.341096] (wave_gazebo_plugins) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[12.395826] (-) TimerEvent: {}
+[12.496799] (-) TimerEvent: {}
+[12.597476] (-) TimerEvent: {}
+[12.698834] (-) TimerEvent: {}
+[12.801446] (-) TimerEvent: {}
+[12.902352] (-) TimerEvent: {}
+[13.002742] (-) TimerEvent: {}
+[13.103834] (-) TimerEvent: {}
+[13.205096] (-) TimerEvent: {}
+[13.306460] (-) TimerEvent: {}
+[13.409060] (-) TimerEvent: {}
+[13.510187] (-) TimerEvent: {}
+[13.610760] (-) TimerEvent: {}
+[13.711683] (-) TimerEvent: {}
+[13.814445] (-) TimerEvent: {}
+[13.915337] (-) TimerEvent: {}
+[14.016673] (-) TimerEvent: {}
+[14.117286] (-) TimerEvent: {}
+[14.218847] (-) TimerEvent: {}
+[14.319982] (-) TimerEvent: {}
+[14.421266] (-) TimerEvent: {}
+[14.522482] (-) TimerEvent: {}
+[14.623576] (-) TimerEvent: {}
+[14.724538] (-) TimerEvent: {}
+[14.744593] (wave_gazebo_plugins) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libHydrodynamics.so\x1b[0m\n'}
+[14.825024] (-) TimerEvent: {}
+[14.925402] (-) TimerEvent: {}
+[15.025980] (-) TimerEvent: {}
+[15.126751] (-) TimerEvent: {}
+[15.226082] (wave_gazebo_plugins) StdoutLine: {'line': b'[ 57%] Built target Hydrodynamics\n'}
+[15.226816] (-) TimerEvent: {}
+[15.235501] (wave_gazebo_plugins) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target WavefieldModelPlugin\x1b[0m\n'}
+[15.235752] (wave_gazebo_plugins) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target WavefieldVisualPlugin\x1b[0m\n'}
+[15.312614] (wave_gazebo_plugins) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/WavefieldVisualPlugin.dir/src/WavefieldVisualPlugin.cc.o\x1b[0m\n'}
+[15.315807] (wave_gazebo_plugins) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/WavefieldModelPlugin.dir/src/WavefieldModelPlugin.cc.o\x1b[0m\n'}
+[15.327287] (-) TimerEvent: {}
+[15.428246] (-) TimerEvent: {}
+[15.529447] (-) TimerEvent: {}
+[15.629946] (-) TimerEvent: {}
+[15.730747] (-) TimerEvent: {}
+[15.831300] (-) TimerEvent: {}
+[15.931988] (-) TimerEvent: {}
+[16.032402] (-) TimerEvent: {}
+[16.132934] (-) TimerEvent: {}
+[16.233860] (-) TimerEvent: {}
+[16.334544] (-) TimerEvent: {}
+[16.435475] (-) TimerEvent: {}
+[16.451066] (wave_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/wave_gazebo_plugins/src/WavefieldModelPlugin.cc:199:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmulti-line comment [\x1b[01;35m\x1b[K-Wcomment\x1b[m\x1b[K]\n'}
+[16.451254] (wave_gazebo_plugins) StderrLine: {'line': b'  199 |     \x1b[01;35m\x1b[K/\x1b[m\x1b[K/ GZ_ASSERT(wavefieldEntity->GetWavefield() != nullptr, \\\n'}
+[16.451302] (wave_gazebo_plugins) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[16.535677] (-) TimerEvent: {}
+[16.636266] (-) TimerEvent: {}
+[16.736934] (-) TimerEvent: {}
+[16.837379] (-) TimerEvent: {}
+[16.937736] (-) TimerEvent: {}
+[17.038517] (-) TimerEvent: {}
+[17.139283] (-) TimerEvent: {}
+[17.239823] (-) TimerEvent: {}
+[17.340256] (-) TimerEvent: {}
+[17.440583] (-) TimerEvent: {}
+[17.541005] (-) TimerEvent: {}
+[17.641621] (-) TimerEvent: {}
+[17.741927] (-) TimerEvent: {}
+[17.842740] (-) TimerEvent: {}
+[17.943060] (-) TimerEvent: {}
+[18.043594] (-) TimerEvent: {}
+[18.144451] (-) TimerEvent: {}
+[18.244859] (-) TimerEvent: {}
+[18.345240] (-) TimerEvent: {}
+[18.445706] (-) TimerEvent: {}
+[18.546703] (-) TimerEvent: {}
+[18.647246] (-) TimerEvent: {}
+[18.748027] (-) TimerEvent: {}
+[18.848829] (-) TimerEvent: {}
+[18.949455] (-) TimerEvent: {}
+[19.050103] (-) TimerEvent: {}
+[19.150597] (-) TimerEvent: {}
+[19.250960] (-) TimerEvent: {}
+[19.351721] (-) TimerEvent: {}
+[19.452324] (-) TimerEvent: {}
+[19.552821] (-) TimerEvent: {}
+[19.653310] (-) TimerEvent: {}
+[19.753643] (-) TimerEvent: {}
+[19.854337] (-) TimerEvent: {}
+[19.955189] (-) TimerEvent: {}
+[20.055680] (-) TimerEvent: {}
+[20.156431] (-) TimerEvent: {}
+[20.256755] (-) TimerEvent: {}
+[20.357216] (-) TimerEvent: {}
+[20.457669] (-) TimerEvent: {}
+[20.558066] (-) TimerEvent: {}
+[20.658922] (-) TimerEvent: {}
+[20.759199] (-) TimerEvent: {}
+[20.859845] (-) TimerEvent: {}
+[20.960357] (-) TimerEvent: {}
+[21.060857] (-) TimerEvent: {}
+[21.161719] (-) TimerEvent: {}
+[21.262251] (-) TimerEvent: {}
+[21.362746] (-) TimerEvent: {}
+[21.463115] (-) TimerEvent: {}
+[21.563630] (-) TimerEvent: {}
+[21.664324] (-) TimerEvent: {}
+[21.764801] (-) TimerEvent: {}
+[21.865239] (-) TimerEvent: {}
+[21.965683] (-) TimerEvent: {}
+[22.066429] (-) TimerEvent: {}
+[22.167122] (-) TimerEvent: {}
+[22.267787] (-) TimerEvent: {}
+[22.368679] (-) TimerEvent: {}
+[22.470122] (-) TimerEvent: {}
+[22.570960] (-) TimerEvent: {}
+[22.671538] (-) TimerEvent: {}
+[22.771888] (-) TimerEvent: {}
+[22.872645] (-) TimerEvent: {}
+[22.972922] (-) TimerEvent: {}
+[23.048246] (wave_gazebo_plugins) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libWavefieldModelPlugin.so\x1b[0m\n'}
+[23.073189] (-) TimerEvent: {}
+[23.174358] (-) TimerEvent: {}
+[23.275355] (-) TimerEvent: {}
+[23.361168] (wave_gazebo_plugins) StdoutLine: {'line': b'[ 78%] Built target WavefieldModelPlugin\n'}
+[23.371954] (wave_gazebo_plugins) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target wavegauge_plugin\x1b[0m\n'}
+[23.376332] (-) TimerEvent: {}
+[23.465960] (wave_gazebo_plugins) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/wavegauge_plugin.dir/src/wavegauge_plugin.cc.o\x1b[0m\n'}
+[23.476867] (-) TimerEvent: {}
+[23.577724] (-) TimerEvent: {}
+[23.678465] (-) TimerEvent: {}
+[23.779526] (-) TimerEvent: {}
+[23.879930] (-) TimerEvent: {}
+[23.981138] (-) TimerEvent: {}
+[24.082038] (-) TimerEvent: {}
+[24.092832] (wave_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ruize/dev_ws/src/wave_gazebo_plugins/src/WavefieldVisualPlugin.cc:43\x1b[m\x1b[K:\n'}
+[24.093019] (wave_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/wave_gazebo_plugins/include/wave_gazebo_plugins/Gazebo.hh:47:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.093098] (wave_gazebo_plugins) StderrLine: {'line': b'   47 |   }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.093151] (wave_gazebo_plugins) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.182252] (-) TimerEvent: {}
+[24.282709] (-) TimerEvent: {}
+[24.383401] (-) TimerEvent: {}
+[24.484040] (-) TimerEvent: {}
+[24.584471] (-) TimerEvent: {}
+[24.685272] (-) TimerEvent: {}
+[24.785677] (-) TimerEvent: {}
+[24.885998] (-) TimerEvent: {}
+[24.986462] (-) TimerEvent: {}
+[25.087447] (-) TimerEvent: {}
+[25.187965] (-) TimerEvent: {}
+[25.288336] (-) TimerEvent: {}
+[25.389173] (-) TimerEvent: {}
+[25.489672] (-) TimerEvent: {}
+[25.589988] (-) TimerEvent: {}
+[25.690649] (-) TimerEvent: {}
+[25.791277] (-) TimerEvent: {}
+[25.891623] (-) TimerEvent: {}
+[25.992072] (-) TimerEvent: {}
+[26.092513] (-) TimerEvent: {}
+[26.193242] (-) TimerEvent: {}
+[26.293901] (-) TimerEvent: {}
+[26.394299] (-) TimerEvent: {}
+[26.494906] (-) TimerEvent: {}
+[26.595293] (-) TimerEvent: {}
+[26.695720] (-) TimerEvent: {}
+[26.796513] (-) TimerEvent: {}
+[26.897012] (-) TimerEvent: {}
+[26.997445] (-) TimerEvent: {}
+[27.098105] (-) TimerEvent: {}
+[27.199210] (-) TimerEvent: {}
+[27.299804] (-) TimerEvent: {}
+[27.406062] (wave_gazebo_plugins) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX shared library libWavefieldVisualPlugin.so\x1b[0m\n'}
+[27.406279] (-) TimerEvent: {}
+[27.506504] (-) TimerEvent: {}
+[27.607243] (-) TimerEvent: {}
+[27.707823] (-) TimerEvent: {}
+[27.754353] (wave_gazebo_plugins) StdoutLine: {'line': b'[ 92%] Built target WavefieldVisualPlugin\n'}
+[27.807916] (-) TimerEvent: {}
+[27.908774] (-) TimerEvent: {}
+[28.009717] (-) TimerEvent: {}
+[28.110680] (-) TimerEvent: {}
+[28.211103] (-) TimerEvent: {}
+[28.311915] (-) TimerEvent: {}
+[28.413002] (-) TimerEvent: {}
+[28.513847] (-) TimerEvent: {}
+[28.614613] (-) TimerEvent: {}
+[28.715189] (-) TimerEvent: {}
+[28.815753] (-) TimerEvent: {}
+[28.916258] (-) TimerEvent: {}
+[29.017785] (-) TimerEvent: {}
+[29.118045] (-) TimerEvent: {}
+[29.218544] (-) TimerEvent: {}
+[29.319548] (-) TimerEvent: {}
+[29.420024] (-) TimerEvent: {}
+[29.521028] (-) TimerEvent: {}
+[29.621746] (-) TimerEvent: {}
+[29.722533] (-) TimerEvent: {}
+[29.823232] (-) TimerEvent: {}
+[29.924185] (-) TimerEvent: {}
+[30.024920] (-) TimerEvent: {}
+[30.125894] (-) TimerEvent: {}
+[30.227499] (-) TimerEvent: {}
+[30.328063] (-) TimerEvent: {}
+[30.429406] (-) TimerEvent: {}
+[30.529987] (-) TimerEvent: {}
+[30.630507] (-) TimerEvent: {}
+[30.732092] (-) TimerEvent: {}
+[30.833247] (-) TimerEvent: {}
+[30.934286] (-) TimerEvent: {}
+[31.035364] (-) TimerEvent: {}
+[31.136230] (-) TimerEvent: {}
+[31.236623] (-) TimerEvent: {}
+[31.250166] (wave_gazebo_plugins) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libwavegauge_plugin.so\x1b[0m\n'}
+[31.337286] (-) TimerEvent: {}
+[31.438298] (-) TimerEvent: {}
+[31.515734] (wave_gazebo_plugins) StdoutLine: {'line': b'[100%] Built target wavegauge_plugin\n'}
+[31.526850] (wave_gazebo_plugins) CommandEnded: {'returncode': 0}
+[31.538462] (-) TimerEvent: {}
+[31.563022] (wave_gazebo_plugins) JobProgress: {'identifier': 'wave_gazebo_plugins', 'progress': 'install'}
+[31.571723] (wave_gazebo_plugins) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ruize/dev_ws/build/wave_gazebo_plugins'], 'cwd': '/home/ruize/dev_ws/build/wave_gazebo_plugins', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SDKMAN_VERSION', '5.11.0+644'), ('LANGUAGE', 'en_CA:en'), ('USER', 'ruize'), ('SSH_AGENT_PID', '1737'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ruize/dev_ws/install/usv_msgs/lib:/home/ruize/px4_ros_com_ros2/install/px4_ros_com/lib:/home/ruize/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ruize'), ('OLDPWD', '/home/ruize'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GRADLE_HOME', '/home/ruize/.sdkman/candidates/gradle/current'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1513'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13751'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ruize/dev_ws/install:/home/ruize/px4_ros_com_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ruize'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('JOURNAL_STREAM', '8:36603'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ruize'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ruize/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/foxy/bin:/home/ruize/.sdkman/candidates/gradle/current/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ruize/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ruize-VirtualBox:@/tmp/.ICE-unix/1814,unix/ruize-VirtualBox:/tmp/.ICE-unix/1814'), ('SDKMAN_CANDIDATES_DIR', '/home/ruize/.sdkman/candidates'), ('INVOCATION_ID', '76cc08ac53ce4a818519e1842b465061'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SDKMAN_DIR', '/home/ruize/.sdkman'), ('SDKMAN_PLATFORM', 'LinuxX64'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ruize/dev_ws/install/usv_msgs:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:07890c3e-3af8-461b-93b3-85e1e02519d9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ruize/dev_ws/build/wave_gazebo_plugins'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ruize/dev_ws/install/usv_msgs/lib/python3.8/site-packages:/home/ruize/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ruize/dev_ws/install/usv_msgs:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy')]), 'shell': False}
+[31.578405] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[31.578759] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/environment/library_path.sh\n'}
+[31.578872] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/environment/library_path.dsv\n'}
+[31.579203] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/lib/libHydrodynamics.so\n'}
+[31.580625] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Set runtime path of "/home/ruize/dev_ws/install/wave_gazebo_plugins/lib/libHydrodynamics.so" to ""\n'}
+[31.580865] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/lib/libWavefieldModelPlugin.so\n'}
+[31.582268] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Set runtime path of "/home/ruize/dev_ws/install/wave_gazebo_plugins/lib/libWavefieldModelPlugin.so" to ""\n'}
+[31.582425] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/lib/libWavefieldVisualPlugin.so\n'}
+[31.584137] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Set runtime path of "/home/ruize/dev_ws/install/wave_gazebo_plugins/lib/libWavefieldVisualPlugin.so" to ""\n'}
+[31.584283] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/lib/libwavegauge_plugin.so\n'}
+[31.586318] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Set runtime path of "/home/ruize/dev_ws/install/wave_gazebo_plugins/lib/libwavegauge_plugin.so" to ""\n'}
+[31.586532] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins\n'}
+[31.587535] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/WavefieldEntity.hh\n'}
+[31.587892] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/PhysicalConstants.hh\n'}
+[31.588290] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/WavefieldModelPlugin.hh\n'}
+[31.588399] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/Geometry.hh\n'}
+[31.588529] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/WavefieldVisualPlugin.hh\n'}
+[31.588872] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/Wavefield.hh\n'}
+[31.589034] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/wavegauge_plugin.hh\n'}
+[31.589085] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/Utilities.hh\n'}
+[31.589163] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/Physics.hh\n'}
+[31.589239] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/Gazebo.hh\n'}
+[31.589315] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include\n'}
+[31.589378] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins\n'}
+[31.589443] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins\n'}
+[31.589518] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/ament_cmake_export_dependencies\n'}
+[31.589594] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/ament_cmake_environment_hooks\n'}
+[31.589752] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/ament_cmake_uninstall_target\n'}
+[31.589922] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/ament_cmake_core\n'}
+[31.589971] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/ament_cmake_core/stamps\n'}
+[31.590015] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/ament_cmake_package_templates\n'}
+[31.590060] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles\n'}
+[31.590103] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/uninstall.dir\n'}
+[31.590172] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/WavefieldModelPlugin.dir\n'}
+[31.590284] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/WavefieldModelPlugin.dir/src\n'}
+[31.590410] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/WavefieldVisualPlugin.dir\n'}
+[31.590510] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/WavefieldVisualPlugin.dir/src\n'}
+[31.590554] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/3.16.3\n'}
+[31.590595] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/3.16.3/CompilerIdCXX\n'}
+[31.590752] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/3.16.3/CompilerIdCXX/tmp\n'}
+[31.590804] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/3.16.3/CompilerIdC\n'}
+[31.590965] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/3.16.3/CompilerIdC/tmp\n'}
+[31.591043] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/Hydrodynamics.dir\n'}
+[31.591091] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/Hydrodynamics.dir/src\n'}
+[31.591134] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/CMakeTmp\n'}
+[31.591178] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/wavegauge_plugin.dir\n'}
+[31.591226] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/wavegauge_plugin.dir/src\n'}
+[31.591271] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/wave_gazebo_plugins_uninstall.dir\n'}
+[31.591314] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/ament_cmake_export_include_directories\n'}
+[31.591357] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/ament_cmake_index\n'}
+[31.591401] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/ament_cmake_index/share\n'}
+[31.591444] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/ament_cmake_index/share/ament_index\n'}
+[31.591487] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/ament_cmake_index/share/ament_index/resource_index\n'}
+[31.591532] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/ament_cmake_index/share/ament_index/resource_index/packages\n'}
+[31.591577] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path\n'}
+[31.591809] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies\n'}
+[31.591898] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/ament_cmake_export_libraries\n'}
+[31.591961] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/wave_gazebo_plugins\n'}
+[31.592016] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/wave_gazebo_plugins\n'}
+[31.592066] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/environment/ament_prefix_path.sh\n'}
+[31.592116] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/environment/ament_prefix_path.dsv\n'}
+[31.592167] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/environment/path.sh\n'}
+[31.592219] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/environment/path.dsv\n'}
+[31.592266] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/local_setup.bash\n'}
+[31.592970] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/local_setup.sh\n'}
+[31.593055] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/local_setup.zsh\n'}
+[31.593104] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/local_setup.dsv\n'}
+[31.593150] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/package.dsv\n'}
+[31.593289] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/ament_index/resource_index/packages/wave_gazebo_plugins\n'}
+[31.593355] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[31.593402] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[31.593456] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[31.593508] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/cmake/wave_gazebo_pluginsConfig.cmake\n'}
+[31.593553] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/cmake/wave_gazebo_pluginsConfig-version.cmake\n'}
+[31.593603] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/package.xml\n'}
+[31.594509] (wave_gazebo_plugins) CommandEnded: {'returncode': 0}
+[31.638863] (-) TimerEvent: {}
+[31.651987] (wave_gazebo_plugins) JobEnded: {'identifier': 'wave_gazebo_plugins', 'rc': 0}
+[31.652544] (-) EventReactorShutdown: {}

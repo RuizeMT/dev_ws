@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target buoyancy_gazebo_plugin[0m
+[ 20%] Built target usv_gazebo_plugins__xacro_auto_generate
+[ 40%] [32mBuilding CXX object CMakeFiles/buoyancy_gazebo_plugin.dir/src/buoyancy_gazebo_plugin.cc.o[0m
+In file included from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/buoyancy_gazebo_plugin.cc:22[m[K:
+[01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/include/usv_gazebo_plugins/buoyancy_gazebo_plugin.hh:33:10:[m[K [01;31m[Kfatal error: [m[Kwave_gazebo_plugins/Wavefield.hh: No such file or directory
+   33 | #include [01;31m[K"wave_gazebo_plugins/Wavefield.hh"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/buoyancy_gazebo_plugin.dir/build.make:63: CMakeFiles/buoyancy_gazebo_plugin.dir/src/buoyancy_gazebo_plugin.cc.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/buoyancy_gazebo_plugin.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,6 @@
+Invoking command in '/home/ruize/dev_ws/build/wamv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ruize/dev_ws/src/wamv_description -DCMAKE_INSTALL_PREFIX=/home/ruize/dev_ws/install/wamv_description
+Invoked command in '/home/ruize/dev_ws/build/wamv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ruize/dev_ws/src/wamv_description -DCMAKE_INSTALL_PREFIX=/home/ruize/dev_ws/install/wamv_description
+Invoking command in '/home/ruize/dev_ws/build/wamv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/wamv_description -- -j4 -l4
+Invoked command in '/home/ruize/dev_ws/build/wamv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/wamv_description -- -j4 -l4
+Invoking command in '/home/ruize/dev_ws/build/wamv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ruize/dev_ws/build/wamv_description
+Invoked command in '/home/ruize/dev_ws/build/wamv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ruize/dev_ws/build/wamv_description

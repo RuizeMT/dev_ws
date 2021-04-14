@@ -1,0 +1,118 @@
+[0.000000] (-) TimerEvent: {}
+[0.001348] (-) JobUnselected: {'identifier': 'usv_gazebo_plugins'}
+[0.001375] (-) JobUnselected: {'identifier': 'usv_msgs'}
+[0.001388] (-) JobUnselected: {'identifier': 'vrx_gazebo'}
+[0.001403] (-) JobUnselected: {'identifier': 'wamv_description'}
+[0.001563] (-) JobUnselected: {'identifier': 'wave_gazebo_plugins'}
+[0.001597] (wamv_gazebo) JobQueued: {'identifier': 'wamv_gazebo', 'dependencies': OrderedDict([('usv_msgs', '/home/ruize/dev_ws/install/usv_msgs'), ('wamv_description', '/home/ruize/dev_ws/install/wamv_description'), ('wave_gazebo_plugins', '/home/ruize/dev_ws/install/wave_gazebo_plugins'), ('usv_gazebo_plugins', '/home/ruize/dev_ws/install/usv_gazebo_plugins')])}
+[0.001621] (wamv_gazebo) JobStarted: {'identifier': 'wamv_gazebo'}
+[0.014845] (wamv_gazebo) JobProgress: {'identifier': 'wamv_gazebo', 'progress': 'cmake'}
+[0.016814] (wamv_gazebo) JobProgress: {'identifier': 'wamv_gazebo', 'progress': 'build'}
+[0.016882] (wamv_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ruize/dev_ws/build/wamv_gazebo', '--', '-j4', '-l4'], 'cwd': '/home/ruize/dev_ws/build/wamv_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SDKMAN_VERSION', '5.11.0+644'), ('LANGUAGE', 'en_CA:en'), ('USER', 'ruize'), ('SSH_AGENT_PID', '1737'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ruize/dev_ws/install/usv_gazebo_plugins/lib:/home/ruize/dev_ws/install/wave_gazebo_plugins/lib:/home/ruize/dev_ws/install/usv_msgs/lib:/home/ruize/px4_ros_com_ros2/install/px4_ros_com/lib:/home/ruize/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ruize'), ('OLDPWD', '/home/ruize'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GRADLE_HOME', '/home/ruize/.sdkman/candidates/gradle/current'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1513'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '35563'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ruize/dev_ws/install:/home/ruize/px4_ros_com_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ruize'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('JOURNAL_STREAM', '8:36603'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ruize'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ruize/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/foxy/bin:/home/ruize/.sdkman/candidates/gradle/current/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ruize/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ruize-VirtualBox:@/tmp/.ICE-unix/1814,unix/ruize-VirtualBox:/tmp/.ICE-unix/1814'), ('SDKMAN_CANDIDATES_DIR', '/home/ruize/.sdkman/candidates'), ('INVOCATION_ID', '76cc08ac53ce4a818519e1842b465061'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SDKMAN_DIR', '/home/ruize/.sdkman'), ('SDKMAN_PLATFORM', 'LinuxX64'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ruize/dev_ws/install/wamv_gazebo:/home/ruize/dev_ws/install/usv_gazebo_plugins:/home/ruize/dev_ws/install/wave_gazebo_plugins:/home/ruize/dev_ws/install/wamv_description:/home/ruize/dev_ws/install/vrx_gazebo:/home/ruize/dev_ws/install/usv_msgs:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:534d5bdb-ae5f-46b5-9065-f3e0c0c8872d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ruize/dev_ws/build/wamv_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ruize/dev_ws/install/usv_msgs/lib/python3.8/site-packages:/home/ruize/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ruize/dev_ws/install/usv_gazebo_plugins:/home/ruize/dev_ws/install/wave_gazebo_plugins:/home/ruize/dev_ws/install/wamv_description:/home/ruize/dev_ws/install/usv_msgs:/home/ruize/dev_ws/install/wamv_gazebo:/home/ruize/dev_ws/install/vrx_gazebo:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy')]), 'shell': False}
+[0.063544] (wamv_gazebo) StdoutLine: {'line': b'-- Found wamv_description: 0.0.0 (/home/ruize/dev_ws/install/wamv_description/share/wamv_description/cmake)\n'}
+[0.063807] (wamv_gazebo) StdoutLine: {'line': b'-- Found usv_gazebo_plugins: 0.0.0 (/home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/cmake)\n'}
+[0.078202] (wamv_gazebo) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.100367] (-) TimerEvent: {}
+[0.200620] (-) TimerEvent: {}
+[0.218563] (wamv_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.220701] (wamv_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.301490] (-) TimerEvent: {}
+[0.321747] (wamv_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.403016] (-) TimerEvent: {}
+[0.421015] (wamv_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.422094] (wamv_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.503495] (-) TimerEvent: {}
+[0.558048] (wamv_gazebo) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[0.579834] (wamv_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[0.580950] (wamv_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.8.0\n'}
+[0.584155] (wamv_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.585337] (wamv_gazebo) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[0.589508] (wamv_gazebo) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[0.589824] (wamv_gazebo) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[0.597340] (wamv_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[0.597451] (wamv_gazebo) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[0.597515] (wamv_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[0.597684] (wamv_gazebo) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[0.597781] (wamv_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[0.597834] (wamv_gazebo) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[0.597953] (wamv_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[0.598001] (wamv_gazebo) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[0.598046] (wamv_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[0.598089] (wamv_gazebo) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[0.598131] (wamv_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[0.598234] (wamv_gazebo) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[0.604142] (-) TimerEvent: {}
+[0.699349] (wamv_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.8.0\n'}
+[0.699754] (wamv_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.0\n'}
+[0.699973] (wamv_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[0.705069] (-) TimerEvent: {}
+[0.718798] (wamv_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[0.730474] (wamv_gazebo) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[0.733952] (wamv_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[0.746654] (wamv_gazebo) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[0.781066] (wamv_gazebo) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.790986] (wamv_gazebo) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[0.805536] (-) TimerEvent: {}
+[0.818799] (wamv_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.7.0\n'}
+[0.819227] (wamv_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[0.835124] (wamv_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.8.0\n'}
+[0.838709] (wamv_gazebo) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.850181] (wamv_gazebo) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[0.874926] (wamv_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.7.0\n'}
+[0.875268] (wamv_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.11.1\n'}
+[0.875835] (wamv_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[0.876154] (wamv_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.876239] (wamv_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.882142] (wamv_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[0.882599] (wamv_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.11.1\n'}
+[0.883107] (wamv_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[0.883506] (wamv_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.8.0\n'}
+[0.884610] (wamv_gazebo) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.3.0\n'}
+[0.885036] (wamv_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[0.904846] (wamv_gazebo) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[0.905572] (-) TimerEvent: {}
+[0.914534] (wamv_gazebo) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[0.944958] (wamv_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[0.955191] (wamv_gazebo) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[0.978269] (wamv_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.11.1\n'}
+[0.978766] (wamv_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.7.0\n'}
+[0.979866] (wamv_gazebo) StdoutLine: {'line': b'-- Gazebo version: 11.3\n'}
+[1.005855] (-) TimerEvent: {}
+[1.059971] (wamv_gazebo) StdoutLine: {'line': b'-- Found xacro: 2.0.4 (/opt/ros/foxy/share/xacro/cmake)\n'}
+[1.061247] (wamv_gazebo) StdoutLine: {'line': b'-- xacro: determining deps for: urdf/wamv_gazebo.urdf.xacro ...\n'}
+[1.106309] (-) TimerEvent: {}
+[1.106644] (wamv_gazebo) StderrLine: {'line': b'CMake Warning at /opt/ros/foxy/share/xacro/cmake/xacro-extras.cmake:74 (message):\n'}
+[1.106803] (wamv_gazebo) StderrLine: {'line': b'  failed to determine deps for: urdf/wamv_gazebo.urdf.xacro\n'}
+[1.106853] (wamv_gazebo) StderrLine: {'line': b'\n'}
+[1.106898] (wamv_gazebo) StderrLine: {'line': b'  error: No such file or directory:\n'}
+[1.106948] (wamv_gazebo) StderrLine: {'line': b'  /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/wamv_gazebo.xacro\n'}
+[1.106991] (wamv_gazebo) StderrLine: {'line': b'  [Errno 2] No such file or directory:\n'}
+[1.107038] (wamv_gazebo) StderrLine: {'line': b"  '/home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/wamv_gazebo.xacro'\n"}
+[1.107080] (wamv_gazebo) StderrLine: {'line': b'\n'}
+[1.107121] (wamv_gazebo) StderrLine: {'line': b'\n'}
+[1.107161] (wamv_gazebo) StderrLine: {'line': b'  when processing file: urdf/wamv_gazebo.urdf.xacro\n'}
+[1.107203] (wamv_gazebo) StderrLine: {'line': b'\n'}
+[1.107265] (wamv_gazebo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.107321] (wamv_gazebo) StderrLine: {'line': b'  /opt/ros/foxy/share/xacro/cmake/xacro-extras.cmake:133 (xacro_add_xacro_file)\n'}
+[1.107415] (wamv_gazebo) StderrLine: {'line': b'  CMakeLists.txt:45 (xacro_add_files)\n'}
+[1.107460] (wamv_gazebo) StderrLine: {'line': b'\n'}
+[1.107502] (wamv_gazebo) StderrLine: {'line': b'\n'}
+[1.107544] (wamv_gazebo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.152946] (wamv_gazebo) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.155547] (wamv_gazebo) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.156082] (wamv_gazebo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.156550] (wamv_gazebo) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.157873] (wamv_gazebo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.160392] (wamv_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.164325] (wamv_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[1.166670] (wamv_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/ruize/dev_ws/build/wamv_gazebo\n'}
+[1.196173] (wamv_gazebo) StdoutLine: {'line': b'[100%] \x1b[34m\x1b[1mxacro: generating urdf/wamv_gazebo.urdf from urdf/wamv_gazebo.urdf.xacro\x1b[0m\n'}
+[1.207117] (-) TimerEvent: {}
+[1.237478] (wamv_gazebo) StderrLine: {'line': b"\x1b[91mNo such file or directory: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/wamv_gazebo.xacro [Errno 2] No such file or directory: '/home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/wamv_gazebo.xacro'\x1b[0m\n"}
+[1.237683] (wamv_gazebo) StderrLine: {'line': b'when processing file: urdf/wamv_gazebo.urdf.xacro\n'}
+[1.242392] (wamv_gazebo) StderrLine: {'line': b'make[2]: *** [CMakeFiles/wamv_gazebo__xacro_auto_generate.dir/build.make:61: urdf/wamv_gazebo.urdf] Error 2\n'}
+[1.242608] (wamv_gazebo) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/wamv_gazebo__xacro_auto_generate.dir/all] Error 2\n'}
+[1.242975] (wamv_gazebo) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[1.244681] (wamv_gazebo) CommandEnded: {'returncode': 2}
+[1.272901] (wamv_gazebo) JobEnded: {'identifier': 'wamv_gazebo', 'rc': 2}
+[1.283785] (-) EventReactorShutdown: {}

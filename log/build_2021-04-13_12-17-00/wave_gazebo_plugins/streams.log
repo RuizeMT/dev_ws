@@ -1,0 +1,79 @@
+[0.011s] Invoking command in '/home/ruize/dev_ws/build/wave_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/wave_gazebo_plugins -- -j4 -l4
+[0.076s] [ 57%] Built target Hydrodynamics
+[0.106s] [ 71%] Built target WavefieldModelPlugin
+[0.115s] [ 85%] Built target WavefieldVisualPlugin
+[0.141s] [100%] Built target wavegauge_plugin
+[0.152s] Invoked command in '/home/ruize/dev_ws/build/wave_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/wave_gazebo_plugins -- -j4 -l4
+[0.205s] Invoking command in '/home/ruize/dev_ws/build/wave_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ruize/dev_ws/build/wave_gazebo_plugins
+[0.215s] -- Install configuration: ""
+[0.215s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/environment/library_path.sh
+[0.215s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/environment/library_path.dsv
+[0.215s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/lib/libHydrodynamics.so
+[0.215s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/lib/libWavefieldModelPlugin.so
+[0.219s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/lib/libWavefieldVisualPlugin.so
+[0.219s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/lib/libwavegauge_plugin.so
+[0.219s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins
+[0.219s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/WavefieldEntity.hh
+[0.220s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/PhysicalConstants.hh
+[0.220s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/WavefieldModelPlugin.hh
+[0.220s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/Geometry.hh
+[0.220s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/WavefieldVisualPlugin.hh
+[0.220s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/Wavefield.hh
+[0.220s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/wavegauge_plugin.hh
+[0.220s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/Utilities.hh
+[0.220s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/Physics.hh
+[0.220s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/Gazebo.hh
+[0.220s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include
+[0.220s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins
+[0.220s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins
+[0.220s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/ament_cmake_export_dependencies
+[0.221s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/ament_cmake_environment_hooks
+[0.221s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/ament_cmake_uninstall_target
+[0.221s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/ament_cmake_core
+[0.221s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/ament_cmake_core/stamps
+[0.221s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/ament_cmake_package_templates
+[0.221s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles
+[0.221s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/uninstall.dir
+[0.221s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/WavefieldModelPlugin.dir
+[0.221s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/WavefieldModelPlugin.dir/src
+[0.221s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/WavefieldVisualPlugin.dir
+[0.222s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/WavefieldVisualPlugin.dir/src
+[0.222s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/3.16.3
+[0.222s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/3.16.3/CompilerIdCXX
+[0.222s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/3.16.3/CompilerIdCXX/tmp
+[0.222s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/3.16.3/CompilerIdC
+[0.222s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/3.16.3/CompilerIdC/tmp
+[0.222s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/Hydrodynamics.dir
+[0.222s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/Hydrodynamics.dir/src
+[0.222s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/CMakeTmp
+[0.222s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/wavegauge_plugin.dir
+[0.222s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/wavegauge_plugin.dir/src
+[0.222s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/CMakeFiles/wave_gazebo_plugins_uninstall.dir
+[0.222s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/ament_cmake_export_include_directories
+[0.222s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/ament_cmake_index
+[0.222s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/ament_cmake_index/share
+[0.222s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/ament_cmake_index/share/ament_index
+[0.222s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/ament_cmake_index/share/ament_index/resource_index
+[0.222s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/ament_cmake_index/share/ament_index/resource_index/packages
+[0.222s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path
+[0.223s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies
+[0.223s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins/ament_cmake_export_libraries
+[0.223s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/wave_gazebo_plugins
+[0.223s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/wave_gazebo_plugins
+[0.223s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/environment/ament_prefix_path.sh
+[0.223s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/environment/ament_prefix_path.dsv
+[0.223s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/environment/path.sh
+[0.223s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/environment/path.dsv
+[0.223s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/local_setup.bash
+[0.223s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/local_setup.sh
+[0.223s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/local_setup.zsh
+[0.223s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/local_setup.dsv
+[0.223s] -- Installing: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/package.dsv
+[0.223s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/ament_index/resource_index/packages/wave_gazebo_plugins
+[0.223s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.223s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.223s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[0.223s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/cmake/wave_gazebo_pluginsConfig.cmake
+[0.223s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/cmake/wave_gazebo_pluginsConfig-version.cmake
+[0.223s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/package.xml
+[0.226s] Invoked command in '/home/ruize/dev_ws/build/wave_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ruize/dev_ws/build/wave_gazebo_plugins

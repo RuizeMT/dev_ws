@@ -1,0 +1,6 @@
+Invoking command in '/home/ruize/dev_ws/build/vrx_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ruize/dev_ws/src/vrx_gazebo -DCMAKE_INSTALL_PREFIX=/home/ruize/dev_ws/install/vrx_gazebo
+Invoked command in '/home/ruize/dev_ws/build/vrx_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ruize/dev_ws/src/vrx_gazebo -DCMAKE_INSTALL_PREFIX=/home/ruize/dev_ws/install/vrx_gazebo
+Invoking command in '/home/ruize/dev_ws/build/vrx_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/vrx_gazebo -- -j4 -l4
+Invoked command in '/home/ruize/dev_ws/build/vrx_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/vrx_gazebo -- -j4 -l4
+Invoking command in '/home/ruize/dev_ws/build/vrx_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ruize/dev_ws/build/vrx_gazebo
+Invoked command in '/home/ruize/dev_ws/build/vrx_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ruize/dev_ws/build/vrx_gazebo

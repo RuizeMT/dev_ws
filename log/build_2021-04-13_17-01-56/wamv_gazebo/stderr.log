@@ -1,0 +1,21 @@
+CMake Warning at /opt/ros/foxy/share/xacro/cmake/xacro-extras.cmake:74 (message):
+  failed to determine deps for: urdf/wamv_gazebo.urdf.xacro
+
+  error: No such file or directory:
+  /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/wamv_gazebo.xacro
+  [Errno 2] No such file or directory:
+  '/home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/wamv_gazebo.xacro'
+
+
+  when processing file: urdf/wamv_gazebo.urdf.xacro
+
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/xacro/cmake/xacro-extras.cmake:133 (xacro_add_xacro_file)
+  CMakeLists.txt:45 (xacro_add_files)
+
+
+[91mNo such file or directory: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/wamv_gazebo.xacro [Errno 2] No such file or directory: '/home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/wamv_gazebo.xacro'[0m
+when processing file: urdf/wamv_gazebo.urdf.xacro
+make[2]: *** [CMakeFiles/wamv_gazebo__xacro_auto_generate.dir/build.make:61: urdf/wamv_gazebo.urdf] Error 2
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/wamv_gazebo__xacro_auto_generate.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,8 @@
+-- Found xacro: 2.0.4 (/opt/ros/foxy/share/xacro/cmake)
+CMake Error at CMakeLists.txt:20 (ament_export_dependencies):
+  Unknown CMake command "ament_export_dependencies".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/ruize/dev_ws/build/wamv_description/CMakeFiles/CMakeOutput.log".
+make: *** [Makefile:222: cmake_check_build_system] Error 1

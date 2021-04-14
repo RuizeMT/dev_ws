@@ -1,0 +1,8 @@
+[01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:[m[K In member function ‘[01m[Kvirtual void gazebo::UsvDynamicsPlugin::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)[m[K’:
+[01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:137:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KkMass[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  137 |     const double [01;35m[KkMass[m[K = this->link->GetInertial()->Mass();
+      |                  [01;35m[K^~~~~[m[K
+[01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:[m[K At global scope:
+[01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:359:44:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  359 | GZ_REGISTER_MODEL_PLUGIN(UsvDynamicsPlugin)[01;35m[K;[m[K
+      |                                            [01;35m[K^[m[K

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libusv_gazebo_wind_plugin.a  CMakeFiles/usv_gazebo_wind_plugin.dir/src/usv_gazebo_wind_plugin.cc.o
+/usr/bin/ranlib libusv_gazebo_wind_plugin.a

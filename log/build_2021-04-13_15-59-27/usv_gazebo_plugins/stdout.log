@@ -1,0 +1,3 @@
+[ 14%] Built target usv_gazebo_plugins__xacro_auto_generate
+[ 42%] [32mBuilding CXX object CMakeFiles/usv_gazebo_dynamics_plugin.dir/src/usv_gazebo_dynamics_plugin.cc.o[0m
+[ 85%] Built target buoyancy_gazebo_plugin

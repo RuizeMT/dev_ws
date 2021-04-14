@@ -1,0 +1,95 @@
+[0.017s] Invoking command in '/home/ruize/dev_ws/build/usv_gazebo_plugins': CMAKE_PREFIX_PATH=/home/ruize/dev_ws/install/wave_gazebo_plugins:/home/ruize/dev_ws/install/usv_msgs:/home/ruize/dev_ws/install/usv_gazebo_plugins:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ruize/dev_ws/install/wave_gazebo_plugins/lib:/home/ruize/dev_ws/install/usv_msgs/lib:/home/ruize/dev_ws/install/usv_gazebo_plugins/lib:/home/ruize/px4_ros_com_ros2/install/px4_ros_com/lib:/home/ruize/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/ruize/dev_ws/build/usv_gazebo_plugins -- -j4 -l4
+[0.044s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.081s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.217s] -- Found gazebo_ros: 3.5.0 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[0.244s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.246s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.364s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.403s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.405s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.557s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.585s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[0.587s] -- Looking for ignition-math6 -- found version 6.8.0
+[0.592s] -- Searching for dependencies of ignition-math6
+[0.595s] -- Looking for OGRE...
+[0.600s] -- Found Ogre Ghadamon (1.9.0)
+[0.601s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.611s] -- Looking for OGRE_Paging...
+[0.612s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.613s] -- Looking for OGRE_Terrain...
+[0.613s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.613s] -- Looking for OGRE_Property...
+[0.613s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.613s] -- Looking for OGRE_RTShaderSystem...
+[0.613s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.613s] -- Looking for OGRE_Volume...
+[0.613s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.613s] -- Looking for OGRE_Overlay...
+[0.613s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.722s] -- Looking for ignition-math6 -- found version 6.8.0
+[0.722s] -- Looking for ignition-transport8 -- found version 8.2.0
+[0.722s] -- Searching for dependencies of ignition-transport8
+[0.741s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[0.752s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.757s] -- Checking for module 'libzmq >= 4'
+[0.772s] --   Found libzmq , version 4.3.2
+[0.813s] -- Checking for module 'uuid'
+[0.828s] --   Found uuid, version 2.34.0
+[0.863s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[0.866s] -- Searching for dependencies of ignition-msgs5
+[0.883s] -- Looking for ignition-math6 -- found version 6.8.0
+[0.887s] -- Checking for module 'tinyxml2'
+[0.903s] --   Found tinyxml2, version 6.2.0
+[0.935s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[0.935s] -- Looking for ignition-common3 -- found version 3.11.1
+[0.937s] -- Searching for dependencies of ignition-common3
+[0.938s] -- Looking for dlfcn.h - found
+[0.938s] -- Looking for libdl - found
+[0.945s] -- Searching for <ignition-common3> component [graphics]
+[0.945s] -- Looking for ignition-common3-graphics -- found version 3.11.1
+[0.946s] -- Searching for dependencies of ignition-common3-graphics
+[0.946s] -- Looking for ignition-math6 -- found version 6.8.0
+[0.948s] -- Looking for ignition-fuel_tools4 -- found version 4.3.0
+[0.948s] -- Searching for dependencies of ignition-fuel_tools4
+[0.986s] -- Checking for module 'jsoncpp'
+[1.000s] --   Found jsoncpp, version 1.7.4
+[1.041s] -- Checking for module 'libzip'
+[1.053s] --   Found libzip, version 1.5.1
+[1.086s] -- Looking for ignition-common3 -- found version 3.11.1
+[1.087s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[1.088s] -- Gazebo version: 11.3
+[1.094s] -- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.103s] -- Found xacro: 2.0.4 (/opt/ros/foxy/share/xacro/cmake)
+[1.103s] -- Found wave_gazebo_plugins: 1.3.0 (/home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/cmake)
+[1.115s] -- Found usv_msgs: 0.0.0 (/home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/cmake)
+[1.148s] -- Found tf2: 0.13.9 (/opt/ros/foxy/share/tf2/cmake)
+[1.188s] -- xacro: determining deps for: worlds/buoyancy_plugin_demo.world.xacro ...
+[1.234s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.296s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.297s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.298s] -- Configured cppcheck include dirs: /home/ruize/dev_ws/src/usv_gazebo_plugins/include
+[1.298s] -- Configured cppcheck exclude dirs and/or files: 
+[1.300s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.300s] -- Configured cpplint exclude dirs and/or files: 
+[1.301s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.302s] -- Added test 'lint_cmake' to check CMake code style
+[1.312s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.315s] -- Added test 'uncrustify' to check C / C++ code style
+[1.315s] -- Configured uncrustify additional arguments: 
+[1.315s] -- Added test 'xmllint' to check XML markup files
+[1.317s] -- Configuring done
+[1.345s] -- Generating done
+[1.346s] -- Build files have been written to: /home/ruize/dev_ws/build/usv_gazebo_plugins
+[1.374s] [35m[1mScanning dependencies of target usv_gazebo_dynamics_plugin[0m
+[1.383s] [ 14%] Built target usv_gazebo_plugins__xacro_auto_generate
+[1.407s] [ 71%] Built target buoyancy_gazebo_plugin
+[1.412s] [ 85%] [32mBuilding CXX object CMakeFiles/usv_gazebo_dynamics_plugin.dir/src/usv_gazebo_dynamics_plugin.cc.o[0m
+[2.280s] In file included from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:27[m[K:
+[2.280s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/include/usv_gazebo_plugins/usv_gazebo_dynamics_plugin.hh:30:10:[m[K [01;31m[Kfatal error: [m[Kwave_gazebo_plugins/Wavefield.hh: No such file or directory
+[2.280s]    30 | #include [01;31m[K"wave_gazebo_plugins/Wavefield.hh"[m[K
+[2.280s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.280s] compilation terminated.
+[2.287s] make[2]: *** [CMakeFiles/usv_gazebo_dynamics_plugin.dir/build.make:63: CMakeFiles/usv_gazebo_dynamics_plugin.dir/src/usv_gazebo_dynamics_plugin.cc.o] Error 1
+[2.287s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/usv_gazebo_dynamics_plugin.dir/all] Error 2
+[2.287s] make: *** [Makefile:141: all] Error 2
+[2.291s] Invoked command in '/home/ruize/dev_ws/build/usv_gazebo_plugins' returned '2': CMAKE_PREFIX_PATH=/home/ruize/dev_ws/install/wave_gazebo_plugins:/home/ruize/dev_ws/install/usv_msgs:/home/ruize/dev_ws/install/usv_gazebo_plugins:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ruize/dev_ws/install/wave_gazebo_plugins/lib:/home/ruize/dev_ws/install/usv_msgs/lib:/home/ruize/dev_ws/install/usv_gazebo_plugins/lib:/home/ruize/px4_ros_com_ros2/install/px4_ros_com/lib:/home/ruize/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/ruize/dev_ws/build/usv_gazebo_plugins -- -j4 -l4

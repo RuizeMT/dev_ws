@@ -1,0 +1,94 @@
+[0.022s] Invoking command in '/home/ruize/dev_ws/build/wamv_gazebo': CMAKE_PREFIX_PATH=/home/ruize/dev_ws/install/usv_gazebo_plugins:/home/ruize/dev_ws/install/wave_gazebo_plugins:/home/ruize/dev_ws/install/wamv_description:/home/ruize/dev_ws/install/usv_msgs:/home/ruize/dev_ws/install/wamv_gazebo:/home/ruize/dev_ws/install/vrx_gazebo:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/wamv_gazebo -- -j4 -l4
+[0.047s] -- Found wamv_description: 0.0.0 (/home/ruize/dev_ws/install/wamv_description/share/wamv_description/cmake)
+[0.047s] -- Found usv_gazebo_plugins: 0.0.0 (/home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/cmake)
+[0.066s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.218s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.221s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.316s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.418s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.419s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.560s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.582s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[0.583s] -- Looking for ignition-math6 -- found version 6.8.0
+[0.587s] -- Searching for dependencies of ignition-math6
+[0.589s] -- Looking for OGRE...
+[0.594s] -- Found Ogre Ghadamon (1.9.0)
+[0.595s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.603s] -- Looking for OGRE_Paging...
+[0.604s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.604s] -- Looking for OGRE_Terrain...
+[0.604s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.604s] -- Looking for OGRE_Property...
+[0.604s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.604s] -- Looking for OGRE_RTShaderSystem...
+[0.604s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.604s] -- Looking for OGRE_Volume...
+[0.604s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.604s] -- Looking for OGRE_Overlay...
+[0.604s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.705s] -- Looking for ignition-math6 -- found version 6.8.0
+[0.705s] -- Looking for ignition-transport8 -- found version 8.2.0
+[0.705s] -- Searching for dependencies of ignition-transport8
+[0.734s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[0.745s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.748s] -- Checking for module 'libzmq >= 4'
+[0.761s] --   Found libzmq , version 4.3.2
+[0.792s] -- Checking for module 'uuid'
+[0.802s] --   Found uuid, version 2.34.0
+[0.830s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[0.830s] -- Searching for dependencies of ignition-msgs5
+[0.870s] -- Looking for ignition-math6 -- found version 6.8.0
+[0.877s] -- Checking for module 'tinyxml2'
+[0.887s] --   Found tinyxml2, version 6.2.0
+[0.915s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[0.916s] -- Looking for ignition-common3 -- found version 3.11.1
+[0.918s] -- Searching for dependencies of ignition-common3
+[0.920s] -- Looking for dlfcn.h - found
+[0.921s] -- Looking for libdl - found
+[0.922s] -- Searching for <ignition-common3> component [graphics]
+[0.922s] -- Looking for ignition-common3-graphics -- found version 3.11.1
+[0.922s] -- Searching for dependencies of ignition-common3-graphics
+[0.922s] -- Looking for ignition-math6 -- found version 6.8.0
+[0.923s] -- Looking for ignition-fuel_tools4 -- found version 4.3.0
+[0.923s] -- Searching for dependencies of ignition-fuel_tools4
+[0.944s] -- Checking for module 'jsoncpp'
+[0.956s] --   Found jsoncpp, version 1.7.4
+[0.988s] -- Checking for module 'libzip'
+[0.997s] --   Found libzip, version 1.5.1
+[1.021s] -- Looking for ignition-common3 -- found version 3.11.1
+[1.021s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[1.022s] -- Gazebo version: 11.3
+[1.099s] -- Found xacro: 2.0.4 (/opt/ros/foxy/share/xacro/cmake)
+[1.100s] -- xacro: determining deps for: urdf/wamv_gazebo.urdf.xacro ...
+[1.144s] CMake Warning at /opt/ros/foxy/share/xacro/cmake/xacro-extras.cmake:74 (message):
+[1.144s]   failed to determine deps for: urdf/wamv_gazebo.urdf.xacro
+[1.144s] 
+[1.144s]   error: No such file or directory:
+[1.144s]   /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/wamv_gazebo.xacro
+[1.144s]   [Errno 2] No such file or directory:
+[1.144s]   '/home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/wamv_gazebo.xacro'
+[1.144s] 
+[1.144s] 
+[1.144s]   when processing file: urdf/wamv_gazebo.urdf.xacro
+[1.144s] 
+[1.144s] Call Stack (most recent call first):
+[1.144s]   /opt/ros/foxy/share/xacro/cmake/xacro-extras.cmake:133 (xacro_add_xacro_file)
+[1.144s]   CMakeLists.txt:45 (xacro_add_files)
+[1.144s] 
+[1.144s] 
+[1.145s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.192s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.194s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.195s] -- Added test 'lint_cmake' to check CMake code style
+[1.195s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.196s] -- Added test 'xmllint' to check XML markup files
+[1.198s] -- Configuring done
+[1.201s] -- Generating done
+[1.215s] -- Build files have been written to: /home/ruize/dev_ws/build/wamv_gazebo
+[1.241s] [100%] [34m[1mxacro: generating urdf/wamv_gazebo.urdf from urdf/wamv_gazebo.urdf.xacro[0m
+[1.283s] [91mNo such file or directory: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/wamv_gazebo.xacro [Errno 2] No such file or directory: '/home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/wamv_gazebo.xacro'[0m
+[1.283s] when processing file: urdf/wamv_gazebo.urdf.xacro
+[1.287s] make[2]: *** [CMakeFiles/wamv_gazebo__xacro_auto_generate.dir/build.make:61: urdf/wamv_gazebo.urdf] Error 2
+[1.288s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/wamv_gazebo__xacro_auto_generate.dir/all] Error 2
+[1.288s] make: *** [Makefile:141: all] Error 2
+[1.291s] Invoked command in '/home/ruize/dev_ws/build/wamv_gazebo' returned '2': CMAKE_PREFIX_PATH=/home/ruize/dev_ws/install/usv_gazebo_plugins:/home/ruize/dev_ws/install/wave_gazebo_plugins:/home/ruize/dev_ws/install/wamv_description:/home/ruize/dev_ws/install/usv_msgs:/home/ruize/dev_ws/install/wamv_gazebo:/home/ruize/dev_ws/install/vrx_gazebo:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/wamv_gazebo -- -j4 -l4

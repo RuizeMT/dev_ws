@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ruize/dev_ws/src/usv_gazebo_plugins/include/usv_gazebo_plugins/usv_gazebo_wind_plugin.hh
+rclcpp/rclcpp.hpp
+/home/ruize/dev_ws/src/usv_gazebo_plugins/include/usv_gazebo_plugins/rclcpp/rclcpp.hpp
+memory
+-
+random
+-
+string
+-
+vector
+-
+gazebo/common/CommonTypes.hh
+-
+gazebo/common/Plugin.hh
+-
+ignition/math/Vector3.hh
+-
+gazebo/physics/physics.hh
+-
+sdf/sdf.hh
+-
+
+/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_wind_plugin.cc
+rclcpp/rclcpp.hpp
+-
+std_msgs/Float64.h
+-
+functional
+-
+gazebo/common/Console.hh
+-
+usv_gazebo_plugins/usv_gazebo_wind_plugin.hh
+/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_plugins/usv_gazebo_wind_plugin.hh
+

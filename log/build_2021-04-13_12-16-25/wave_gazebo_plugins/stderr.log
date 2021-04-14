@@ -1,0 +1,27 @@
+[01m[K/home/ruize/dev_ws/src/wave_gazebo_plugins/src/Wavefield.cc:[m[K In constructor ‘[01m[Kasv::WaveParametersPrivate::WaveParametersPrivate()[m[K’:
+[01m[K/home/ruize/dev_ws/src/wave_gazebo_plugins/src/Wavefield.cc:116:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Kasv::WaveParametersPrivate::wavenumber[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  116 |     public: double [01;35m[Kwavenumber[m[K;
+      |                    [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/ruize/dev_ws/src/wave_gazebo_plugins/src/Wavefield.cc:104:20:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble asv::WaveParametersPrivate::tau[m[K’ [[01;35m[K-Wreorder[m[K]
+  104 |     public: double [01;35m[Ktau[m[K;
+      |                    [01;35m[K^~~[m[K
+[01m[K/home/ruize/dev_ws/src/wave_gazebo_plugins/src/Wavefield.cc:58:13:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   58 |     public: [01;35m[KWaveParametersPrivate[m[K():
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+/home/ruize/dev_ws/src/wave_gazebo_plugins/src/Wavefield.cc: In instantiation of ‘[01m[Kasv::WavefieldSampler::ComputeDepthDirectly(const asv::WaveParameters&, const Vector3d&, double, double)::<lambda(auto:24, auto:25, auto:26, auto:27&, auto:28&, auto:29&)> [with auto:24 = Eigen::Matrix<double, 2, 1>; auto:25 = Eigen::Matrix<double, 2, 1>; auto:26 = double; auto:27 = asv::WavefieldSampler::ComputeDepthDirectly(const asv::WaveParameters&, const Vector3d&, double, double)::WaveParams; auto:28 = Eigen::Matrix<double, 2, 1>; auto:29 = Eigen::Matrix<double, 2, 2>][m[K’:
+[01m[K/home/ruize/dev_ws/src/wave_gazebo_plugins/src/Wavefield.cc:619:20:[m[K   required from ‘[01m[Kasv::WavefieldSampler::ComputeDepthDirectly(const asv::WaveParameters&, const Vector3d&, double, double)::<lambda(auto:30&, auto:31, auto:32, auto:33, auto:34&, auto:35, auto:36)> [with auto:30 = asv::WavefieldSampler::ComputeDepthDirectly(const asv::WaveParameters&, const Vector3d&, double, double)::<lambda(auto:24, auto:25, auto:26, auto:27&, auto:28&, auto:29&)>; auto:31 = Eigen::Matrix<double, 2, 1>; auto:32 = Eigen::Matrix<double, 2, 1>; auto:33 = double; auto:34 = asv::WavefieldSampler::ComputeDepthDirectly(const asv::WaveParameters&, const Vector3d&, double, double)::WaveParams; auto:35 = double; auto:36 = double][m[K’
+[01m[K/home/ruize/dev_ws/src/wave_gazebo_plugins/src/Wavefield.cc:644:67:[m[K   required from here
+[01m[K/home/ruize/dev_ws/src/wave_gazebo_plugins/src/Wavefield.cc:577:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  577 |       for (auto&& i = 0; [01;35m[Ki < n[m[K; ++i) // NOLINT
+      |                          [01;35m[K~~^~~[m[K
+In file included from [01m[K/home/ruize/dev_ws/src/wave_gazebo_plugins/src/Gazebo.cc:27[m[K:
+[01m[K/home/ruize/dev_ws/src/wave_gazebo_plugins/include/wave_gazebo_plugins/Gazebo.hh:47:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   47 |   }[01;35m[K;[m[K
+      |    [01;35m[K^[m[K
+[01m[K/home/ruize/dev_ws/src/wave_gazebo_plugins/src/WavefieldModelPlugin.cc:199:5:[m[K [01;35m[Kwarning: [m[Kmulti-line comment [[01;35m[K-Wcomment[m[K]
+  199 |     [01;35m[K/[m[K/ GZ_ASSERT(wavefieldEntity->GetWavefield() != nullptr, \
+      |     [01;35m[K^[m[K
+In file included from [01m[K/home/ruize/dev_ws/src/wave_gazebo_plugins/src/WavefieldVisualPlugin.cc:43[m[K:
+[01m[K/home/ruize/dev_ws/src/wave_gazebo_plugins/include/wave_gazebo_plugins/Gazebo.hh:47:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   47 |   }[01;35m[K;[m[K
+      |    [01;35m[K^[m[K

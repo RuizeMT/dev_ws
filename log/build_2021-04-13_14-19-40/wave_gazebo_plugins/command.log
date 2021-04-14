@@ -1,0 +1,4 @@
+Invoking command in '/home/ruize/dev_ws/build/wave_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/wave_gazebo_plugins -- -j4 -l4
+Invoked command in '/home/ruize/dev_ws/build/wave_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/wave_gazebo_plugins -- -j4 -l4
+Invoking command in '/home/ruize/dev_ws/build/wave_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ruize/dev_ws/build/wave_gazebo_plugins
+Invoked command in '/home/ruize/dev_ws/build/wave_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ruize/dev_ws/build/wave_gazebo_plugins

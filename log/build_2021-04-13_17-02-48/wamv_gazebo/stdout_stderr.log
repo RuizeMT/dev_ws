@@ -1,0 +1,8 @@
+CMake Error at CMakeLists.txt:44:
+  Parse error.  Expected "(", got identifier with text "urdf".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/ruize/dev_ws/build/wamv_gazebo/CMakeFiles/CMakeOutput.log".
+See also "/home/ruize/dev_ws/build/wamv_gazebo/CMakeFiles/CMakeError.log".
+make: *** [Makefile:222: cmake_check_build_system] Error 1

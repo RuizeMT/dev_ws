@@ -1,0 +1,750 @@
+[0.000000] (-) TimerEvent: {}
+[0.000925] (-) JobUnselected: {'identifier': 'usv_msgs'}
+[0.000959] (-) JobUnselected: {'identifier': 'wave_gazebo_plugins'}
+[0.000980] (usv_gazebo_plugins) JobQueued: {'identifier': 'usv_gazebo_plugins', 'dependencies': OrderedDict([('usv_msgs', '/home/ruize/dev_ws/install/usv_msgs'), ('wave_gazebo_plugins', '/home/ruize/dev_ws/install/wave_gazebo_plugins')])}
+[0.001013] (usv_gazebo_plugins) JobStarted: {'identifier': 'usv_gazebo_plugins'}
+[0.016325] (usv_gazebo_plugins) JobProgress: {'identifier': 'usv_gazebo_plugins', 'progress': 'cmake'}
+[0.017104] (usv_gazebo_plugins) JobProgress: {'identifier': 'usv_gazebo_plugins', 'progress': 'build'}
+[0.017920] (usv_gazebo_plugins) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ruize/dev_ws/build/usv_gazebo_plugins', '--', '-j4', '-l4'], 'cwd': '/home/ruize/dev_ws/build/usv_gazebo_plugins', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SDKMAN_VERSION', '5.11.0+644'), ('LANGUAGE', 'en_CA:en'), ('USER', 'ruize'), ('SSH_AGENT_PID', '1737'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ruize/dev_ws/install/wave_gazebo_plugins/lib:/home/ruize/dev_ws/install/usv_msgs/lib:/home/ruize/px4_ros_com_ros2/install/px4_ros_com/lib:/home/ruize/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ruize'), ('OLDPWD', '/home/ruize'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GRADLE_HOME', '/home/ruize/.sdkman/candidates/gradle/current'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1513'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '19242'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ruize/dev_ws/install:/home/ruize/px4_ros_com_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ruize'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('JOURNAL_STREAM', '8:36603'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ruize'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ruize/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/foxy/bin:/home/ruize/.sdkman/candidates/gradle/current/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ruize/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ruize-VirtualBox:@/tmp/.ICE-unix/1814,unix/ruize-VirtualBox:/tmp/.ICE-unix/1814'), ('SDKMAN_CANDIDATES_DIR', '/home/ruize/.sdkman/candidates'), ('INVOCATION_ID', '76cc08ac53ce4a818519e1842b465061'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SDKMAN_DIR', '/home/ruize/.sdkman'), ('SDKMAN_PLATFORM', 'LinuxX64'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ruize/dev_ws/install/wave_gazebo_plugins:/home/ruize/dev_ws/install/usv_msgs:/home/ruize/dev_ws/install/usv_gazebo_plugins:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:275b50ea-4764-41cb-9ac7-335689b4b92c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ruize/dev_ws/build/usv_gazebo_plugins'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ruize/dev_ws/install/usv_msgs/lib/python3.8/site-packages:/home/ruize/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ruize/dev_ws/install/wave_gazebo_plugins:/home/ruize/dev_ws/install/usv_msgs:/home/ruize/dev_ws/install/usv_gazebo_plugins:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy')]), 'shell': False}
+[0.044653] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.062737] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099776] (-) TimerEvent: {}
+[0.200086] (-) TimerEvent: {}
+[0.205001] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Found gazebo_ros: 3.5.0 (/opt/ros/foxy/share/gazebo_ros/cmake)\n'}
+[0.235393] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.238099] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.300749] (-) TimerEvent: {}
+[0.340227] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.378587] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.379923] (usv_gazebo_plugins) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.401937] (-) TimerEvent: {}
+[0.503126] (-) TimerEvent: {}
+[0.533384] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[0.557907] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[0.560012] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.8.0\n'}
+[0.564214] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.565951] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[0.572300] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[0.572895] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[0.582788] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[0.583143] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[0.583337] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[0.583496] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[0.583626] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[0.583678] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[0.583783] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[0.583877] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[0.584074] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[0.584190] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[0.584388] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[0.584635] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[0.603439] (-) TimerEvent: {}
+[0.703174] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.8.0\n'}
+[0.703488] (-) TimerEvent: {}
+[0.704258] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.0\n'}
+[0.704908] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[0.722583] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[0.734962] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[0.739642] (usv_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[0.755730] (usv_gazebo_plugins) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[0.799849] (usv_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.804188] (-) TimerEvent: {}
+[0.812688] (usv_gazebo_plugins) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[0.844360] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.7.0\n'}
+[0.845014] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[0.861211] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.8.0\n'}
+[0.865472] (usv_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.885534] (usv_gazebo_plugins) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[0.904655] (-) TimerEvent: {}
+[0.918203] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.7.0\n'}
+[0.918580] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.11.1\n'}
+[0.918959] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[0.919138] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.919210] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.927071] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[0.927475] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.11.1\n'}
+[0.928279] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[0.928748] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.8.0\n'}
+[0.931662] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.3.0\n'}
+[0.932335] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[0.958641] (usv_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[0.971006] (usv_gazebo_plugins) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[1.005285] (-) TimerEvent: {}
+[1.009723] (usv_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.022483] (usv_gazebo_plugins) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[1.052169] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.11.1\n'}
+[1.053000] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.7.0\n'}
+[1.054332] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Gazebo version: 11.3\n'}
+[1.061011] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.067893] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Found xacro: 2.0.4 (/opt/ros/foxy/share/xacro/cmake)\n'}
+[1.068373] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Found wave_gazebo_plugins: 1.3.0 (/home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/cmake)\n'}
+[1.080516] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Found usv_msgs: 0.0.0 (/home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/cmake)\n'}
+[1.105575] (-) TimerEvent: {}
+[1.118737] (usv_gazebo_plugins) StdoutLine: {'line': b'-- xacro: determining deps for: worlds/buoyancy_plugin_demo.world.xacro ...\n'}
+[1.167395] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.206528] (-) TimerEvent: {}
+[1.216347] (usv_gazebo_plugins) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.217671] (usv_gazebo_plugins) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.222883] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ruize/dev_ws/src/usv_gazebo_plugins/include\n'}
+[1.223058] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.223110] (usv_gazebo_plugins) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.223156] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.223330] (usv_gazebo_plugins) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.223402] (usv_gazebo_plugins) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.224047] (usv_gazebo_plugins) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.224290] (usv_gazebo_plugins) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.224456] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.224504] (usv_gazebo_plugins) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.226990] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.299944] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Generating done\n'}
+[1.302211] (usv_gazebo_plugins) StdoutLine: {'line': b'-- Build files have been written to: /home/ruize/dev_ws/build/usv_gazebo_plugins\n'}
+[1.306772] (-) TimerEvent: {}
+[1.331916] (usv_gazebo_plugins) StdoutLine: {'line': b'[ 14%] Built target usv_gazebo_plugins__xacro_auto_generate\n'}
+[1.338676] (usv_gazebo_plugins) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usv_gazebo_dynamics_plugin\x1b[0m\n'}
+[1.348667] (usv_gazebo_plugins) StdoutLine: {'line': b'[ 71%] Built target buoyancy_gazebo_plugin\n'}
+[1.365617] (usv_gazebo_plugins) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/usv_gazebo_dynamics_plugin.dir/src/usv_gazebo_dynamics_plugin.cc.o\x1b[0m\n'}
+[1.406842] (-) TimerEvent: {}
+[1.507696] (-) TimerEvent: {}
+[1.608178] (-) TimerEvent: {}
+[1.708952] (-) TimerEvent: {}
+[1.810952] (-) TimerEvent: {}
+[1.912417] (-) TimerEvent: {}
+[2.014157] (-) TimerEvent: {}
+[2.114983] (-) TimerEvent: {}
+[2.215803] (-) TimerEvent: {}
+[2.316508] (-) TimerEvent: {}
+[2.419827] (-) TimerEvent: {}
+[2.521659] (-) TimerEvent: {}
+[2.622690] (-) TimerEvent: {}
+[2.724063] (-) TimerEvent: {}
+[2.735630] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:46:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmacro "RCLCPP_INFO_STREAM" requires 2 arguments, but only 1 given\n'}
+[2.735840] (usv_gazebo_plugins) StderrLine: {'line': b'   46 |                     "Using default value of <" << _defaultVal << ">."\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.735921] (usv_gazebo_plugins) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.736833] (usv_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.736963] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.737016] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.737078] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.737138] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.737185] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.737227] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.737270] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.737312] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.737354] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.737398] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17\x1b[m\x1b[K:\n'}
+[2.737441] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:736:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kmacro "RCLCPP_INFO_STREAM" defined here\n'}
+[2.737484] (usv_gazebo_plugins) StderrLine: {'line': b'  736 | #define RCLCPP_INFO_STREAM(logger, stream_arg) \\\n'}
+[2.737528] (usv_gazebo_plugins) StderrLine: {'line': b'      | \n'}
+[2.737619] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:52:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM" requires 2 arguments, but only 1 given\n'}
+[2.738477] (usv_gazebo_plugins) StderrLine: {'line': b'   52 |                   "> to <" << val << ">."\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.738657] (usv_gazebo_plugins) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.738717] (usv_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.738843] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.738919] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.739020] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.739167] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.739268] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.739344] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.739389] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.739440] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.739505] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.739575] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17\x1b[m\x1b[K:\n'}
+[2.739630] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:294:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM" defined here\n'}
+[2.739686] (usv_gazebo_plugins) StderrLine: {'line': b'  294 | #define RCLCPP_DEBUG_STREAM(logger, stream_arg) \\\n'}
+[2.739875] (usv_gazebo_plugins) StderrLine: {'line': b'      | \n'}
+[2.739950] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:69:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmacro "RCLCPP_INFO_STREAM" requires 2 arguments, but only 1 given\n'}
+[2.740194] (usv_gazebo_plugins) StderrLine: {'line': b'   69 |     RCLCPP_INFO_STREAM("Did not find SDF parameter bodyName"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.740320] (usv_gazebo_plugins) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.740408] (usv_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.740525] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.740808] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.741021] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.741253] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.741316] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.741362] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.741411] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.741500] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.741548] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.741609] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17\x1b[m\x1b[K:\n'}
+[2.741681] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:736:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kmacro "RCLCPP_INFO_STREAM" defined here\n'}
+[2.741742] (usv_gazebo_plugins) StderrLine: {'line': b'  736 | #define RCLCPP_INFO_STREAM(logger, stream_arg) \\\n'}
+[2.741787] (usv_gazebo_plugins) StderrLine: {'line': b'      | \n'}
+[2.741830] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:76:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM" requires 2 arguments, but only 1 given\n'}
+[2.741873] (usv_gazebo_plugins) StderrLine: {'line': b'   76 |     RCLCPP_DEBUG_STREAM("Found SDF parameter bodyName as <" << linkName<< ">"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.741915] (usv_gazebo_plugins) StderrLine: {'line': b'      |                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.741975] (usv_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.742030] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.742078] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.742121] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.742165] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.742207] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.742252] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.742295] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.742339] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.742382] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.742470] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17\x1b[m\x1b[K:\n'}
+[2.742517] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:294:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM" defined here\n'}
+[2.742560] (usv_gazebo_plugins) StderrLine: {'line': b'  294 | #define RCLCPP_DEBUG_STREAM(logger, stream_arg) \\\n'}
+[2.742602] (usv_gazebo_plugins) StderrLine: {'line': b'      | \n'}
+[2.742645] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:86:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM" requires 2 arguments, but only 1 given\n'}
+[2.742691] (usv_gazebo_plugins) StderrLine: {'line': b'   86 |     RCLCPP_DEBUG_STREAM("USV Dynamics Model Link Name = " << linkName\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.742733] (usv_gazebo_plugins) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.742775] (usv_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.742818] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.742860] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.742902] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.742962] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.743010] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.743051] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.743094] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.743137] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.743179] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.743221] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17\x1b[m\x1b[K:\n'}
+[2.743263] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:294:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM" defined here\n'}
+[2.743306] (usv_gazebo_plugins) StderrLine: {'line': b'  294 | #define RCLCPP_DEBUG_STREAM(logger, stream_arg) \\\n'}
+[2.743347] (usv_gazebo_plugins) StderrLine: {'line': b'      | \n'}
+[2.743427] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:117:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmacro "RCLCPP_INFO_STREAM" requires 2 arguments, but only 1 given\n'}
+[2.743494] (usv_gazebo_plugins) StderrLine: {'line': b'  117 |                     "Using default value of <" << defaultVal << ">."\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.743541] (usv_gazebo_plugins) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.743605] (usv_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.743657] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.743709] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.743757] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.743801] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.743844] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.743889] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.743931] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.743974] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.744015] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.744058] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17\x1b[m\x1b[K:\n'}
+[2.744103] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:736:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kmacro "RCLCPP_INFO_STREAM" defined here\n'}
+[2.744150] (usv_gazebo_plugins) StderrLine: {'line': b'  736 | #define RCLCPP_INFO_STREAM(logger, stream_arg) \\\n'}
+[2.744194] (usv_gazebo_plugins) StderrLine: {'line': b'      | \n'}
+[2.744238] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:146:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM" requires 2 arguments, but only 1 given\n'}
+[2.744306] (usv_gazebo_plugins) StderrLine: {'line': b'  146 |   RCLCPP_DEBUG_STREAM("Vessel Mass (rigid-body): " << kMass\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.744350] (usv_gazebo_plugins) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.744438] (usv_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.744484] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.744530] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.744574] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.744616] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.744660] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.744703] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.744746] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.744791] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.744844] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.744922] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17\x1b[m\x1b[K:\n'}
+[2.744969] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:294:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM" defined here\n'}
+[2.745015] (usv_gazebo_plugins) StderrLine: {'line': b'  294 | #define RCLCPP_DEBUG_STREAM(logger, stream_arg) \\\n'}
+[2.745060] (usv_gazebo_plugins) StderrLine: {'line': b'      | \n'}
+[2.745105] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:148:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM" requires 2 arguments, but only 1 given\n'}
+[2.745188] (usv_gazebo_plugins) StderrLine: {'line': b'  148 |                   " Y:" << kInertia[1] << " Z:" << kInertia[2]\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.745248] (usv_gazebo_plugins) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.745305] (usv_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.745392] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.745438] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.745484] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.745537] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.745584] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.745630] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.745676] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.745722] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.745768] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.745812] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17\x1b[m\x1b[K:\n'}
+[2.745876] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:294:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM" defined here\n'}
+[2.745930] (usv_gazebo_plugins) StderrLine: {'line': b'  294 | #define RCLCPP_DEBUG_STREAM(logger, stream_arg) \\\n'}
+[2.745976] (usv_gazebo_plugins) StderrLine: {'line': b'      | \n'}
+[2.746020] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:213:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" requires 4 arguments, but only 2 given\n'}
+[2.746092] (usv_gazebo_plugins) StderrLine: {'line': b'  213 |   RCLCPP_DEBUG_STREAM_THROTTLE(0.5, "Vel linear: " << kVelLinearBody\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.746174] (usv_gazebo_plugins) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.746248] (usv_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.746295] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.746388] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.746436] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.746489] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.746540] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.746582] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.746633] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.746715] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.746774] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.746828] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17\x1b[m\x1b[K:\n'}
+[2.746936] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:420:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" defined here\n'}
+[2.747005] (usv_gazebo_plugins) StderrLine: {'line': b'  420 | #define RCLCPP_DEBUG_STREAM_THROTTLE(logger, clock, duration, stream_arg) \\\n'}
+[2.747060] (usv_gazebo_plugins) StderrLine: {'line': b'      | \n'}
+[2.747104] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:222:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" requires 4 arguments, but only 2 given\n'}
+[2.747148] (usv_gazebo_plugins) StderrLine: {'line': b'  222 |   RCLCPP_DEBUG_STREAM_THROTTLE(0.5, "Vel angular: " << kVelAngularBody\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.747193] (usv_gazebo_plugins) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.747237] (usv_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.747312] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.747372] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.747435] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.747511] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.747559] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.747602] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.747646] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.747689] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.747734] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.747776] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17\x1b[m\x1b[K:\n'}
+[2.747819] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:420:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" defined here\n'}
+[2.747861] (usv_gazebo_plugins) StderrLine: {'line': b'  420 | #define RCLCPP_DEBUG_STREAM_THROTTLE(logger, clock, duration, stream_arg) \\\n'}
+[2.747906] (usv_gazebo_plugins) StderrLine: {'line': b'      | \n'}
+[2.747946] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:230:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" requires 4 arguments, but only 2 given\n'}
+[2.747989] (usv_gazebo_plugins) StderrLine: {'line': b'  230 |   RCLCPP_DEBUG_STREAM_THROTTLE(0.5, "Accel linear: " << kAccelLinearBody\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.748032] (usv_gazebo_plugins) StderrLine: {'line': b'      |                                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.748075] (usv_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.748117] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.748161] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.748204] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.748261] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.748312] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.748354] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.748396] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.748441] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.748483] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.748525] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17\x1b[m\x1b[K:\n'}
+[2.748567] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:420:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" defined here\n'}
+[2.748608] (usv_gazebo_plugins) StderrLine: {'line': b'  420 | #define RCLCPP_DEBUG_STREAM_THROTTLE(logger, clock, duration, stream_arg) \\\n'}
+[2.748650] (usv_gazebo_plugins) StderrLine: {'line': b'      | \n'}
+[2.748691] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:234:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" requires 4 arguments, but only 2 given\n'}
+[2.748735] (usv_gazebo_plugins) StderrLine: {'line': b'  234 |   RCLCPP_DEBUG_STREAM_THROTTLE(0.5, "Accel angular: " << kAccelAngularBody\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.748776] (usv_gazebo_plugins) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.748818] (usv_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.748859] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.748900] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.748941] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.748986] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.749027] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.749069] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.749110] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.749150] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.749191] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.749268] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17\x1b[m\x1b[K:\n'}
+[2.749312] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:420:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" defined here\n'}
+[2.749356] (usv_gazebo_plugins) StderrLine: {'line': b'  420 | #define RCLCPP_DEBUG_STREAM_THROTTLE(logger, clock, duration, stream_arg) \\\n'}
+[2.749398] (usv_gazebo_plugins) StderrLine: {'line': b'      | \n'}
+[2.749441] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:250:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" requires 4 arguments, but only 2 given\n'}
+[2.749484] (usv_gazebo_plugins) StderrLine: {'line': b'  250 |   RCLCPP_DEBUG_STREAM_THROTTLE(1.0, "stateDot: \\n" << stateDot\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.749526] (usv_gazebo_plugins) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.749569] (usv_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.749612] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.749655] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.749696] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.749735] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.749776] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.749818] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.749860] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.749902] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.749947] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.749992] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17\x1b[m\x1b[K:\n'}
+[2.750035] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:420:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" defined here\n'}
+[2.750080] (usv_gazebo_plugins) StderrLine: {'line': b'  420 | #define RCLCPP_DEBUG_STREAM_THROTTLE(logger, clock, duration, stream_arg) \\\n'}
+[2.750127] (usv_gazebo_plugins) StderrLine: {'line': b'      | \n'}
+[2.750169] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:251:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" requires 4 arguments, but only 2 given\n'}
+[2.750239] (usv_gazebo_plugins) StderrLine: {'line': b'  251 |   RCLCPP_DEBUG_STREAM_THROTTLE(1.0, "amassVec :\\n" << kAmassVec\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.750285] (usv_gazebo_plugins) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.750329] (usv_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.750371] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.750415] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.750459] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.750503] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.750546] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.750591] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.750636] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.750682] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.750726] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.750770] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17\x1b[m\x1b[K:\n'}
+[2.750814] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:420:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" defined here\n'}
+[2.750862] (usv_gazebo_plugins) StderrLine: {'line': b'  420 | #define RCLCPP_DEBUG_STREAM_THROTTLE(logger, clock, duration, stream_arg) \\\n'}
+[2.750912] (usv_gazebo_plugins) StderrLine: {'line': b'      | \n'}
+[2.750961] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:266:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" requires 4 arguments, but only 2 given\n'}
+[2.751010] (usv_gazebo_plugins) StderrLine: {'line': b'  266 |   RCLCPP_DEBUG_STREAM_THROTTLE(1.0, "Dmat :\\n" << Dmat\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.751058] (usv_gazebo_plugins) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.751106] (usv_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.751154] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.751232] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.751279] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.751323] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.751369] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.751416] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.751462] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.751505] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.751550] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.751593] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17\x1b[m\x1b[K:\n'}
+[2.751640] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:420:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" defined here\n'}
+[2.751735] (usv_gazebo_plugins) StderrLine: {'line': b'  420 | #define RCLCPP_DEBUG_STREAM_THROTTLE(logger, clock, duration, stream_arg) \\\n'}
+[2.751782] (usv_gazebo_plugins) StderrLine: {'line': b'      | \n'}
+[2.751828] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:268:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" requires 4 arguments, but only 2 given\n'}
+[2.752098] (usv_gazebo_plugins) StderrLine: {'line': b'  268 |   RCLCPP_DEBUG_STREAM_THROTTLE(1.0, "Dvec :\\n" << kDvec\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.752164] (usv_gazebo_plugins) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.752213] (usv_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.752255] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.752302] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.752345] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.752387] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.752431] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.752478] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.752520] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.752562] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.752604] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.752649] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17\x1b[m\x1b[K:\n'}
+[2.752691] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:420:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" defined here\n'}
+[2.752732] (usv_gazebo_plugins) StderrLine: {'line': b'  420 | #define RCLCPP_DEBUG_STREAM_THROTTLE(logger, clock, duration, stream_arg) \\\n'}
+[2.752774] (usv_gazebo_plugins) StderrLine: {'line': b'      | \n'}
+[2.752816] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:281:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" requires 4 arguments, but only 2 given\n'}
+[2.752858] (usv_gazebo_plugins) StderrLine: {'line': b'  281 |   RCLCPP_DEBUG_STREAM_THROTTLE(1.0, "forceSum :\\n" << kForceSum\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.752899] (usv_gazebo_plugins) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.752940] (usv_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.752982] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.753024] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.753064] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.753106] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.753169] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.753239] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.753298] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.753379] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.753439] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.753484] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17\x1b[m\x1b[K:\n'}
+[2.753537] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:420:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" defined here\n'}
+[2.753584] (usv_gazebo_plugins) StderrLine: {'line': b'  420 | #define RCLCPP_DEBUG_STREAM_THROTTLE(logger, clock, duration, stream_arg) \\\n'}
+[2.753627] (usv_gazebo_plugins) StderrLine: {'line': b'      | \n'}
+[2.753670] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:310:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" requires 4 arguments, but only 2 given\n'}
+[2.753721] (usv_gazebo_plugins) StderrLine: {'line': b'  310 |           "] grid points" << bpnt.x() << "," << bpnt.y() << "," << bpnt.z()\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.753764] (usv_gazebo_plugins) StderrLine: {'line': b'      |                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.753808] (usv_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.753853] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.753894] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.753939] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.753980] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.754022] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.754062] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.754156] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.754208] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.754250] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.754291] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17\x1b[m\x1b[K:\n'}
+[2.754332] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:420:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" defined here\n'}
+[2.754375] (usv_gazebo_plugins) StderrLine: {'line': b'  420 | #define RCLCPP_DEBUG_STREAM_THROTTLE(logger, clock, duration, stream_arg) \\\n'}
+[2.754416] (usv_gazebo_plugins) StderrLine: {'line': b'      | \n'}
+[2.754456] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:311:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" requires 4 arguments, but only 2 given\n'}
+[2.754501] (usv_gazebo_plugins) StderrLine: {'line': b'  311 |       RCLCPP_DEBUG_STREAM_THROTTLE(1.0, "v frame euler " << kEuler\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.754543] (usv_gazebo_plugins) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.754583] (usv_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.754624] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.754665] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.754707] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.754748] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.754790] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.754830] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.754870] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.754911] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.754955] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.754995] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17\x1b[m\x1b[K:\n'}
+[2.755037] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:420:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" defined here\n'}
+[2.755100] (usv_gazebo_plugins) StderrLine: {'line': b'  420 | #define RCLCPP_DEBUG_STREAM_THROTTLE(logger, clock, duration, stream_arg) \\\n'}
+[2.755142] (usv_gazebo_plugins) StderrLine: {'line': b'      | \n'}
+[2.755183] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:313:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" requires 4 arguments, but only 2 given\n'}
+[2.755225] (usv_gazebo_plugins) StderrLine: {'line': b'  313 |           bpntW.y() << "," << bpntW.z()\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.755267] (usv_gazebo_plugins) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.755308] (usv_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.755349] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.755389] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.755431] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.755516] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.755560] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.755601] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.755642] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.755683] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.755724] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.755765] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17\x1b[m\x1b[K:\n'}
+[2.755805] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:420:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM_THROTTLE" defined here\n'}
+[2.755846] (usv_gazebo_plugins) StderrLine: {'line': b'  420 | #define RCLCPP_DEBUG_STREAM_THROTTLE(logger, clock, duration, stream_arg) \\\n'}
+[2.755892] (usv_gazebo_plugins) StderrLine: {'line': b'      | \n'}
+[2.755931] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:318:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM" requires 2 arguments, but only 1 given\n'}
+[2.755972] (usv_gazebo_plugins) StderrLine: {'line': b'  318 |         << bpntW.z() << ", dd: " << kDdz\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.756012] (usv_gazebo_plugins) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.756076] (usv_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.756119] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.756163] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.756202] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.756244] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.756285] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.756325] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.756366] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.756406] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.756449] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.756489] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17\x1b[m\x1b[K:\n'}
+[2.756531] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:294:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM" defined here\n'}
+[2.756573] (usv_gazebo_plugins) StderrLine: {'line': b'  294 | #define RCLCPP_DEBUG_STREAM(logger, stream_arg) \\\n'}
+[2.756613] (usv_gazebo_plugins) StderrLine: {'line': b'      | \n'}
+[2.756653] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:347:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM" requires 2 arguments, but only 1 given\n'}
+[2.756695] (usv_gazebo_plugins) StderrLine: {'line': b'  347 |       RCLCPP_DEBUG_STREAM("buoyForce: " << kBuoyForce\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.756737] (usv_gazebo_plugins) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.756779] (usv_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.756820] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.756861] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.756902] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.756943] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.756984] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.757062] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.757105] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.757166] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.757207] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.757249] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17\x1b[m\x1b[K:\n'}
+[2.757291] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:294:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kmacro "RCLCPP_DEBUG_STREAM" defined here\n'}
+[2.757334] (usv_gazebo_plugins) StderrLine: {'line': b'  294 | #define RCLCPP_DEBUG_STREAM(logger, stream_arg) \\\n'}
+[2.757374] (usv_gazebo_plugins) StderrLine: {'line': b'      | \n'}
+[2.824531] (-) TimerEvent: {}
+[2.925880] (-) TimerEvent: {}
+[3.026498] (-) TimerEvent: {}
+[3.127276] (-) TimerEvent: {}
+[3.228523] (-) TimerEvent: {}
+[3.329859] (-) TimerEvent: {}
+[3.432877] (-) TimerEvent: {}
+[3.534671] (-) TimerEvent: {}
+[3.635546] (-) TimerEvent: {}
+[3.736789] (-) TimerEvent: {}
+[3.837443] (-) TimerEvent: {}
+[3.939024] (-) TimerEvent: {}
+[4.040328] (-) TimerEvent: {}
+[4.142420] (-) TimerEvent: {}
+[4.243160] (-) TimerEvent: {}
+[4.344981] (-) TimerEvent: {}
+[4.446022] (-) TimerEvent: {}
+[4.547298] (-) TimerEvent: {}
+[4.648104] (-) TimerEvent: {}
+[4.749273] (-) TimerEvent: {}
+[4.850347] (-) TimerEvent: {}
+[4.952060] (-) TimerEvent: {}
+[5.053483] (-) TimerEvent: {}
+[5.154570] (-) TimerEvent: {}
+[5.255401] (-) TimerEvent: {}
+[5.356370] (-) TimerEvent: {}
+[5.456771] (-) TimerEvent: {}
+[5.558920] (-) TimerEvent: {}
+[5.659516] (-) TimerEvent: {}
+[5.760043] (-) TimerEvent: {}
+[5.860686] (-) TimerEvent: {}
+[5.962179] (-) TimerEvent: {}
+[6.062694] (-) TimerEvent: {}
+[6.163930] (-) TimerEvent: {}
+[6.265172] (-) TimerEvent: {}
+[6.365758] (-) TimerEvent: {}
+[6.467350] (-) TimerEvent: {}
+[6.569617] (-) TimerEvent: {}
+[6.670389] (-) TimerEvent: {}
+[6.771986] (-) TimerEvent: {}
+[6.873137] (-) TimerEvent: {}
+[6.974047] (-) TimerEvent: {}
+[7.074534] (-) TimerEvent: {}
+[7.174800] (-) TimerEvent: {}
+[7.277189] (-) TimerEvent: {}
+[7.378737] (-) TimerEvent: {}
+[7.479448] (-) TimerEvent: {}
+[7.580357] (-) TimerEvent: {}
+[7.681343] (-) TimerEvent: {}
+[7.783114] (-) TimerEvent: {}
+[7.883506] (-) TimerEvent: {}
+[7.984703] (-) TimerEvent: {}
+[8.085219] (-) TimerEvent: {}
+[8.186192] (-) TimerEvent: {}
+[8.286774] (-) TimerEvent: {}
+[8.388365] (-) TimerEvent: {}
+[8.488792] (-) TimerEvent: {}
+[8.523373] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble gazebo::UsvDynamicsPlugin::SdfParamDouble(sdf::v9::ElementPtr, const string&, double) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.523569] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:45:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO_STREAM\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.523623] (usv_gazebo_plugins) StderrLine: {'line': b'   45 |     \x1b[01;31m\x1b[KRCLCPP_INFO_STREAM\x1b[m\x1b[K("Parameter <" << _paramName << "> not found: "\n'}
+[8.523672] (usv_gazebo_plugins) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.536532] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:51:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRCLCPP_DEBUG_STREAM\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.536744] (usv_gazebo_plugins) StderrLine: {'line': b'   51 |   \x1b[01;31m\x1b[KRCLCPP_DEBUG_STREAM\x1b[m\x1b[K("Parameter found - setting <" << _paramName <<\n'}
+[8.536799] (usv_gazebo_plugins) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.537030] (usv_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[8.537183] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[8.537267] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.537343] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[8.537460] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.537541] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[8.537615] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[8.537689] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.537764] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.537838] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[8.541468] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17\x1b[m\x1b[K:\n'}
+[8.541590] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void gazebo::UsvDynamicsPlugin::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.541674] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:59:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: First argument to logging macros must be an rclcpp::Logger\n'}
+[8.541787] (usv_gazebo_plugins) StderrLine: {'line': b'   59 |   \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K("Loading usv_gazebo_dynamics_plugin");\n'}
+[8.541868] (usv_gazebo_plugins) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.541931] (usv_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[8.541994] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[8.542057] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.542119] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[8.542186] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.542249] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[8.542341] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[8.542405] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.542470] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.542537] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[8.542601] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17\x1b[m\x1b[K:\n'}
+[8.542663] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:59:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kget_name\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K"Loading usv_gazebo_dynamics_plugin"\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst char [35]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.542744] (usv_gazebo_plugins) StderrLine: {'line': b'   59 |   \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K("Loading usv_gazebo_dynamics_plugin");\n'}
+[8.542815] (usv_gazebo_plugins) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.542878] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:59:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kget_name\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K"Loading usv_gazebo_dynamics_plugin"\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst char [35]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.542944] (usv_gazebo_plugins) StderrLine: {'line': b'   59 |   \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K("Loading usv_gazebo_dynamics_plugin");\n'}
+[8.543007] (usv_gazebo_plugins) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.543070] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:59:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kget_c_string()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.543134] (usv_gazebo_plugins) StderrLine: {'line': b'   59 |   \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K("Loading usv_gazebo_dynamics_plugin");\n'}
+[8.543199] (usv_gazebo_plugins) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.543261] (usv_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:36\x1b[m\x1b[K,\n'}
+[8.543328] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[8.543389] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.543452] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[8.543515] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.543577] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[8.543642] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[8.543732] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.543810] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.543875] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[8.543938] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17\x1b[m\x1b[K:\n'}
+[8.544004] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/utilities.hpp:296:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst char* rclcpp::get_c_string(const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.544070] (usv_gazebo_plugins) StderrLine: {'line': b'  296 | \x1b[01;36m\x1b[Kget_c_string\x1b[m\x1b[K(const char * string_in);\n'}
+[8.544131] (usv_gazebo_plugins) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.544194] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/utilities.hpp:296:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[8.544257] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/utilities.hpp:305:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst char* rclcpp::get_c_string(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.544321] (usv_gazebo_plugins) StderrLine: {'line': b'  305 | \x1b[01;36m\x1b[Kget_c_string\x1b[m\x1b[K(const std::string & string_in);\n'}
+[8.544383] (usv_gazebo_plugins) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.544444] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/utilities.hpp:305:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[8.552208] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:69:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO_STREAM\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.552378] (usv_gazebo_plugins) StderrLine: {'line': b'   69 |     \x1b[01;31m\x1b[KRCLCPP_INFO_STREAM\x1b[m\x1b[K("Did not find SDF parameter bodyName");\n'}
+[8.552508] (usv_gazebo_plugins) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.566764] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:76:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRCLCPP_DEBUG_STREAM\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.566959] (usv_gazebo_plugins) StderrLine: {'line': b'   76 |     \x1b[01;31m\x1b[KRCLCPP_DEBUG_STREAM\x1b[m\x1b[K("Found SDF parameter bodyName as <" << linkName<< ">");\n'}
+[8.567014] (usv_gazebo_plugins) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.567203] (usv_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[8.567307] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[8.567389] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.567454] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[8.567523] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.567589] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[8.567687] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[8.567786] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.567844] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.567908] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[8.567965] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17\x1b[m\x1b[K:\n'}
+[8.568022] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:80:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: First argument to logging macros must be an rclcpp::Logger\n'}
+[8.568423] (usv_gazebo_plugins) StderrLine: {'line': b'   80 |     \x1b[01;31m\x1b[KRCLCPP_FATAL\x1b[m\x1b[K("usv_gazebo_dynamics_plugin error: bodyName: %s does not exist\\n",\n'}
+[8.568538] (usv_gazebo_plugins) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.568739] (usv_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[8.568842] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[8.568895] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.568954] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[8.569011] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.569066] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[8.569112] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[8.569165] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.569224] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.569294] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[8.569344] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17\x1b[m\x1b[K:\n'}
+[8.569392] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:80:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kget_name\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K"usv_gazebo_dynamics_plugin error: bodyName: %s does not exist\\012"\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst char [63]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.569458] (usv_gazebo_plugins) StderrLine: {'line': b'   80 |     \x1b[01;31m\x1b[KRCLCPP_FATAL\x1b[m\x1b[K("usv_gazebo_dynamics_plugin error: bodyName: %s does not exist\\n",\n'}
+[8.569515] (usv_gazebo_plugins) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.569564] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:80:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kget_name\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K"usv_gazebo_dynamics_plugin error: bodyName: %s does not exist\\012"\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst char [63]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.569613] (usv_gazebo_plugins) StderrLine: {'line': b'   80 |     \x1b[01;31m\x1b[KRCLCPP_FATAL\x1b[m\x1b[K("usv_gazebo_dynamics_plugin error: bodyName: %s does not exist\\n",\n'}
+[8.569665] (usv_gazebo_plugins) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.582182] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:86:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRCLCPP_DEBUG_STREAM\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.582445] (usv_gazebo_plugins) StderrLine: {'line': b'   86 |     \x1b[01;31m\x1b[KRCLCPP_DEBUG_STREAM\x1b[m\x1b[K("USV Dynamics Model Link Name = " << linkName);\n'}
+[8.582520] (usv_gazebo_plugins) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.589000] (-) TimerEvent: {}
+[8.596864] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:116:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO_STREAM\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.597031] (usv_gazebo_plugins) StderrLine: {'line': b'  116 |     \x1b[01;31m\x1b[KRCLCPP_INFO_STREAM\x1b[m\x1b[K("Parameter <length_n> not found: "\n'}
+[8.597084] (usv_gazebo_plugins) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.597890] (usv_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[8.597980] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[8.598030] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.598078] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[8.598125] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.598172] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[8.598256] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[8.598316] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.598385] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.598541] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[8.598667] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17\x1b[m\x1b[K:\n'}
+[8.598997] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:145:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: First argument to logging macros must be an rclcpp::Logger\n'}
+[8.599084] (usv_gazebo_plugins) StderrLine: {'line': b'  145 |   \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K("USV Dynamics Parameters: From URDF XACRO model definition");\n'}
+[8.599134] (usv_gazebo_plugins) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.599182] (usv_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[8.599230] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[8.599280] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.599502] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[8.599571] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.599619] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[8.599668] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[8.599715] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.599762] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.599809] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[8.599857] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17\x1b[m\x1b[K:\n'}
+[8.599909] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:145:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kget_name\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K"USV Dynamics Parameters: From URDF XACRO model definition"\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst char [58]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.599962] (usv_gazebo_plugins) StderrLine: {'line': b'  145 |   \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K("USV Dynamics Parameters: From URDF XACRO model definition");\n'}
+[8.600040] (usv_gazebo_plugins) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.600091] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:145:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kget_name\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K"USV Dynamics Parameters: From URDF XACRO model definition"\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst char [58]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.600141] (usv_gazebo_plugins) StderrLine: {'line': b'  145 |   \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K("USV Dynamics Parameters: From URDF XACRO model definition");\n'}
+[8.600188] (usv_gazebo_plugins) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.600236] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:145:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kget_c_string()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.600286] (usv_gazebo_plugins) StderrLine: {'line': b'  145 |   \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K("USV Dynamics Parameters: From URDF XACRO model definition");\n'}
+[8.600336] (usv_gazebo_plugins) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.600384] (usv_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:36\x1b[m\x1b[K,\n'}
+[8.600432] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[8.600482] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.600529] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[8.600579] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.600628] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[8.600675] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[8.600723] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.600773] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.600820] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[8.600867] (usv_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:17\x1b[m\x1b[K:\n'}
+[8.600916] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/utilities.hpp:296:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst char* rclcpp::get_c_string(const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.600980] (usv_gazebo_plugins) StderrLine: {'line': b'  296 | \x1b[01;36m\x1b[Kget_c_string\x1b[m\x1b[K(const char * string_in);\n'}
+[8.601046] (usv_gazebo_plugins) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.601108] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/utilities.hpp:296:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[8.601162] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/utilities.hpp:305:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst char* rclcpp::get_c_string(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.601210] (usv_gazebo_plugins) StderrLine: {'line': b'  305 | \x1b[01;36m\x1b[Kget_c_string\x1b[m\x1b[K(const std::string & string_in);\n'}
+[8.601257] (usv_gazebo_plugins) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.601305] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/utilities.hpp:305:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[8.612400] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:146:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRCLCPP_DEBUG_STREAM\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.612554] (usv_gazebo_plugins) StderrLine: {'line': b'  146 |   \x1b[01;31m\x1b[KRCLCPP_DEBUG_STREAM\x1b[m\x1b[K("Vessel Mass (rigid-body): " << kMass);\n'}
+[8.612604] (usv_gazebo_plugins) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.623160] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:137:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KkMass\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[8.623380] (usv_gazebo_plugins) StderrLine: {'line': b'  137 |     const double \x1b[01;35m\x1b[KkMass\x1b[m\x1b[K = this->link->GetInertial()->Mass();\n'}
+[8.623438] (usv_gazebo_plugins) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[8.642363] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void gazebo::UsvDynamicsPlugin::Update()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.642940] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:213:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRCLCPP_DEBUG_STREAM_THROTTLE\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.643281] (usv_gazebo_plugins) StderrLine: {'line': b'  213 |   \x1b[01;31m\x1b[KRCLCPP_DEBUG_STREAM_THROTTLE\x1b[m\x1b[K(0.5, "Vel linear: " << kVelLinearBody);\n'}
+[8.643454] (usv_gazebo_plugins) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.689497] (-) TimerEvent: {}
+[8.700410] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:317:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRCLCPP_DEBUG_STREAM\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.700620] (usv_gazebo_plugins) StderrLine: {'line': b'  317 |       \x1b[01;31m\x1b[KRCLCPP_DEBUG_STREAM\x1b[m\x1b[K("Z, pose: " << kPose.Pos().Z() << ", bpnt: "\n'}
+[8.700683] (usv_gazebo_plugins) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.701720] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:\x1b[m\x1b[K At global scope:\n'}
+[8.701824] (usv_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:359:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[8.701879] (usv_gazebo_plugins) StderrLine: {'line': b'  359 | GZ_REGISTER_MODEL_PLUGIN(UsvDynamicsPlugin)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[8.701928] (usv_gazebo_plugins) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[8.789586] (-) TimerEvent: {}
+[8.890794] (-) TimerEvent: {}
+[8.991405] (-) TimerEvent: {}
+[9.092342] (-) TimerEvent: {}
+[9.193073] (-) TimerEvent: {}
+[9.293886] (-) TimerEvent: {}
+[9.395142] (-) TimerEvent: {}
+[9.496516] (-) TimerEvent: {}
+[9.597979] (-) TimerEvent: {}
+[9.698340] (-) TimerEvent: {}
+[9.798935] (-) TimerEvent: {}
+[9.899695] (-) TimerEvent: {}
+[10.000147] (-) TimerEvent: {}
+[10.101392] (-) TimerEvent: {}
+[10.203020] (-) TimerEvent: {}
+[10.303858] (-) TimerEvent: {}
+[10.404619] (-) TimerEvent: {}
+[10.505434] (-) TimerEvent: {}
+[10.529959] (usv_gazebo_plugins) StderrLine: {'line': b'make[2]: *** [CMakeFiles/usv_gazebo_dynamics_plugin.dir/build.make:63: CMakeFiles/usv_gazebo_dynamics_plugin.dir/src/usv_gazebo_dynamics_plugin.cc.o] Error 1\n'}
+[10.530363] (usv_gazebo_plugins) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/usv_gazebo_dynamics_plugin.dir/all] Error 2\n'}
+[10.530463] (usv_gazebo_plugins) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[10.531971] (usv_gazebo_plugins) CommandEnded: {'returncode': 2}
+[10.577024] (usv_gazebo_plugins) JobEnded: {'identifier': 'usv_gazebo_plugins', 'rc': 2}
+[10.588200] (-) EventReactorShutdown: {}

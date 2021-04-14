@@ -1,0 +1,46 @@
+[0.012s] Invoking command in '/home/ruize/dev_ws/build/wamv_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ruize/dev_ws/src/wamv_gazebo -DCMAKE_INSTALL_PREFIX=/home/ruize/dev_ws/install/wamv_gazebo
+[0.061s] -- The C compiler identification is GNU 9.3.0
+[0.101s] -- The CXX compiler identification is GNU 9.3.0
+[0.105s] -- Check for working C compiler: /usr/bin/cc
+[0.168s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.169s] -- Detecting C compiler ABI info
+[0.227s] -- Detecting C compiler ABI info - done
+[0.237s] -- Detecting C compile features
+[0.243s] -- Detecting C compile features - done
+[0.244s] -- Check for working CXX compiler: /usr/bin/c++
+[0.307s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.308s] -- Detecting CXX compiler ABI info
+[0.393s] -- Detecting CXX compiler ABI info - done
+[0.403s] -- Detecting CXX compile features
+[0.404s] -- Detecting CXX compile features - done
+[0.406s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.427s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.427s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.598s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.663s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.664s] -- Added test 'lint_cmake' to check CMake code style
+[0.665s] -- Added test 'xmllint' to check XML markup files
+[0.667s] -- Configuring done
+[0.669s] -- Generating done
+[0.670s] -- Build files have been written to: /home/ruize/dev_ws/build/wamv_gazebo
+[0.673s] Invoked command in '/home/ruize/dev_ws/build/wamv_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ruize/dev_ws/src/wamv_gazebo -DCMAKE_INSTALL_PREFIX=/home/ruize/dev_ws/install/wamv_gazebo
+[0.676s] Invoking command in '/home/ruize/dev_ws/build/wamv_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/wamv_gazebo -- -j4 -l4
+[0.714s] Invoked command in '/home/ruize/dev_ws/build/wamv_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/wamv_gazebo -- -j4 -l4
+[0.744s] Invoking command in '/home/ruize/dev_ws/build/wamv_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ruize/dev_ws/build/wamv_gazebo
+[0.752s] -- Install configuration: ""
+[0.752s] -- Installing: /home/ruize/dev_ws/install/wamv_gazebo/share/ament_index/resource_index/package_run_dependencies/wamv_gazebo
+[0.753s] -- Installing: /home/ruize/dev_ws/install/wamv_gazebo/share/ament_index/resource_index/parent_prefix_path/wamv_gazebo
+[0.753s] -- Installing: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/environment/ament_prefix_path.sh
+[0.753s] -- Installing: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/environment/ament_prefix_path.dsv
+[0.753s] -- Installing: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/environment/path.sh
+[0.753s] -- Installing: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/environment/path.dsv
+[0.753s] -- Installing: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/local_setup.bash
+[0.753s] -- Installing: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/local_setup.sh
+[0.753s] -- Installing: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/local_setup.zsh
+[0.753s] -- Installing: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/local_setup.dsv
+[0.753s] -- Installing: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/package.dsv
+[0.753s] -- Installing: /home/ruize/dev_ws/install/wamv_gazebo/share/ament_index/resource_index/packages/wamv_gazebo
+[0.753s] -- Installing: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/cmake/wamv_gazeboConfig.cmake
+[0.754s] -- Installing: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/cmake/wamv_gazeboConfig-version.cmake
+[0.754s] -- Installing: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/package.xml
+[0.756s] Invoked command in '/home/ruize/dev_ws/build/wamv_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ruize/dev_ws/build/wamv_gazebo

@@ -1,0 +1,46 @@
+[0.011s] Invoking command in '/home/ruize/dev_ws/build/vrx_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ruize/dev_ws/src/vrx_gazebo -DCMAKE_INSTALL_PREFIX=/home/ruize/dev_ws/install/vrx_gazebo
+[0.054s] -- The C compiler identification is GNU 9.3.0
+[0.089s] -- The CXX compiler identification is GNU 9.3.0
+[0.093s] -- Check for working C compiler: /usr/bin/cc
+[0.157s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.157s] -- Detecting C compiler ABI info
+[0.216s] -- Detecting C compiler ABI info - done
+[0.224s] -- Detecting C compile features
+[0.225s] -- Detecting C compile features - done
+[0.228s] -- Check for working CXX compiler: /usr/bin/c++
+[0.293s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.294s] -- Detecting CXX compiler ABI info
+[0.360s] -- Detecting CXX compiler ABI info - done
+[0.369s] -- Detecting CXX compile features
+[0.370s] -- Detecting CXX compile features - done
+[0.372s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.388s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.389s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.533s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.588s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.590s] -- Added test 'lint_cmake' to check CMake code style
+[0.591s] -- Added test 'xmllint' to check XML markup files
+[0.593s] -- Configuring done
+[0.595s] -- Generating done
+[0.595s] -- Build files have been written to: /home/ruize/dev_ws/build/vrx_gazebo
+[0.601s] Invoked command in '/home/ruize/dev_ws/build/vrx_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ruize/dev_ws/src/vrx_gazebo -DCMAKE_INSTALL_PREFIX=/home/ruize/dev_ws/install/vrx_gazebo
+[0.601s] Invoking command in '/home/ruize/dev_ws/build/vrx_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/vrx_gazebo -- -j4 -l4
+[0.640s] Invoked command in '/home/ruize/dev_ws/build/vrx_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/vrx_gazebo -- -j4 -l4
+[0.662s] Invoking command in '/home/ruize/dev_ws/build/vrx_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ruize/dev_ws/build/vrx_gazebo
+[0.677s] -- Install configuration: ""
+[0.677s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/ament_index/resource_index/package_run_dependencies/vrx_gazebo
+[0.679s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/ament_index/resource_index/parent_prefix_path/vrx_gazebo
+[0.679s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/environment/ament_prefix_path.sh
+[0.681s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/environment/ament_prefix_path.dsv
+[0.681s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/environment/path.sh
+[0.681s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/environment/path.dsv
+[0.681s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/local_setup.bash
+[0.681s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/local_setup.sh
+[0.681s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/local_setup.zsh
+[0.681s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/local_setup.dsv
+[0.681s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/package.dsv
+[0.681s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/ament_index/resource_index/packages/vrx_gazebo
+[0.682s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/cmake/vrx_gazeboConfig.cmake
+[0.682s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/cmake/vrx_gazeboConfig-version.cmake
+[0.682s] -- Installing: /home/ruize/dev_ws/install/vrx_gazebo/share/vrx_gazebo/package.xml
+[0.682s] Invoked command in '/home/ruize/dev_ws/build/vrx_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ruize/dev_ws/build/vrx_gazebo

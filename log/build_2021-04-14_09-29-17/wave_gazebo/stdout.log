@@ -1,0 +1,63 @@
+-- Found xacro: 2.0.4 (/opt/ros/foxy/share/xacro/cmake)
+-- xacro: determining deps for: worlds/ocean.world.xacro ...
+-- xacro: determining deps for: worlds/ocean_buoys.world.xacro ...
+-- xacro: determining deps for: worlds/ocean_wamv.world.xacro ...
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ruize/dev_ws/build/wave_gazebo
+[35m[1mScanning dependencies of target wave_gazebo__xacro_auto_generate[0m
+[ 50%] [34m[1mxacro: generating worlds/ocean_buoys.world from worlds/ocean_buoys.world.xacro[0m
+[ 50%] [34m[1mxacro: generating worlds/ocean.world from worlds/ocean.world.xacro[0m
+[ 75%] [34m[1mxacro: generating worlds/ocean_wamv.world from worlds/ocean_wamv.world.xacro[0m
+[100%] Built target model_erb_generation
+[100%] Built target wave_gazebo__xacro_auto_generate
+-- Install configuration: ""
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/meshes
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/meshes/mesh.dae
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/meshes/mesh_below.dae
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/meshes/mesh.blend
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/model.xacro.erb
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/model.xacro
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/model.config
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/programs
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/programs/GerstnerWaves.frag
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/programs/GerstnerWaves.vert
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/scripts
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/scripts/waves.material
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_rt.jpg
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_dn.jpg
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_bk.jpg
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_up.jpg
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_fr.jpg
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds.jpg
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/wave_normals.dds
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_lf.jpg
+-- Installing: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/worlds/ocean.world
+-- Installing: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/worlds/ocean_buoys.world
+-- Installing: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/worlds/ocean_wamv.world
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/ament_index/resource_index/package_run_dependencies/wave_gazebo
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/ament_index/resource_index/parent_prefix_path/wave_gazebo
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/environment/ament_prefix_path.sh
+-- Installing: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/environment/path.sh
+-- Installing: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/environment/path.dsv
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/local_setup.bash
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/local_setup.sh
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/local_setup.zsh
+-- Installing: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/local_setup.dsv
+-- Installing: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/package.dsv
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/ament_index/resource_index/packages/wave_gazebo
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/cmake/wave_gazeboConfig.cmake
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/cmake/wave_gazeboConfig-version.cmake
+-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/package.xml

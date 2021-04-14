@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+41c4cecdb6d26b3906eeee7104d921b2 CMakeFiles/wamv_gazebo__xacro_auto_generate
+034fc7ae65ec9b3de6a0ddd88008d279 CMakeFiles/wamv_gazebo_uninstall
+60cb73ad4f79651a84738ce8ffd74ccd urdf/wamv_gazebo.urdf

@@ -1,0 +1,38 @@
+[0.027s] Invoking command in '/home/ruize/dev_ws/build/usv_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/usv_gazebo_plugins -- -j4 -l4
+[0.082s] [35m[1mScanning dependencies of target buoyancy_gazebo_plugin[0m
+[0.088s] [ 20%] Built target usv_gazebo_plugins__xacro_auto_generate
+[0.147s] [ 40%] [32mBuilding CXX object CMakeFiles/buoyancy_gazebo_plugin.dir/src/buoyancy_gazebo_plugin.cc.o[0m
+[9.837s] [ 60%] [32m[1mLinking CXX static library libbuoyancy_gazebo_plugin.a[0m
+[9.953s] [100%] Built target buoyancy_gazebo_plugin
+[9.971s] Invoked command in '/home/ruize/dev_ws/build/usv_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/usv_gazebo_plugins -- -j4 -l4
+[10.024s] Invoking command in '/home/ruize/dev_ws/build/usv_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ruize/dev_ws/build/usv_gazebo_plugins
+[10.036s] -- Install configuration: ""
+[10.036s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/lib/libbuoyancy_gazebo_plugin.a
+[10.046s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world
+[10.046s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/worlds
+[10.046s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world.xacro
+[10.047s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins
+[10.047s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/buoyancy_gazebo_plugin.hh
+[10.047s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/WavefieldEntity.hh
+[10.047s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/WavefieldModelPlugin.hh
+[10.047s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/Wavefield.hh
+[10.047s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/shape_volume.hh
+[10.047s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/polyhedron_volume.hh
+[10.048s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/usv_gazebo_plugins
+[10.048s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/usv_gazebo_plugins
+[10.048s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/environment/ament_prefix_path.sh
+[10.048s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/environment/ament_prefix_path.dsv
+[10.048s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/environment/path.sh
+[10.048s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/environment/path.dsv
+[10.048s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/local_setup.bash
+[10.048s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/local_setup.sh
+[10.049s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/local_setup.zsh
+[10.049s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/local_setup.dsv
+[10.049s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/package.dsv
+[10.049s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/ament_index/resource_index/packages/usv_gazebo_plugins
+[10.049s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.049s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.049s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/cmake/usv_gazebo_pluginsConfig.cmake
+[10.049s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/cmake/usv_gazebo_pluginsConfig-version.cmake
+[10.049s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/package.xml
+[10.051s] Invoked command in '/home/ruize/dev_ws/build/usv_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ruize/dev_ws/build/usv_gazebo_plugins

@@ -1,0 +1,240 @@
+[0.000000] (-) TimerEvent: {}
+[0.000869] (usv_msgs) JobQueued: {'identifier': 'usv_msgs', 'dependencies': OrderedDict()}
+[0.000932] (usv_msgs) JobStarted: {'identifier': 'usv_msgs'}
+[0.011170] (usv_msgs) JobProgress: {'identifier': 'usv_msgs', 'progress': 'cmake'}
+[0.012228] (usv_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ruize/dev_ws/src/usv_msgs', '-DCMAKE_INSTALL_PREFIX=/home/ruize/dev_ws/install/usv_msgs'], 'cwd': '/home/ruize/dev_ws/build/usv_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SDKMAN_VERSION', '5.11.0+644'), ('LANGUAGE', 'en_CA:en'), ('USER', 'ruize'), ('SSH_AGENT_PID', '1737'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ruize/px4_ros_com_ros2/install/px4_ros_com/lib:/home/ruize/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ruize'), ('OLDPWD', '/home/ruize/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GRADLE_HOME', '/home/ruize/.sdkman/candidates/gradle/current'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1513'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3247'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ruize/px4_ros_com_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ruize'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('JOURNAL_STREAM', '8:36603'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ruize'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ruize/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/foxy/bin:/home/ruize/.sdkman/candidates/gradle/current/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ruize/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ruize-VirtualBox:@/tmp/.ICE-unix/1814,unix/ruize-VirtualBox:/tmp/.ICE-unix/1814'), ('SDKMAN_CANDIDATES_DIR', '/home/ruize/.sdkman/candidates'), ('INVOCATION_ID', '76cc08ac53ce4a818519e1842b465061'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SDKMAN_DIR', '/home/ruize/.sdkman'), ('SDKMAN_PLATFORM', 'LinuxX64'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:03d33834-0c65-439b-b560-9e05abfaa773'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ruize/dev_ws/build/usv_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ruize/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy')]), 'shell': False}
+[0.025461] (usv_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.025862] (usv_msgs) StdoutLine: {'line': b'-- Found ament_cmake_core: 0.9.8 (/opt/ros/foxy/share/ament_cmake_core/cmake)\n'}
+[0.042689] (usv_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.101234] (-) TimerEvent: {}
+[0.202535] (-) TimerEvent: {}
+[0.213115] (usv_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.222655] (usv_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.303292] (-) TimerEvent: {}
+[0.353377] (usv_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.370388] (usv_msgs) StdoutLine: {'line': b'-- Found std_msgs: 2.0.3 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[0.403922] (-) TimerEvent: {}
+[0.409181] (usv_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") \n'}
+[0.504230] (-) TimerEvent: {}
+[0.572100] (usv_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.604315] (-) TimerEvent: {}
+[0.704616] (-) TimerEvent: {}
+[0.754257] (usv_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.802743] (usv_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.804890] (-) TimerEvent: {}
+[0.823619] (usv_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") \n'}
+[0.827720] (usv_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.0 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[0.852957] (usv_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.5", minimum required is "3.5") \n'}
+[0.856109] (usv_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.858296] (usv_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[0.860609] (usv_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[0.875265] (usv_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[0.905816] (-) TimerEvent: {}
+[0.929806] (usv_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.954420] (usv_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.956172] (usv_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.957034] (usv_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.961484] (usv_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.005920] (-) TimerEvent: {}
+[1.014622] (usv_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.017109] (usv_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/ruize/dev_ws/build/usv_msgs\n'}
+[1.022292] (usv_msgs) CommandEnded: {'returncode': 0}
+[1.024607] (usv_msgs) JobProgress: {'identifier': 'usv_msgs', 'progress': 'build'}
+[1.024701] (usv_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ruize/dev_ws/build/usv_msgs', '--', '-j4', '-l4'], 'cwd': '/home/ruize/dev_ws/build/usv_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SDKMAN_VERSION', '5.11.0+644'), ('LANGUAGE', 'en_CA:en'), ('USER', 'ruize'), ('SSH_AGENT_PID', '1737'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ruize/px4_ros_com_ros2/install/px4_ros_com/lib:/home/ruize/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ruize'), ('OLDPWD', '/home/ruize/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GRADLE_HOME', '/home/ruize/.sdkman/candidates/gradle/current'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1513'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3247'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ruize/px4_ros_com_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ruize'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('JOURNAL_STREAM', '8:36603'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ruize'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ruize/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/foxy/bin:/home/ruize/.sdkman/candidates/gradle/current/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ruize/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ruize-VirtualBox:@/tmp/.ICE-unix/1814,unix/ruize-VirtualBox:/tmp/.ICE-unix/1814'), ('SDKMAN_CANDIDATES_DIR', '/home/ruize/.sdkman/candidates'), ('INVOCATION_ID', '76cc08ac53ce4a818519e1842b465061'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SDKMAN_DIR', '/home/ruize/.sdkman'), ('SDKMAN_PLATFORM', 'LinuxX64'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:03d33834-0c65-439b-b560-9e05abfaa773'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ruize/dev_ws/build/usv_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ruize/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy')]), 'shell': False}
+[1.065412] (usv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usv_msgs__cpp\x1b[0m\n'}
+[1.067249] (usv_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.079794] (usv_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.106401] (-) TimerEvent: {}
+[1.206683] (-) TimerEvent: {}
+[1.285861] (usv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usv_msgs__rosidl_generator_c\x1b[0m\n'}
+[1.304633] (usv_msgs) StdoutLine: {'line': b'[  6%] Built target usv_msgs__cpp\n'}
+[1.306891] (-) TimerEvent: {}
+[1.312815] (usv_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.313034] (usv_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.313364] (usv_msgs) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.316501] (usv_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/usv_msgs__rosidl_generator_c.dir/rosidl_generator_c/usv_msgs/msg/detail/range_bearing__functions.c.o\x1b[0m\n'}
+[1.366238] (usv_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libusv_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[1.407767] (-) TimerEvent: {}
+[1.435822] (usv_msgs) StdoutLine: {'line': b'[ 22%] Built target usv_msgs__rosidl_generator_c\n'}
+[1.455944] (usv_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.508121] (-) TimerEvent: {}
+[1.525216] (usv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usv_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.541232] (usv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usv_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.543227] (usv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usv_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.556715] (usv_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/usv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/usv_msgs/msg/detail/range_bearing__type_support.cpp.o\x1b[0m\n'}
+[1.558412] (usv_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/usv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/usv_msgs/msg/range_bearing__type_support.cpp.o\x1b[0m\n'}
+[1.569921] (usv_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/usv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/usv_msgs/msg/detail/dds_fastrtps/range_bearing__type_support.cpp.o\x1b[0m\n'}
+[1.608549] (-) TimerEvent: {}
+[1.709054] (-) TimerEvent: {}
+[1.751538] (usv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usv_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.786038] (usv_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/usv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/usv_msgs/msg/detail/range_bearing__type_support.c.o\x1b[0m\n'}
+[1.809241] (-) TimerEvent: {}
+[1.816081] (usv_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libusv_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.823300] (usv_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking C shared library libusv_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.845024] (usv_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libusv_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.856514] (usv_msgs) StdoutLine: {'line': b'[ 48%] Built target usv_msgs__rosidl_typesupport_cpp\n'}
+[1.868627] (usv_msgs) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.876354] (usv_msgs) StdoutLine: {'line': b'[ 51%] Built target usv_msgs__rosidl_typesupport_introspection_c\n'}
+[1.909710] (-) TimerEvent: {}
+[1.922335] (usv_msgs) StdoutLine: {'line': b'[ 51%] Built target usv_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.951472] (usv_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libusv_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.010174] (-) TimerEvent: {}
+[2.035601] (usv_msgs) StdoutLine: {'line': b'[ 54%] Built target usv_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.038721] (usv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usv_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[2.045916] (usv_msgs) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.051543] (usv_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/usv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/usv_msgs/msg/range_bearing__type_support.cpp.o\x1b[0m\n'}
+[2.076416] (usv_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libusv_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.110615] (-) TimerEvent: {}
+[2.122626] (usv_msgs) StdoutLine: {'line': b'[ 64%] Built target usv_msgs__rosidl_typesupport_c\n'}
+[2.210858] (-) TimerEvent: {}
+[2.220179] (usv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usv_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.235302] (usv_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/usv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/usv_msgs/msg/detail/range_bearing__type_support_c.cpp.o\x1b[0m\n'}
+[2.311964] (-) TimerEvent: {}
+[2.413166] (-) TimerEvent: {}
+[2.483500] (usv_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libusv_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.514182] (-) TimerEvent: {}
+[2.553751] (usv_msgs) StdoutLine: {'line': b'[ 70%] Built target usv_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.562784] (usv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usv_msgs\x1b[0m\n'}
+[2.571891] (usv_msgs) StdoutLine: {'line': b'[ 70%] Built target usv_msgs\n'}
+[2.580375] (usv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usv_msgs__py\x1b[0m\n'}
+[2.590188] (usv_msgs) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.614795] (-) TimerEvent: {}
+[2.716001] (-) TimerEvent: {}
+[2.819446] (-) TimerEvent: {}
+[2.919875] (-) TimerEvent: {}
+[3.018722] (usv_msgs) StdoutLine: {'line': b'[ 74%] Built target usv_msgs__py\n'}
+[3.020052] (-) TimerEvent: {}
+[3.026416] (usv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usv_msgs__python\x1b[0m\n'}
+[3.082346] (usv_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/usv_msgs__python.dir/rosidl_generator_py/usv_msgs/msg/_range_bearing_s.c.o\x1b[0m\n'}
+[3.120736] (-) TimerEvent: {}
+[3.161520] (usv_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/usv_msgs/libusv_msgs__python.so\x1b[0m\n'}
+[3.197010] (usv_msgs) StdoutLine: {'line': b'[ 80%] Built target usv_msgs__python\n'}
+[3.205697] (usv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usv_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.205957] (usv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usv_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.206090] (usv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usv_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.221210] (-) TimerEvent: {}
+[3.231571] (usv_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/usv_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/usv_msgs/_usv_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.231816] (usv_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/usv_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/usv_msgs/_usv_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.231881] (usv_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/usv_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/usv_msgs/_usv_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.291737] (usv_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/usv_msgs/usv_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.292019] (usv_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/usv_msgs/usv_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.293232] (usv_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/usv_msgs/usv_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.321464] (-) TimerEvent: {}
+[3.333022] (usv_msgs) StdoutLine: {'line': b'[100%] Built target usv_msgs__rosidl_typesupport_c__pyext\n'}
+[3.337080] (usv_msgs) StdoutLine: {'line': b'[100%] Built target usv_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[3.357955] (usv_msgs) StdoutLine: {'line': b'[100%] Built target usv_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.372903] (usv_msgs) CommandEnded: {'returncode': 0}
+[3.416778] (usv_msgs) JobProgress: {'identifier': 'usv_msgs', 'progress': 'install'}
+[3.421946] (-) TimerEvent: {}
+[3.426599] (usv_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ruize/dev_ws/build/usv_msgs'], 'cwd': '/home/ruize/dev_ws/build/usv_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SDKMAN_VERSION', '5.11.0+644'), ('LANGUAGE', 'en_CA:en'), ('USER', 'ruize'), ('SSH_AGENT_PID', '1737'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ruize/px4_ros_com_ros2/install/px4_ros_com/lib:/home/ruize/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ruize'), ('OLDPWD', '/home/ruize/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GRADLE_HOME', '/home/ruize/.sdkman/candidates/gradle/current'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1513'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3247'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ruize/px4_ros_com_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ruize'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('JOURNAL_STREAM', '8:36603'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ruize'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ruize/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/foxy/bin:/home/ruize/.sdkman/candidates/gradle/current/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ruize/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ruize-VirtualBox:@/tmp/.ICE-unix/1814,unix/ruize-VirtualBox:/tmp/.ICE-unix/1814'), ('SDKMAN_CANDIDATES_DIR', '/home/ruize/.sdkman/candidates'), ('INVOCATION_ID', '76cc08ac53ce4a818519e1842b465061'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SDKMAN_DIR', '/home/ruize/.sdkman'), ('SDKMAN_PLATFORM', 'LinuxX64'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:03d33834-0c65-439b-b560-9e05abfaa773'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ruize/dev_ws/build/usv_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ruize/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy')]), 'shell': False}
+[3.435138] (usv_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.435780] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/ament_index/resource_index/rosidl_interfaces/usv_msgs\n'}
+[3.435872] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs\n'}
+[3.435917] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg\n'}
+[3.435960] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg/detail\n'}
+[3.436004] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg/detail/range_bearing__functions.h\n'}
+[3.436048] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg/detail/range_bearing__struct.h\n'}
+[3.436091] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg/detail/range_bearing__type_support.h\n'}
+[3.436135] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg/detail/range_bearing__functions.c\n'}
+[3.436643] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg/range_bearing.h\n'}
+[3.436700] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.436750] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/environment/library_path.sh\n'}
+[3.436795] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/environment/library_path.dsv\n'}
+[3.436857] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/lib/libusv_msgs__rosidl_generator_c.so\n'}
+[3.436902] (usv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ruize/dev_ws/install/usv_msgs/lib/libusv_msgs__rosidl_generator_c.so" to ""\n'}
+[3.436944] (usv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs\n'}
+[3.436987] (usv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg\n'}
+[3.437029] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.437073] (usv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg/detail\n'}
+[3.437114] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg/detail/range_bearing__rosidl_typesupport_fastrtps_c.h\n'}
+[3.437182] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/lib/libusv_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[3.437248] (usv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ruize/dev_ws/install/usv_msgs/lib/libusv_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.437291] (usv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs\n'}
+[3.437333] (usv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg\n'}
+[3.437397] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.437443] (usv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg/detail\n'}
+[3.437501] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg/detail/range_bearing__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.437548] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg/detail/dds_fastrtps\n'}
+[3.437619] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/lib/libusv_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.437728] (usv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ruize/dev_ws/install/usv_msgs/lib/libusv_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.437817] (usv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs\n'}
+[3.437879] (usv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg\n'}
+[3.437923] (usv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg/detail\n'}
+[3.437969] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg/detail/range_bearing__type_support.c\n'}
+[3.438029] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg/detail/range_bearing__rosidl_typesupport_introspection_c.h\n'}
+[3.438075] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.438117] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/lib/libusv_msgs__rosidl_typesupport_introspection_c.so\n'}
+[3.438265] (usv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ruize/dev_ws/install/usv_msgs/lib/libusv_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.438346] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/lib/libusv_msgs__rosidl_typesupport_c.so\n'}
+[3.438515] (usv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ruize/dev_ws/install/usv_msgs/lib/libusv_msgs__rosidl_typesupport_c.so" to ""\n'}
+[3.438621] (usv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs\n'}
+[3.438702] (usv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg\n'}
+[3.438748] (usv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg/detail\n'}
+[3.438790] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg/detail/range_bearing__struct.hpp\n'}
+[3.438870] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg/detail/range_bearing__builder.hpp\n'}
+[3.438940] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg/detail/range_bearing__traits.hpp\n'}
+[3.439015] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg/range_bearing.hpp\n'}
+[3.439071] (usv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs\n'}
+[3.439132] (usv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg\n'}
+[3.439174] (usv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg/detail\n'}
+[3.439334] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg/detail/range_bearing__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.439396] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/include/usv_msgs/msg/detail/range_bearing__type_support.cpp\n'}
+[3.439460] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/lib/libusv_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[3.439552] (usv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ruize/dev_ws/install/usv_msgs/lib/libusv_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.439597] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/lib/libusv_msgs__rosidl_typesupport_cpp.so\n'}
+[3.439723] (usv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ruize/dev_ws/install/usv_msgs/lib/libusv_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[3.439798] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/environment/pythonpath.sh\n'}
+[3.439874] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/environment/pythonpath.dsv\n'}
+[3.439947] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/lib/python3.8/site-packages/usv_msgs/__init__.py\n'}
+[3.467534] (usv_msgs) StdoutLine: {'line': b"Compiling '/home/ruize/dev_ws/install/usv_msgs/lib/python3.8/site-packages/usv_msgs/__init__.py'...\n"}
+[3.470936] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/lib/python3.8/site-packages/usv_msgs/msg\n'}
+[3.471135] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/lib/python3.8/site-packages/usv_msgs/msg/_range_bearing.py\n'}
+[3.471188] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/lib/python3.8/site-packages/usv_msgs/msg/__init__.py\n'}
+[3.471232] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/lib/python3.8/site-packages/usv_msgs/msg/_range_bearing_s.c\n'}
+[3.471343] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/lib/python3.8/site-packages/usv_msgs/usv_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.471815] (usv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ruize/dev_ws/install/usv_msgs/lib/python3.8/site-packages/usv_msgs/usv_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[3.472056] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/lib/python3.8/site-packages/usv_msgs/usv_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.472562] (usv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ruize/dev_ws/install/usv_msgs/lib/python3.8/site-packages/usv_msgs/usv_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[3.472665] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/lib/python3.8/site-packages/usv_msgs/usv_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.472978] (usv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ruize/dev_ws/install/usv_msgs/lib/python3.8/site-packages/usv_msgs/usv_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[3.473092] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/lib/libusv_msgs__python.so\n'}
+[3.473385] (usv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ruize/dev_ws/install/usv_msgs/lib/libusv_msgs__python.so" to ""\n'}
+[3.473480] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/msg/RangeBearing.idl\n'}
+[3.473571] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/msg/RangeBearing.msg\n'}
+[3.473693] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/ament_index/resource_index/package_run_dependencies/usv_msgs\n'}
+[3.473803] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/ament_index/resource_index/parent_prefix_path/usv_msgs\n'}
+[3.473904] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/environment/ament_prefix_path.sh\n'}
+[3.474014] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/environment/ament_prefix_path.dsv\n'}
+[3.474100] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/environment/path.sh\n'}
+[3.474182] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/environment/path.dsv\n'}
+[3.474268] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/local_setup.bash\n'}
+[3.474345] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/local_setup.sh\n'}
+[3.474422] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/local_setup.zsh\n'}
+[3.474498] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/local_setup.dsv\n'}
+[3.474574] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/package.dsv\n'}
+[3.474789] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/ament_index/resource_index/packages/usv_msgs\n'}
+[3.474918] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/cmake/usv_msgs__rosidl_generator_cExport.cmake\n'}
+[3.475004] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/cmake/usv_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.475076] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/cmake/usv_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.475145] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/cmake/usv_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.475397] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/cmake/usv_msgs__rosidl_typesupport_cExport.cmake\n'}
+[3.475509] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/cmake/usv_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.475607] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/cmake/usv_msgs__rosidl_generator_cppExport.cmake\n'}
+[3.475820] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/cmake/usv_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.476091] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/cmake/usv_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.476228] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/cmake/usv_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[3.476385] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/cmake/usv_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.476541] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[3.476623] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.476905] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.477043] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.477123] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.477173] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.477252] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.477341] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/cmake/usv_msgsConfig.cmake\n'}
+[3.477405] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/cmake/usv_msgsConfig-version.cmake\n'}
+[3.477447] (usv_msgs) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/package.xml\n'}
+[3.480387] (usv_msgs) CommandEnded: {'returncode': 0}
+[3.522256] (-) TimerEvent: {}
+[3.557886] (usv_msgs) JobEnded: {'identifier': 'usv_msgs', 'rc': 0}
+[3.558307] (-) EventReactorShutdown: {}

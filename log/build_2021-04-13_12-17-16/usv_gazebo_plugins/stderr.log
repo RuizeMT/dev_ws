@@ -1,0 +1,6 @@
+CMake Error at CMakeLists.txt:99 (add_dependencies):
+  The dependency target "usv_msgs_generate_messages_cpp" of target
+  "usv_gazebo_acoustic_pinger_plugin" does not exist.
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

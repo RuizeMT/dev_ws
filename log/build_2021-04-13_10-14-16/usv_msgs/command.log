@@ -1,0 +1,6 @@
+Invoking command in '/home/ruize/dev_ws/build/usv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ruize/dev_ws/src/usv_msgs -DCMAKE_INSTALL_PREFIX=/home/ruize/dev_ws/install/usv_msgs
+Invoked command in '/home/ruize/dev_ws/build/usv_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ruize/dev_ws/src/usv_msgs -DCMAKE_INSTALL_PREFIX=/home/ruize/dev_ws/install/usv_msgs
+Invoking command in '/home/ruize/dev_ws/build/usv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/usv_msgs -- -j4 -l4
+Invoked command in '/home/ruize/dev_ws/build/usv_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/usv_msgs -- -j4 -l4
+Invoking command in '/home/ruize/dev_ws/build/usv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ruize/dev_ws/build/usv_msgs
+Invoked command in '/home/ruize/dev_ws/build/usv_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ruize/dev_ws/build/usv_msgs

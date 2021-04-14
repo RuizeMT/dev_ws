@@ -1,0 +1,200 @@
+[0.016s] Invoking command in '/home/ruize/dev_ws/build/usv_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/usv_gazebo_plugins -- -j4 -l4
+[0.044s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.063s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.224s] -- Found gazebo_ros: 3.5.0 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[0.263s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.265s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.405s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.448s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.449s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.620s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.654s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[0.658s] -- Looking for ignition-math6 -- found version 6.8.0
+[0.662s] -- Searching for dependencies of ignition-math6
+[0.665s] -- Looking for OGRE...
+[0.673s] -- Found Ogre Ghadamon (1.9.0)
+[0.675s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.689s] -- Looking for OGRE_Paging...
+[0.689s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.690s] -- Looking for OGRE_Terrain...
+[0.690s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.690s] -- Looking for OGRE_Property...
+[0.690s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.691s] -- Looking for OGRE_RTShaderSystem...
+[0.691s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.691s] -- Looking for OGRE_Volume...
+[0.692s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.692s] -- Looking for OGRE_Overlay...
+[0.692s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.846s] -- Looking for ignition-math6 -- found version 6.8.0
+[0.847s] -- Looking for ignition-transport8 -- found version 8.2.0
+[0.847s] -- Searching for dependencies of ignition-transport8
+[0.868s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[0.881s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.886s] -- Checking for module 'libzmq >= 4'
+[0.901s] --   Found libzmq , version 4.3.2
+[0.943s] -- Checking for module 'uuid'
+[0.957s] --   Found uuid, version 2.34.0
+[0.989s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[0.990s] -- Searching for dependencies of ignition-msgs5
+[1.009s] -- Looking for ignition-math6 -- found version 6.8.0
+[1.014s] -- Checking for module 'tinyxml2'
+[1.030s] --   Found tinyxml2, version 6.2.0
+[1.065s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[1.066s] -- Looking for ignition-common3 -- found version 3.11.1
+[1.068s] -- Searching for dependencies of ignition-common3
+[1.068s] -- Looking for dlfcn.h - found
+[1.068s] -- Looking for libdl - found
+[1.076s] -- Searching for <ignition-common3> component [graphics]
+[1.077s] -- Looking for ignition-common3-graphics -- found version 3.11.1
+[1.078s] -- Searching for dependencies of ignition-common3-graphics
+[1.079s] -- Looking for ignition-math6 -- found version 6.8.0
+[1.081s] -- Looking for ignition-fuel_tools4 -- found version 4.3.0
+[1.082s] -- Searching for dependencies of ignition-fuel_tools4
+[1.117s] -- Checking for module 'jsoncpp'
+[1.130s] --   Found jsoncpp, version 1.7.4
+[1.176s] -- Checking for module 'libzip'
+[1.188s] --   Found libzip, version 1.5.1
+[1.218s] -- Looking for ignition-common3 -- found version 3.11.1
+[1.219s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[1.220s] -- Gazebo version: 11.3
+[1.229s] -- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.238s] -- Found xacro: 2.0.4 (/opt/ros/foxy/share/xacro/cmake)
+[1.239s] -- Found wave_gazebo_plugins: 1.3.0 (/home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/cmake)
+[1.256s] -- Found usv_msgs: 0.0.0 (/home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/cmake)
+[1.295s] -- xacro: determining deps for: worlds/buoyancy_plugin_demo.world.xacro ...
+[1.352s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.413s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.415s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.418s] -- Configured cppcheck include dirs: /home/ruize/dev_ws/src/usv_gazebo_plugins/include
+[1.419s] -- Configured cppcheck exclude dirs and/or files: 
+[1.419s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.420s] -- Configured cpplint exclude dirs and/or files: 
+[1.420s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.421s] -- Added test 'lint_cmake' to check CMake code style
+[1.421s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.422s] -- Added test 'uncrustify' to check C / C++ code style
+[1.422s] -- Configured uncrustify additional arguments: 
+[1.422s] -- Added test 'xmllint' to check XML markup files
+[1.425s] -- Configuring done
+[1.436s] -- Generating done
+[1.440s] -- Build files have been written to: /home/ruize/dev_ws/build/usv_gazebo_plugins
+[1.471s] [35m[1mScanning dependencies of target buoyancy_gazebo_plugin[0m
+[1.479s] [ 20%] Built target usv_gazebo_plugins__xacro_auto_generate
+[1.509s] [ 40%] [32mBuilding CXX object CMakeFiles/buoyancy_gazebo_plugin.dir/src/buoyancy_gazebo_plugin.cc.o[0m
+[1.515s] [ 80%] [32mBuilding CXX object CMakeFiles/buoyancy_gazebo_plugin.dir/src/shape_volume.cc.o[0m
+[1.515s] [ 80%] [32mBuilding CXX object CMakeFiles/buoyancy_gazebo_plugin.dir/src/polyhedron_volume.cc.o[0m
+[5.678s] In file included from [01m[K/usr/include/c++/9/cassert:44[m[K,
+[5.678s]                  from [01m[K/usr/include/google/protobuf/extension_set.h:42[m[K,
+[5.678s]                  from [01m[K/usr/include/gazebo-11/gazebo/msgs/poses_stamped.pb.h:31[m[K,
+[5.678s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/PhysicsTypes.hh:26[m[K,
+[5.678s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:41[m[K,
+[5.678s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/common.hh:36[m[K,
+[5.678s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/include/usv_gazebo_plugins/polyhedron_volume.hh:22[m[K,
+[5.678s]                  from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/polyhedron_volume.cc:18[m[K:
+[5.678s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/polyhedron_volume.cc:[m[K In static member function ‘[01m[Kstatic buoyancy::Polyhedron buoyancy::Polyhedron::makeCylinder(double, double, int)[m[K’:
+[5.679s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/polyhedron_volume.cc:121:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<ignition::math::v6::Vector3<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[5.679s]   121 |   assert([01;35m[Kcylinder.vertices.size() == 2 * n + 2[m[K);
+[5.679s]       |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.679s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/polyhedron_volume.cc:122:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<buoyancy::Polyhedron::Face>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[5.679s]   122 |   assert([01;35m[Kcylinder.faces.size() == 4 * n[m[K);
+[5.679s]       |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[7.149s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/shape_volume.cc:[m[K In member function ‘[01m[Kvirtual std::string buoyancy::ShapeVolume::Display()[m[K’:
+[7.149s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/shape_volume.cc:116:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[7.149s]   116 | [01;35m[K}[m[K
+[7.149s]       | [01;35m[K^[m[K
+[14.058s] [100%] [32m[1mLinking CXX shared library libbuoyancy_gazebo_plugin.so[0m
+[14.431s] [100%] Built target buoyancy_gazebo_plugin
+[14.442s] Invoked command in '/home/ruize/dev_ws/build/usv_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/usv_gazebo_plugins -- -j4 -l4
+[14.485s] Invoking command in '/home/ruize/dev_ws/build/usv_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ruize/dev_ws/build/usv_gazebo_plugins
+[14.497s] -- Install configuration: ""
+[14.497s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/environment/library_path.sh
+[14.497s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/environment/library_path.dsv
+[14.497s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/lib/libbuoyancy_gazebo_plugin.so
+[14.500s] -- Set runtime path of "/home/ruize/dev_ws/install/usv_gazebo_plugins/lib/libbuoyancy_gazebo_plugin.so" to ""
+[14.500s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins
+[14.501s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/buoyancy_gazebo_plugin.hh
+[14.501s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/WavefieldEntity.hh
+[14.501s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/WavefieldModelPlugin.hh
+[14.501s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/Wavefield.hh
+[14.501s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/shape_volume.hh
+[14.501s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/polyhedron_volume.hh
+[14.501s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/include
+[14.502s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins
+[14.502s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins
+[14.502s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/ament_cpplint
+[14.502s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/ament_cmake_export_dependencies
+[14.502s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/ament_xmllint
+[14.502s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/ament_pep257
+[14.502s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/ament_cmake_environment_hooks
+[14.502s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/ament_flake8
+[14.502s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/ament_cmake_uninstall_target
+[14.502s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/ament_cmake_core
+[14.502s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/ament_cmake_core/stamps
+[14.503s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/ament_cppcheck
+[14.503s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/ament_uncrustify
+[14.503s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/ament_cmake_package_templates
+[14.503s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/worlds
+[14.503s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/CMakeFiles
+[14.506s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/CMakeFiles/usv_gazebo_thrust_plugin.dir
+[14.507s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/CMakeFiles/usv_gazebo_thrust_plugin.dir/src
+[14.507s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/CMakeFiles/uninstall.dir
+[14.507s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/CMakeFiles/3.16.3
+[14.507s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/CMakeFiles/3.16.3/CompilerIdCXX
+[14.508s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/CMakeFiles/3.16.3/CompilerIdCXX/tmp
+[14.508s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/CMakeFiles/3.16.3/CompilerIdC
+[14.508s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/CMakeFiles/3.16.3/CompilerIdC/tmp
+[14.508s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/CMakeFiles/usv_gazebo_wind_plugin.dir
+[14.508s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/CMakeFiles/usv_gazebo_wind_plugin.dir/src
+[14.508s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/CMakeFiles/usv_gazebo_plugins__xacro_auto_generate.dir
+[14.508s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/CMakeFiles/usv_gazebo_dynamics_plugin.dir
+[14.508s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/CMakeFiles/usv_gazebo_dynamics_plugin.dir/src
+[14.509s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/CMakeFiles/buoyancy_gazebo_plugin.dir
+[14.509s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/CMakeFiles/buoyancy_gazebo_plugin.dir/src
+[14.509s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/CMakeFiles/CMakeTmp
+[14.509s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/CMakeFiles/usv_gazebo_plugins_uninstall.dir
+[14.509s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/CMakeFiles/usv_gazebo_acoustic_pinger_plugin.dir
+[14.512s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/CMakeFiles/usv_gazebo_acoustic_pinger_plugin.dir/src
+[14.512s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/ament_lint_cmake
+[14.513s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/ament_cmake_export_include_directories
+[14.513s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/ament_copyright
+[14.513s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/ament_cmake_index
+[14.513s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/ament_cmake_index/share
+[14.513s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/ament_cmake_index/share/ament_index
+[14.513s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/ament_cmake_index/share/ament_index/resource_index
+[14.513s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/ament_cmake_index/share/ament_index/resource_index/packages
+[14.514s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path
+[14.514s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies
+[14.515s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/ament_cmake_export_libraries
+[14.515s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world
+[14.515s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/worlds
+[14.515s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world.xacro
+[14.515s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins
+[14.515s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/buoyancy_gazebo_plugin.hh
+[14.515s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/WavefieldEntity.hh
+[14.515s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/WavefieldModelPlugin.hh
+[14.515s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/Wavefield.hh
+[14.515s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/shape_volume.hh
+[14.515s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/polyhedron_volume.hh
+[14.519s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/launch
+[14.520s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/launch/buoyancy_plugin_demo.launch.py
+[14.520s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/launch/buoyancy_plugin_demo.launch
+[14.520s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/usv_gazebo_plugins
+[14.520s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/usv_gazebo_plugins
+[14.521s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/environment/ament_prefix_path.sh
+[14.521s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/environment/ament_prefix_path.dsv
+[14.521s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/environment/path.sh
+[14.521s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/environment/path.dsv
+[14.521s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/local_setup.bash
+[14.521s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/local_setup.sh
+[14.522s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/local_setup.zsh
+[14.522s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/local_setup.dsv
+[14.522s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/package.dsv
+[14.522s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/ament_index/resource_index/packages/usv_gazebo_plugins
+[14.522s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.522s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.522s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[14.522s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/cmake/usv_gazebo_pluginsConfig.cmake
+[14.528s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/cmake/usv_gazebo_pluginsConfig-version.cmake
+[14.528s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/package.xml
+[14.529s] Invoked command in '/home/ruize/dev_ws/build/usv_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ruize/dev_ws/build/usv_gazebo_plugins

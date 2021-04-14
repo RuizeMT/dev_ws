@@ -1,0 +1,127 @@
+[0.019s] Invoking command in '/home/ruize/dev_ws/build/wamv_gazebo': CMAKE_PREFIX_PATH=/home/ruize/dev_ws/install/usv_gazebo_plugins:/home/ruize/dev_ws/install/wave_gazebo_plugins:/home/ruize/dev_ws/install/wamv_description:/home/ruize/dev_ws/install/usv_msgs:/home/ruize/dev_ws/install/wamv_gazebo:/home/ruize/dev_ws/install/vrx_gazebo:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/wamv_gazebo -- -j4 -l4
+[0.047s] -- Found wamv_description: 0.0.0 (/home/ruize/dev_ws/install/wamv_description/share/wamv_description/cmake)
+[0.047s] -- Found usv_gazebo_plugins: 0.0.0 (/home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/cmake)
+[0.065s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.208s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.211s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.307s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.408s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.409s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.544s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.566s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[0.567s] -- Looking for ignition-math6 -- found version 6.8.0
+[0.570s] -- Searching for dependencies of ignition-math6
+[0.572s] -- Looking for OGRE...
+[0.576s] -- Found Ogre Ghadamon (1.9.0)
+[0.576s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.584s] -- Looking for OGRE_Paging...
+[0.585s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.585s] -- Looking for OGRE_Terrain...
+[0.585s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.585s] -- Looking for OGRE_Property...
+[0.585s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.585s] -- Looking for OGRE_RTShaderSystem...
+[0.585s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.585s] -- Looking for OGRE_Volume...
+[0.585s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.585s] -- Looking for OGRE_Overlay...
+[0.585s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.683s] -- Looking for ignition-math6 -- found version 6.8.0
+[0.683s] -- Looking for ignition-transport8 -- found version 8.2.0
+[0.683s] -- Searching for dependencies of ignition-transport8
+[0.700s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[0.709s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.713s] -- Checking for module 'libzmq >= 4'
+[0.731s] --   Found libzmq , version 4.3.2
+[0.774s] -- Checking for module 'uuid'
+[0.787s] --   Found uuid, version 2.34.0
+[0.817s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[0.817s] -- Searching for dependencies of ignition-msgs5
+[0.833s] -- Looking for ignition-math6 -- found version 6.8.0
+[0.839s] -- Checking for module 'tinyxml2'
+[0.849s] --   Found tinyxml2, version 6.2.0
+[0.878s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[0.880s] -- Looking for ignition-common3 -- found version 3.11.1
+[0.882s] -- Searching for dependencies of ignition-common3
+[0.883s] -- Looking for dlfcn.h - found
+[0.883s] -- Looking for libdl - found
+[0.886s] -- Searching for <ignition-common3> component [graphics]
+[0.886s] -- Looking for ignition-common3-graphics -- found version 3.11.1
+[0.887s] -- Searching for dependencies of ignition-common3-graphics
+[0.887s] -- Looking for ignition-math6 -- found version 6.8.0
+[0.888s] -- Looking for ignition-fuel_tools4 -- found version 4.3.0
+[0.888s] -- Searching for dependencies of ignition-fuel_tools4
+[0.907s] -- Checking for module 'jsoncpp'
+[0.920s] --   Found jsoncpp, version 1.7.4
+[0.951s] -- Checking for module 'libzip'
+[0.961s] --   Found libzip, version 1.5.1
+[0.985s] -- Looking for ignition-common3 -- found version 3.11.1
+[0.985s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[0.986s] -- Gazebo version: 11.3
+[1.067s] -- Found xacro: 2.0.4 (/opt/ros/foxy/share/xacro/cmake)
+[1.068s] -- xacro: determining deps for: urdf/wamv_gazebo.urdf.xacro ...
+[1.136s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.182s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.184s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.184s] -- Added test 'lint_cmake' to check CMake code style
+[1.185s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.186s] -- Added test 'xmllint' to check XML markup files
+[1.188s] -- Configuring done
+[1.192s] -- Generating done
+[1.193s] -- Build files have been written to: /home/ruize/dev_ws/build/wamv_gazebo
+[1.225s] [100%] [34m[1mxacro: generating urdf/wamv_gazebo.urdf from urdf/wamv_gazebo.urdf.xacro[0m
+[1.316s] [100%] Built target wamv_gazebo__xacro_auto_generate
+[1.330s] Invoked command in '/home/ruize/dev_ws/build/wamv_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/ruize/dev_ws/install/usv_gazebo_plugins:/home/ruize/dev_ws/install/wave_gazebo_plugins:/home/ruize/dev_ws/install/wamv_description:/home/ruize/dev_ws/install/usv_msgs:/home/ruize/dev_ws/install/wamv_gazebo:/home/ruize/dev_ws/install/vrx_gazebo:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/wamv_gazebo -- -j4 -l4
+[1.364s] Invoking command in '/home/ruize/dev_ws/build/wamv_gazebo': CMAKE_PREFIX_PATH=/home/ruize/dev_ws/install/usv_gazebo_plugins:/home/ruize/dev_ws/install/wave_gazebo_plugins:/home/ruize/dev_ws/install/wamv_description:/home/ruize/dev_ws/install/usv_msgs:/home/ruize/dev_ws/install/wamv_gazebo:/home/ruize/dev_ws/install/vrx_gazebo:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy /usr/bin/cmake --install /home/ruize/dev_ws/build/wamv_gazebo
+[1.369s] -- Install configuration: ""
+[1.369s] -- Installing: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/wamv_gazebo.urdf
+[1.369s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/models
+[1.369s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/models/gps
+[1.370s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/models/gps/model.config
+[1.370s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/models/gps/mesh
+[1.370s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/models/gps/mesh/gps.png
+[1.370s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/models/gps/mesh/gps.dae
+[1.370s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf
+[1.370s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/thruster_layouts
+[1.370s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/thruster_layouts/wamv_aft_thrusters.xacro
+[1.370s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/thruster_layouts/wamv_gazebo_thruster_config.xacro
+[1.370s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/thruster_layouts/wamv_x_thrusters.xacro
+[1.371s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/thruster_layouts/wamv_t_thrusters.xacro
+[1.371s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/sensors
+[1.371s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/sensors/wamv_3d_lidar.xacro
+[1.371s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/sensors/wamv_p3d.xacro
+[1.371s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/sensors/wamv_gps.xacro
+[1.371s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/sensors/wamv_planar_lidar.xacro
+[1.371s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/sensors/wamv_camera.xacro
+[1.371s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/sensors/wamv_pinger.xacro
+[1.371s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/sensors/lidar.xacro
+[1.371s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/sensors/wamv_imu.xacro
+[1.371s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/wamv_gazebo.xacro
+[1.371s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/macros.xacro
+[1.371s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/dynamics
+[1.371s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/dynamics/wamv_gazebo_dynamics_plugin.xacro
+[1.371s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/wamv_gazebo.urdf.xacro
+[1.371s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/config
+[1.372s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/config/rviz_vrx.rviz
+[1.372s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/config/rviz_example.rviz
+[1.381s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/launch
+[1.381s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/launch/rviz_vrx.launch.py
+[1.382s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/launch/rviz_example.launch.py
+[1.382s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/launch/localization_example.launch.py
+[1.382s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/ament_index/resource_index/package_run_dependencies/wamv_gazebo
+[1.382s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/ament_index/resource_index/parent_prefix_path/wamv_gazebo
+[1.382s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/environment/ament_prefix_path.sh
+[1.382s] -- Installing: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/environment/ament_prefix_path.dsv
+[1.382s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/environment/path.sh
+[1.382s] -- Installing: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/environment/path.dsv
+[1.382s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/local_setup.bash
+[1.382s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/local_setup.sh
+[1.382s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/local_setup.zsh
+[1.382s] -- Installing: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/local_setup.dsv
+[1.382s] -- Installing: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/package.dsv
+[1.382s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/ament_index/resource_index/packages/wamv_gazebo
+[1.382s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.382s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/cmake/wamv_gazeboConfig.cmake
+[1.382s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/cmake/wamv_gazeboConfig-version.cmake
+[1.382s] -- Up-to-date: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/package.xml
+[1.382s] Invoked command in '/home/ruize/dev_ws/build/wamv_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/ruize/dev_ws/install/usv_gazebo_plugins:/home/ruize/dev_ws/install/wave_gazebo_plugins:/home/ruize/dev_ws/install/wamv_description:/home/ruize/dev_ws/install/usv_msgs:/home/ruize/dev_ws/install/wamv_gazebo:/home/ruize/dev_ws/install/vrx_gazebo:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy /usr/bin/cmake --install /home/ruize/dev_ws/build/wamv_gazebo

@@ -1,0 +1,50 @@
+-- Found xacro: 2.0.4 (/opt/ros/foxy/share/xacro/cmake)
+-- xacro: determining deps for: urdf/wamv_base.urdf.xacro ...
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ruize/dev_ws/build/wamv_description
+[35m[1mScanning dependencies of target wamv_description__xacro_auto_generate[0m
+[100%] [34m[1mxacro: generating urdf/wamv_base.urdf from urdf/wamv_base.urdf.xacro[0m
+[100%] Built target wamv_description__xacro_auto_generate
+-- Install configuration: ""
+-- Installing: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/urdf/wamv_base.urdf
+-- Installing: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/models
+-- Installing: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/models/WAM-V-Base
+-- Installing: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/models/WAM-V-Base/model.config
+-- Installing: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/models/WAM-V-Base/mesh
+-- Installing: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/models/WAM-V-Base/mesh/WamV.png
+-- Installing: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/models/WAM-V-Base/mesh/WAM-V-Base.dae
+-- Installing: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/models/propeller
+-- Installing: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/models/propeller/model.config
+-- Installing: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/models/propeller/mesh
+-- Installing: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/models/propeller/mesh/propeller.dae
+-- Installing: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/models/engine
+-- Installing: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/models/engine/model.config
+-- Installing: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/models/engine/mesh
+-- Installing: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/models/engine/mesh/engine.dae
+-- Up-to-date: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/urdf
+-- Installing: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/urdf/cpu_cases.xacro
+-- Installing: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/urdf/thrusters
+-- Installing: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/urdf/thrusters/engine.xacro
+-- Installing: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/urdf/battery.xacro
+-- Installing: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/urdf/wamv_base.urdf.xacro
+-- Up-to-date: /home/ruize/dev_ws/install/wamv_description/share/ament_index/resource_index/package_run_dependencies/wamv_description
+-- Installing: /home/ruize/dev_ws/install/wamv_description/share/ament_index/resource_index/parent_prefix_path/wamv_description
+-- Up-to-date: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/environment/ament_prefix_path.sh
+-- Installing: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/environment/path.sh
+-- Installing: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/environment/path.dsv
+-- Up-to-date: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/local_setup.bash
+-- Up-to-date: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/local_setup.sh
+-- Up-to-date: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/local_setup.zsh
+-- Installing: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/local_setup.dsv
+-- Installing: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/package.dsv
+-- Up-to-date: /home/ruize/dev_ws/install/wamv_description/share/ament_index/resource_index/packages/wamv_description
+-- Up-to-date: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/cmake/wamv_descriptionConfig.cmake
+-- Up-to-date: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/cmake/wamv_descriptionConfig-version.cmake
+-- Up-to-date: /home/ruize/dev_ws/install/wamv_description/share/wamv_description/package.xml

@@ -1,0 +1,6 @@
+{
+  "package_name": "usv_msgs",
+  "non_idl_tuples": [
+    "/home/ruize/dev_ws/src/usv_msgs:msg/RangeBearing.msg"
+  ]
+}

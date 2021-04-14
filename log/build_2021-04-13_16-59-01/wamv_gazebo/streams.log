@@ -1,0 +1,8 @@
+[0.017s] Invoking command in '/home/ruize/dev_ws/build/wamv_gazebo': CMAKE_PREFIX_PATH=/home/ruize/dev_ws/install/usv_gazebo_plugins:/home/ruize/dev_ws/install/wave_gazebo_plugins:/home/ruize/dev_ws/install/wamv_description:/home/ruize/dev_ws/install/usv_msgs:/home/ruize/dev_ws/install/wamv_gazebo:/home/ruize/dev_ws/install/vrx_gazebo:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/wamv_gazebo -- -j4 -l4
+[0.066s] [100%] [34m[1mxacro: generating urdf/wamv_gazebo.urdf from urdf/wamv_gazebo.urdf.xacro[0m
+[0.106s] [91mNo such file or directory: /home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/wamv_gazebo.xacro [Errno 2] No such file or directory: '/home/ruize/dev_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/wamv_gazebo.xacro'[0m
+[0.108s] when processing file: urdf/wamv_gazebo.urdf.xacro
+[0.111s] make[2]: *** [CMakeFiles/wamv_gazebo__xacro_auto_generate.dir/build.make:61: urdf/wamv_gazebo.urdf] Error 2
+[0.115s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/wamv_gazebo__xacro_auto_generate.dir/all] Error 2
+[0.118s] make: *** [Makefile:141: all] Error 2
+[0.125s] Invoked command in '/home/ruize/dev_ws/build/wamv_gazebo' returned '2': CMAKE_PREFIX_PATH=/home/ruize/dev_ws/install/usv_gazebo_plugins:/home/ruize/dev_ws/install/wave_gazebo_plugins:/home/ruize/dev_ws/install/wamv_description:/home/ruize/dev_ws/install/usv_msgs:/home/ruize/dev_ws/install/wamv_gazebo:/home/ruize/dev_ws/install/vrx_gazebo:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/wamv_gazebo -- -j4 -l4

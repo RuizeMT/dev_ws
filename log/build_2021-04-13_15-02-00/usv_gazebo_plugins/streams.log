@@ -1,0 +1,12 @@
+[0.019s] Invoking command in '/home/ruize/dev_ws/build/usv_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/usv_gazebo_plugins -- -j4 -l4
+[0.080s] [ 20%] Built target usv_gazebo_plugins__xacro_auto_generate
+[0.090s] [ 40%] [32mBuilding CXX object CMakeFiles/buoyancy_gazebo_plugin.dir/src/buoyancy_gazebo_plugin.cc.o[0m
+[0.946s] In file included from [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/src/buoyancy_gazebo_plugin.cc:22[m[K:
+[0.946s] [01m[K/home/ruize/dev_ws/src/usv_gazebo_plugins/include/usv_gazebo_plugins/buoyancy_gazebo_plugin.hh:33:10:[m[K [01;31m[Kfatal error: [m[Kwave_gazebo_plugins/Wavefield.hh: No such file or directory
+[0.946s]    33 | #include [01;31m[K"wave_gazebo_plugins/Wavefield.hh"[m[K
+[0.946s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.946s] compilation terminated.
+[0.954s] make[2]: *** [CMakeFiles/buoyancy_gazebo_plugin.dir/build.make:63: CMakeFiles/buoyancy_gazebo_plugin.dir/src/buoyancy_gazebo_plugin.cc.o] Error 1
+[0.954s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/buoyancy_gazebo_plugin.dir/all] Error 2
+[0.955s] make: *** [Makefile:141: all] Error 2
+[0.956s] Invoked command in '/home/ruize/dev_ws/build/usv_gazebo_plugins' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/usv_gazebo_plugins -- -j4 -l4

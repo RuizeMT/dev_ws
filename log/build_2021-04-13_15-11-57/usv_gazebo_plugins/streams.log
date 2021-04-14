@@ -1,0 +1,118 @@
+[0.017s] Invoking command in '/home/ruize/dev_ws/build/usv_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/usv_gazebo_plugins -- -j4 -l4
+[0.053s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.081s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.245s] -- Found gazebo_ros: 3.5.0 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[0.277s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.280s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.428s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.467s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.469s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.665s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.698s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[0.700s] -- Looking for ignition-math6 -- found version 6.8.0
+[0.706s] -- Searching for dependencies of ignition-math6
+[0.708s] -- Looking for OGRE...
+[0.715s] -- Found Ogre Ghadamon (1.9.0)
+[0.715s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.728s] -- Looking for OGRE_Paging...
+[0.728s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.728s] -- Looking for OGRE_Terrain...
+[0.728s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.728s] -- Looking for OGRE_Property...
+[0.728s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.728s] -- Looking for OGRE_RTShaderSystem...
+[0.728s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.729s] -- Looking for OGRE_Volume...
+[0.729s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.729s] -- Looking for OGRE_Overlay...
+[0.729s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.850s] -- Looking for ignition-math6 -- found version 6.8.0
+[0.850s] -- Looking for ignition-transport8 -- found version 8.2.0
+[0.851s] -- Searching for dependencies of ignition-transport8
+[0.873s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[0.888s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.893s] -- Checking for module 'libzmq >= 4'
+[0.909s] --   Found libzmq , version 4.3.2
+[0.948s] -- Checking for module 'uuid'
+[0.970s] --   Found uuid, version 2.34.0
+[1.005s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[1.006s] -- Searching for dependencies of ignition-msgs5
+[1.027s] -- Looking for ignition-math6 -- found version 6.8.0
+[1.032s] -- Checking for module 'tinyxml2'
+[1.046s] --   Found tinyxml2, version 6.2.0
+[1.081s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[1.081s] -- Looking for ignition-common3 -- found version 3.11.1
+[1.082s] -- Searching for dependencies of ignition-common3
+[1.082s] -- Looking for dlfcn.h - found
+[1.083s] -- Looking for libdl - found
+[1.090s] -- Searching for <ignition-common3> component [graphics]
+[1.090s] -- Looking for ignition-common3-graphics -- found version 3.11.1
+[1.091s] -- Searching for dependencies of ignition-common3-graphics
+[1.091s] -- Looking for ignition-math6 -- found version 6.8.0
+[1.092s] -- Looking for ignition-fuel_tools4 -- found version 4.3.0
+[1.092s] -- Searching for dependencies of ignition-fuel_tools4
+[1.123s] -- Checking for module 'jsoncpp'
+[1.140s] --   Found jsoncpp, version 1.7.4
+[1.184s] -- Checking for module 'libzip'
+[1.199s] --   Found libzip, version 1.5.1
+[1.233s] -- Looking for ignition-common3 -- found version 3.11.1
+[1.233s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[1.234s] -- Gazebo version: 11.3
+[1.243s] -- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.253s] -- Found xacro: 2.0.4 (/opt/ros/foxy/share/xacro/cmake)
+[1.253s] -- Found wave_gazebo_plugins: 1.3.0 (/home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/cmake)
+[1.267s] -- Found usv_msgs: 0.0.0 (/home/ruize/dev_ws/install/usv_msgs/share/usv_msgs/cmake)
+[1.305s] -- xacro: determining deps for: worlds/buoyancy_plugin_demo.world.xacro ...
+[1.363s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.431s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.432s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.432s] -- Configured cppcheck include dirs: /home/ruize/dev_ws/src/usv_gazebo_plugins/include
+[1.432s] -- Configured cppcheck exclude dirs and/or files: 
+[1.433s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.433s] -- Configured cpplint exclude dirs and/or files: 
+[1.434s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.434s] -- Added test 'lint_cmake' to check CMake code style
+[1.434s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.435s] -- Added test 'uncrustify' to check C / C++ code style
+[1.435s] -- Configured uncrustify additional arguments: 
+[1.436s] -- Added test 'xmllint' to check XML markup files
+[1.438s] -- Configuring done
+[1.452s] -- Generating done
+[1.454s] -- Build files have been written to: /home/ruize/dev_ws/build/usv_gazebo_plugins
+[1.488s] [ 20%] Built target usv_gazebo_plugins__xacro_auto_generate
+[1.509s] [100%] Built target buoyancy_gazebo_plugin
+[1.523s] Invoked command in '/home/ruize/dev_ws/build/usv_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/usv_gazebo_plugins -- -j4 -l4
+[1.564s] Invoking command in '/home/ruize/dev_ws/build/usv_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ruize/dev_ws/build/usv_gazebo_plugins
+[1.573s] -- Install configuration: ""
+[1.573s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/lib/libbuoyancy_gazebo_plugin.a
+[1.573s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world
+[1.574s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/worlds
+[1.574s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world.xacro
+[1.574s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins
+[1.574s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/buoyancy_gazebo_plugin.hh
+[1.574s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/WavefieldEntity.hh
+[1.574s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/WavefieldModelPlugin.hh
+[1.574s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/Wavefield.hh
+[1.574s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/shape_volume.hh
+[1.575s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/include/usv_gazebo_plugins/polyhedron_volume.hh
+[1.575s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/launch
+[1.575s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/launch/buoyancy_plugin_demo.launch.py
+[1.575s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/launch/buoyancy_plugin_demo.launch
+[1.575s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/usv_gazebo_plugins
+[1.576s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/usv_gazebo_plugins
+[1.576s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/environment/ament_prefix_path.sh
+[1.576s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/environment/ament_prefix_path.dsv
+[1.576s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/environment/path.sh
+[1.576s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/environment/path.dsv
+[1.577s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/local_setup.bash
+[1.577s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/local_setup.sh
+[1.577s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/local_setup.zsh
+[1.577s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/local_setup.dsv
+[1.577s] -- Installing: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/package.dsv
+[1.578s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/ament_index/resource_index/packages/usv_gazebo_plugins
+[1.578s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.578s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.578s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/cmake/usv_gazebo_pluginsConfig.cmake
+[1.578s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/cmake/usv_gazebo_pluginsConfig-version.cmake
+[1.579s] -- Up-to-date: /home/ruize/dev_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/package.xml
+[1.581s] Invoked command in '/home/ruize/dev_ws/build/usv_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ruize/dev_ws/build/usv_gazebo_plugins
