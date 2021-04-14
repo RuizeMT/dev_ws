@@ -97,12 +97,13 @@ def generate_launch_description():
             default_value=get_package_share_directory(
                 'wamv_gazebo') + '/urdf/wamv_gazebo.urdf.xacro'
         ),
-        launch_ros.actions.Node(
-            package='gazebo_ros',
-            node_executable='spawn_entity.py',
-            name='spawn_model_wamv',
-            arguments=['-entity', 'wamv', '-database', 'double_pendulum_with_base'],
-        ),
+        # launch_ros.actions.Node(
+        #     package='gazebo_ros',
+        #     node_executable='spawn_entity.py',
+        #     name='spawn_model_wamv',
+        #     output='screen',
+        #     arguments=['-entity', 'wamv', '-database', 'double_pendulum_with_base'],
+        # ),
         launch.actions.IncludeLaunchDescription(
             launch.launch_description_sources.PythonLaunchDescriptionSource(
                 os.path.join(get_package_share_directory(
