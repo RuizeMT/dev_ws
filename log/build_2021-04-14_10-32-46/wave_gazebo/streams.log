@@ -1,0 +1,54 @@
+[0.014s] Invoking command in '/home/ruize/dev_ws/build/wave_gazebo': CMAKE_PREFIX_PATH=/home/ruize/dev_ws/install/wave_gazebo_plugins:/home/ruize/dev_ws/install/wave_gazebo:/home/ruize/dev_ws/install/wamv_gazebo:/home/ruize/dev_ws/install/usv_gazebo_plugins:/home/ruize/dev_ws/install/wamv_description:/home/ruize/dev_ws/install/vrx_gazebo:/home/ruize/dev_ws/install/usv_msgs:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ruize/dev_ws/install/wave_gazebo_plugins/lib:/home/ruize/dev_ws/install/usv_gazebo_plugins/lib:/home/ruize/dev_ws/install/usv_msgs/lib:/home/ruize/px4_ros_com_ros2/install/px4_ros_com/lib:/home/ruize/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/ruize/dev_ws/build/wave_gazebo -- -j4 -l4
+[0.054s] [100%] Built target wave_gazebo__xacro_auto_generate
+[0.054s] [100%] Built target model_erb_generation
+[0.062s] Invoked command in '/home/ruize/dev_ws/build/wave_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/ruize/dev_ws/install/wave_gazebo_plugins:/home/ruize/dev_ws/install/wave_gazebo:/home/ruize/dev_ws/install/wamv_gazebo:/home/ruize/dev_ws/install/usv_gazebo_plugins:/home/ruize/dev_ws/install/wamv_description:/home/ruize/dev_ws/install/vrx_gazebo:/home/ruize/dev_ws/install/usv_msgs:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ruize/dev_ws/install/wave_gazebo_plugins/lib:/home/ruize/dev_ws/install/usv_gazebo_plugins/lib:/home/ruize/dev_ws/install/usv_msgs/lib:/home/ruize/px4_ros_com_ros2/install/px4_ros_com/lib:/home/ruize/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/ruize/dev_ws/build/wave_gazebo -- -j4 -l4
+[0.087s] Invoking command in '/home/ruize/dev_ws/build/wave_gazebo': CMAKE_PREFIX_PATH=/home/ruize/dev_ws/install/wave_gazebo_plugins:/home/ruize/dev_ws/install/wave_gazebo:/home/ruize/dev_ws/install/wamv_gazebo:/home/ruize/dev_ws/install/usv_gazebo_plugins:/home/ruize/dev_ws/install/wamv_description:/home/ruize/dev_ws/install/vrx_gazebo:/home/ruize/dev_ws/install/usv_msgs:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ruize/dev_ws/install/wave_gazebo_plugins/lib:/home/ruize/dev_ws/install/usv_gazebo_plugins/lib:/home/ruize/dev_ws/install/usv_msgs/lib:/home/ruize/px4_ros_com_ros2/install/px4_ros_com/lib:/home/ruize/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/ruize/dev_ws/build/wave_gazebo
+[0.094s] -- Install configuration: ""
+[0.094s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models
+[0.094s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves
+[0.094s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/meshes
+[0.095s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/meshes/mesh.dae
+[0.095s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/meshes/mesh_below.dae
+[0.095s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/meshes/mesh.blend
+[0.095s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/model.xacro.erb
+[0.095s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/model.xacro
+[0.095s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/model.config
+[0.096s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials
+[0.096s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/programs
+[0.096s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/programs/GerstnerWaves.frag
+[0.096s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/programs/GerstnerWaves.vert
+[0.096s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/scripts
+[0.096s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/scripts/waves.material
+[0.096s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures
+[0.096s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_rt.jpg
+[0.096s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_dn.jpg
+[0.096s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_bk.jpg
+[0.096s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_up.jpg
+[0.096s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_fr.jpg
+[0.098s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds.jpg
+[0.098s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/wave_normals.dds
+[0.100s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_lf.jpg
+[0.100s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/launch
+[0.100s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/launch/ocean_world.launch.py
+[0.100s] -- Installing: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/launch/ocean_demos.launch.py
+[0.101s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/launch/ocean_world_buoys.launch.py
+[0.101s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/launch/wave_wamv.launch.py
+[0.101s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/worlds/ocean.world
+[0.101s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/worlds/ocean_buoys.world
+[0.101s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/worlds/ocean_wamv.world
+[0.101s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/ament_index/resource_index/package_run_dependencies/wave_gazebo
+[0.101s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/ament_index/resource_index/parent_prefix_path/wave_gazebo
+[0.101s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/environment/ament_prefix_path.sh
+[0.101s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/environment/ament_prefix_path.dsv
+[0.101s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/environment/path.sh
+[0.101s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/environment/path.dsv
+[0.101s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/local_setup.bash
+[0.101s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/local_setup.sh
+[0.102s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/local_setup.zsh
+[0.102s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/local_setup.dsv
+[0.102s] -- Installing: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/package.dsv
+[0.102s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/ament_index/resource_index/packages/wave_gazebo
+[0.102s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/cmake/wave_gazeboConfig.cmake
+[0.102s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/cmake/wave_gazeboConfig-version.cmake
+[0.102s] -- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/package.xml
+[0.102s] Invoked command in '/home/ruize/dev_ws/build/wave_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/ruize/dev_ws/install/wave_gazebo_plugins:/home/ruize/dev_ws/install/wave_gazebo:/home/ruize/dev_ws/install/wamv_gazebo:/home/ruize/dev_ws/install/usv_gazebo_plugins:/home/ruize/dev_ws/install/wamv_description:/home/ruize/dev_ws/install/vrx_gazebo:/home/ruize/dev_ws/install/usv_msgs:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ruize/dev_ws/install/wave_gazebo_plugins/lib:/home/ruize/dev_ws/install/usv_gazebo_plugins/lib:/home/ruize/dev_ws/install/usv_msgs/lib:/home/ruize/px4_ros_com_ros2/install/px4_ros_com/lib:/home/ruize/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/ruize/dev_ws/build/wave_gazebo

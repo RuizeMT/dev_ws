@@ -17,6 +17,8 @@ endif()
 
 # find dependencies
 find_package(xacro)
+find_package(gazebo_ros)
+find_package(wave_gazebo_plugins)
 
 # uncomment the following section in order to fill in
 # further dependencies manually.

@@ -1,0 +1,107 @@
+[0.013s] Invoking command in '/home/ruize/dev_ws/build/wave_gazebo': /usr/bin/cmake --build /home/ruize/dev_ws/build/wave_gazebo -- -j4 -l4
+[0.034s] -- Found xacro: 2.0.4 (/opt/ros/foxy/share/xacro/cmake)
+[0.034s] -- Found gazebo_ros: 3.5.0 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[0.049s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.190s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.192s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.284s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.319s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.320s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.463s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.484s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[0.485s] -- Looking for ignition-math6 -- found version 6.8.0
+[0.488s] -- Searching for dependencies of ignition-math6
+[0.490s] -- Looking for OGRE...
+[0.494s] -- Found Ogre Ghadamon (1.9.0)
+[0.495s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.504s] -- Looking for OGRE_Paging...
+[0.504s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.504s] -- Looking for OGRE_Terrain...
+[0.504s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.504s] -- Looking for OGRE_Property...
+[0.504s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.505s] -- Looking for OGRE_RTShaderSystem...
+[0.505s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.505s] -- Looking for OGRE_Volume...
+[0.505s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.505s] -- Looking for OGRE_Overlay...
+[0.505s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.587s] -- Looking for ignition-math6 -- found version 6.8.0
+[0.587s] -- Looking for ignition-transport8 -- found version 8.2.0
+[0.588s] -- Searching for dependencies of ignition-transport8
+[0.603s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[0.613s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.616s] -- Checking for module 'libzmq >= 4'
+[0.631s] --   Found libzmq , version 4.3.2
+[0.663s] -- Checking for module 'uuid'
+[0.673s] --   Found uuid, version 2.34.0
+[0.701s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[0.702s] -- Searching for dependencies of ignition-msgs5
+[0.719s] -- Looking for ignition-math6 -- found version 6.8.0
+[0.722s] -- Checking for module 'tinyxml2'
+[0.734s] --   Found tinyxml2, version 6.2.0
+[0.763s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[0.763s] -- Looking for ignition-common3 -- found version 3.11.1
+[0.764s] -- Searching for dependencies of ignition-common3
+[0.764s] -- Looking for dlfcn.h - found
+[0.764s] -- Looking for libdl - found
+[0.769s] -- Searching for <ignition-common3> component [graphics]
+[0.769s] -- Looking for ignition-common3-graphics -- found version 3.11.1
+[0.771s] -- Searching for dependencies of ignition-common3-graphics
+[0.771s] -- Looking for ignition-math6 -- found version 6.8.0
+[0.771s] -- Looking for ignition-fuel_tools4 -- found version 4.3.0
+[0.771s] -- Searching for dependencies of ignition-fuel_tools4
+[0.789s] -- Checking for module 'jsoncpp'
+[0.799s] --   Found jsoncpp, version 1.7.4
+[0.826s] -- Checking for module 'libzip'
+[0.836s] --   Found libzip, version 1.5.1
+[0.859s] -- Looking for ignition-common3 -- found version 3.11.1
+[0.859s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[0.860s] -- Gazebo version: 11.3
+[0.865s] -- xacro: determining deps for: worlds/ocean.world.xacro ...
+[0.907s] -- xacro: determining deps for: worlds/ocean_buoys.world.xacro ...
+[0.949s] -- xacro: determining deps for: worlds/ocean_wamv.world.xacro ...
+[0.991s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.022s] Error parsing '/home/ruize/dev_ws/src/wave_gazebo/package.xml':
+[1.099s] Traceback (most recent call last):
+[1.099s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 596, in parse_package_string
+[1.099s]     root = dom.parseString(data)
+[1.099s]   File "/usr/lib/python3.8/xml/dom/minidom.py", line 1969, in parseString
+[1.099s]     return expatbuilder.parseString(string)
+[1.099s]   File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 925, in parseString
+[1.099s]     return builder.parseString(string)
+[1.099s]   File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 223, in parseString
+[1.100s]     parser.Parse(string, True)
+[1.100s] xml.parsers.expat.ExpatError: mismatched tag: line 17, column 31
+[1.100s] 
+[1.100s] During handling of the above exception, another exception occurred:
+[1.100s] 
+[1.100s] Traceback (most recent call last):
+[1.100s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[1.100s]     main()
+[1.100s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[1.100s]     raise e
+[1.100s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+[1.100s]     package = parse_package_string(
+[1.100s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 598, in parse_package_string
+[1.100s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[1.100s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/ruize/dev_ws/src/wave_gazebo/package.xml':
+[1.100s] The manifest contains invalid XML:
+[1.100s] mismatched tag: line 17, column 31
+[1.113s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[1.113s]   execute_process(/usr/bin/python3
+[1.113s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.113s]   /home/ruize/dev_ws/src/wave_gazebo/package.xml
+[1.113s]   /home/ruize/dev_ws/build/wave_gazebo/ament_cmake_core/package.cmake)
+[1.113s]   returned error code 1
+[1.113s] Call Stack (most recent call first):
+[1.113s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.113s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.113s]   CMakeLists.txt:79 (ament_lint_auto_find_test_dependencies)
+[1.113s] 
+[1.113s] 
+[1.114s] -- Configuring incomplete, errors occurred!
+[1.114s] See also "/home/ruize/dev_ws/build/wave_gazebo/CMakeFiles/CMakeOutput.log".
+[1.114s] See also "/home/ruize/dev_ws/build/wave_gazebo/CMakeFiles/CMakeError.log".
+[1.120s] make: *** [Makefile:250: cmake_check_build_system] Error 1
+[1.122s] Invoked command in '/home/ruize/dev_ws/build/wave_gazebo' returned '2': /usr/bin/cmake --build /home/ruize/dev_ws/build/wave_gazebo -- -j4 -l4

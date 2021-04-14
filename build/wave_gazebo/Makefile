@@ -168,32 +168,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named wave_gazebo_uninstall
-
-# Build rule for target.
-wave_gazebo_uninstall: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 wave_gazebo_uninstall
-.PHONY : wave_gazebo_uninstall
-
-# fast build rule for target.
-wave_gazebo_uninstall/fast:
-	$(MAKE) -f CMakeFiles/wave_gazebo_uninstall.dir/build.make CMakeFiles/wave_gazebo_uninstall.dir/build
-.PHONY : wave_gazebo_uninstall/fast
-
-#=============================================================================
-# Target rules for targets named uninstall
-
-# Build rule for target.
-uninstall: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 uninstall
-.PHONY : uninstall
-
-# fast build rule for target.
-uninstall/fast:
-	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-.PHONY : uninstall/fast
-
-#=============================================================================
 # Target rules for targets named wave_gazebo__xacro_auto_generate
 
 # Build rule for target.
@@ -219,6 +193,32 @@ model_erb_generation/fast:
 	$(MAKE) -f CMakeFiles/model_erb_generation.dir/build.make CMakeFiles/model_erb_generation.dir/build
 .PHONY : model_erb_generation/fast
 
+#=============================================================================
+# Target rules for targets named wave_gazebo_uninstall
+
+# Build rule for target.
+wave_gazebo_uninstall: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wave_gazebo_uninstall
+.PHONY : wave_gazebo_uninstall
+
+# fast build rule for target.
+wave_gazebo_uninstall/fast:
+	$(MAKE) -f CMakeFiles/wave_gazebo_uninstall.dir/build.make CMakeFiles/wave_gazebo_uninstall.dir/build
+.PHONY : wave_gazebo_uninstall/fast
+
+#=============================================================================
+# Target rules for targets named uninstall
+
+# Build rule for target.
+uninstall: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 uninstall
+.PHONY : uninstall
+
+# fast build rule for target.
+uninstall/fast:
+	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
+.PHONY : uninstall/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -231,11 +231,11 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
-	@echo "... wave_gazebo_uninstall"
-	@echo "... uninstall"
 	@echo "... install/strip"
 	@echo "... wave_gazebo__xacro_auto_generate"
 	@echo "... model_erb_generation"
+	@echo "... wave_gazebo_uninstall"
+	@echo "... uninstall"
 .PHONY : help
 
 

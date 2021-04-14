@@ -20,14 +20,14 @@
   <world name="ocean_buoys_world">
 
     <!-- GUI -->
-    <gui>
+    <!-- <gui>
       <plugin name="keyboard_gui_plugin" filename="libKeyboardGUIPlugin.so"/>
       <camera name='user_camera'>
         <pose frame=''>-12 0  5 0 0.27 0</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
-    </gui>
+    </gui> -->
 
     <!-- Scene -->
     <scene>
@@ -79,11 +79,11 @@
     -->
 
     <!-- Add auto generated model with N buoys -->
-    <model name="robotx_2018_qualifying_avoid_obstacles_buoys">
+    <!-- <model name="robotx_2018_qualifying_avoid_obstacles_buoys">
       <include>
         <uri>model://robotx_2018_qualifying_avoid_obstacles_buoys</uri>
       </include>
-    </model>
+    </model> -->
 
   </world>
 </sdf>

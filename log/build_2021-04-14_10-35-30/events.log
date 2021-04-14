@@ -1,0 +1,151 @@
+[0.000000] (-) TimerEvent: {}
+[0.000210] (-) JobUnselected: {'identifier': 'usv_gazebo_plugins'}
+[0.000231] (-) JobUnselected: {'identifier': 'usv_msgs'}
+[0.000243] (-) JobUnselected: {'identifier': 'vrx_gazebo'}
+[0.000258] (-) JobUnselected: {'identifier': 'wamv_description'}
+[0.001604] (-) JobUnselected: {'identifier': 'wamv_gazebo'}
+[0.001632] (-) JobUnselected: {'identifier': 'wave_gazebo_plugins'}
+[0.001645] (wave_gazebo) JobQueued: {'identifier': 'wave_gazebo', 'dependencies': OrderedDict([('wave_gazebo_plugins', '/home/ruize/dev_ws/install/wave_gazebo_plugins')])}
+[0.001660] (wave_gazebo) JobStarted: {'identifier': 'wave_gazebo'}
+[0.010055] (wave_gazebo) JobProgress: {'identifier': 'wave_gazebo', 'progress': 'cmake'}
+[0.011710] (wave_gazebo) JobProgress: {'identifier': 'wave_gazebo', 'progress': 'build'}
+[0.011750] (wave_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ruize/dev_ws/build/wave_gazebo', '--', '-j4', '-l4'], 'cwd': '/home/ruize/dev_ws/build/wave_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SDKMAN_VERSION', '5.11.0+644'), ('LANGUAGE', 'en_CA:en'), ('USER', 'ruize'), ('SSH_AGENT_PID', '1585'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ruize/dev_ws/install/wave_gazebo_plugins/lib:/home/ruize/dev_ws/install/usv_gazebo_plugins/lib:/home/ruize/dev_ws/install/usv_msgs/lib:/home/ruize/px4_ros_com_ros2/install/px4_ros_com/lib:/home/ruize/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ruize'), ('OLDPWD', '/home/ruize'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GRADLE_HOME', '/home/ruize/.sdkman/candidates/gradle/current'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1362'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3792'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ruize/dev_ws/install:/home/ruize/px4_ros_com_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ruize'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('JOURNAL_STREAM', '8:33474'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ruize'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ruize/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/foxy/bin:/home/ruize/.sdkman/candidates/gradle/current/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ruize/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ruize-VirtualBox:@/tmp/.ICE-unix/1660,unix/ruize-VirtualBox:/tmp/.ICE-unix/1660'), ('SDKMAN_CANDIDATES_DIR', '/home/ruize/.sdkman/candidates'), ('INVOCATION_ID', '65a73f32f0b24c8aa1f0828ef9e73a02'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SDKMAN_DIR', '/home/ruize/.sdkman'), ('SDKMAN_PLATFORM', 'LinuxX64'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ruize/dev_ws/install/wave_gazebo:/home/ruize/dev_ws/install/wamv_gazebo:/home/ruize/dev_ws/install/usv_gazebo_plugins:/home/ruize/dev_ws/install/wave_gazebo_plugins:/home/ruize/dev_ws/install/wamv_description:/home/ruize/dev_ws/install/vrx_gazebo:/home/ruize/dev_ws/install/usv_msgs:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:fb817c02-1648-4fed-80bc-8656833e97a0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ruize/dev_ws/build/wave_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ruize/dev_ws/install/usv_msgs/lib/python3.8/site-packages:/home/ruize/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ruize/dev_ws/install/wave_gazebo_plugins:/home/ruize/dev_ws/install/wave_gazebo:/home/ruize/dev_ws/install/wamv_gazebo:/home/ruize/dev_ws/install/usv_gazebo_plugins:/home/ruize/dev_ws/install/wamv_description:/home/ruize/dev_ws/install/vrx_gazebo:/home/ruize/dev_ws/install/usv_msgs:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy')]), 'shell': False}
+[0.031985] (wave_gazebo) StdoutLine: {'line': b'-- Found xacro: 2.0.4 (/opt/ros/foxy/share/xacro/cmake)\n'}
+[0.032923] (wave_gazebo) StdoutLine: {'line': b'-- Found gazebo_ros: 3.5.0 (/opt/ros/foxy/share/gazebo_ros/cmake)\n'}
+[0.048734] (wave_gazebo) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.100131] (-) TimerEvent: {}
+[0.190489] (wave_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.192506] (wave_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.200479] (-) TimerEvent: {}
+[0.281054] (wave_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300971] (-) TimerEvent: {}
+[0.316467] (wave_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.317699] (wave_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.401290] (-) TimerEvent: {}
+[0.457250] (wave_gazebo) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[0.478176] (wave_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[0.479208] (wave_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.8.0\n'}
+[0.482301] (wave_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.483477] (wave_gazebo) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[0.487402] (wave_gazebo) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[0.487644] (wave_gazebo) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[0.495154] (wave_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[0.495432] (wave_gazebo) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[0.495601] (wave_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[0.495719] (wave_gazebo) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[0.495767] (wave_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[0.495810] (wave_gazebo) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[0.495855] (wave_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[0.495898] (wave_gazebo) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[0.495942] (wave_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[0.495984] (wave_gazebo) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[0.496028] (wave_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[0.496090] (wave_gazebo) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[0.501966] (-) TimerEvent: {}
+[0.585068] (wave_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.8.0\n'}
+[0.585327] (wave_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.0\n'}
+[0.585595] (wave_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[0.600454] (wave_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[0.602542] (-) TimerEvent: {}
+[0.609616] (wave_gazebo) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[0.613086] (wave_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[0.626490] (wave_gazebo) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[0.657562] (wave_gazebo) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.669596] (wave_gazebo) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[0.695639] (wave_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.7.0\n'}
+[0.695989] (wave_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[0.703338] (-) TimerEvent: {}
+[0.711287] (wave_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.8.0\n'}
+[0.715291] (wave_gazebo) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.725263] (wave_gazebo) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[0.750747] (wave_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.7.0\n'}
+[0.750984] (wave_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.11.1\n'}
+[0.751316] (wave_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[0.751482] (wave_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.751571] (wave_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.757204] (wave_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[0.757396] (wave_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.11.1\n'}
+[0.757827] (wave_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[0.758107] (wave_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.8.0\n'}
+[0.758988] (wave_gazebo) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.3.0\n'}
+[0.759343] (wave_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[0.777833] (wave_gazebo) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[0.787573] (wave_gazebo) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[0.803687] (-) TimerEvent: {}
+[0.813159] (wave_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[0.822542] (wave_gazebo) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[0.847169] (wave_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.11.1\n'}
+[0.847989] (wave_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.7.0\n'}
+[0.849196] (wave_gazebo) StdoutLine: {'line': b'-- Gazebo version: 11.3\n'}
+[0.854212] (wave_gazebo) StdoutLine: {'line': b'-- Found wave_gazebo_plugins: 1.3.0 (/home/ruize/dev_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/cmake)\n'}
+[0.864883] (wave_gazebo) StdoutLine: {'line': b'-- xacro: determining deps for: worlds/ocean.world.xacro ...\n'}
+[0.904080] (-) TimerEvent: {}
+[0.908270] (wave_gazebo) StdoutLine: {'line': b'-- xacro: determining deps for: worlds/ocean_buoys.world.xacro ...\n'}
+[0.950865] (wave_gazebo) StdoutLine: {'line': b'-- xacro: determining deps for: worlds/ocean_wamv.world.xacro ...\n'}
+[0.993734] (wave_gazebo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.004504] (-) TimerEvent: {}
+[1.057140] (wave_gazebo) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.060980] (wave_gazebo) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.061944] (wave_gazebo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.062811] (wave_gazebo) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.065006] (wave_gazebo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.067747] (wave_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.072298] (wave_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[1.074839] (wave_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/ruize/dev_ws/build/wave_gazebo\n'}
+[1.102548] (wave_gazebo) StdoutLine: {'line': b'[100%] Built target wave_gazebo__xacro_auto_generate\n'}
+[1.102773] (wave_gazebo) StdoutLine: {'line': b'[100%] Built target model_erb_generation\n'}
+[1.104615] (-) TimerEvent: {}
+[1.111740] (wave_gazebo) CommandEnded: {'returncode': 0}
+[1.130107] (wave_gazebo) JobProgress: {'identifier': 'wave_gazebo', 'progress': 'install'}
+[1.140215] (wave_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ruize/dev_ws/build/wave_gazebo'], 'cwd': '/home/ruize/dev_ws/build/wave_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SDKMAN_VERSION', '5.11.0+644'), ('LANGUAGE', 'en_CA:en'), ('USER', 'ruize'), ('SSH_AGENT_PID', '1585'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ruize/dev_ws/install/wave_gazebo_plugins/lib:/home/ruize/dev_ws/install/usv_gazebo_plugins/lib:/home/ruize/dev_ws/install/usv_msgs/lib:/home/ruize/px4_ros_com_ros2/install/px4_ros_com/lib:/home/ruize/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ruize'), ('OLDPWD', '/home/ruize'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GRADLE_HOME', '/home/ruize/.sdkman/candidates/gradle/current'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1362'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3792'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ruize/dev_ws/install:/home/ruize/px4_ros_com_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ruize'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('JOURNAL_STREAM', '8:33474'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ruize'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ruize/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/foxy/bin:/home/ruize/.sdkman/candidates/gradle/current/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ruize/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ruize-VirtualBox:@/tmp/.ICE-unix/1660,unix/ruize-VirtualBox:/tmp/.ICE-unix/1660'), ('SDKMAN_CANDIDATES_DIR', '/home/ruize/.sdkman/candidates'), ('INVOCATION_ID', '65a73f32f0b24c8aa1f0828ef9e73a02'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SDKMAN_DIR', '/home/ruize/.sdkman'), ('SDKMAN_PLATFORM', 'LinuxX64'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ruize/dev_ws/install/wave_gazebo:/home/ruize/dev_ws/install/wamv_gazebo:/home/ruize/dev_ws/install/usv_gazebo_plugins:/home/ruize/dev_ws/install/wave_gazebo_plugins:/home/ruize/dev_ws/install/wamv_description:/home/ruize/dev_ws/install/vrx_gazebo:/home/ruize/dev_ws/install/usv_msgs:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:fb817c02-1648-4fed-80bc-8656833e97a0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ruize/dev_ws/build/wave_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ruize/dev_ws/install/usv_msgs/lib/python3.8/site-packages:/home/ruize/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ruize/dev_ws/install/wave_gazebo_plugins:/home/ruize/dev_ws/install/wave_gazebo:/home/ruize/dev_ws/install/wamv_gazebo:/home/ruize/dev_ws/install/usv_gazebo_plugins:/home/ruize/dev_ws/install/wamv_description:/home/ruize/dev_ws/install/vrx_gazebo:/home/ruize/dev_ws/install/usv_msgs:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy')]), 'shell': False}
+[1.147066] (wave_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.147307] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models\n'}
+[1.147713] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves\n'}
+[1.147901] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/meshes\n'}
+[1.147979] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/meshes/mesh.dae\n'}
+[1.148033] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/meshes/mesh_below.dae\n'}
+[1.148166] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/meshes/mesh.blend\n'}
+[1.148348] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/model.xacro.erb\n'}
+[1.148668] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/model.xacro\n'}
+[1.148799] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/model.config\n'}
+[1.148852] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials\n'}
+[1.148914] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/programs\n'}
+[1.148960] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/programs/GerstnerWaves.frag\n'}
+[1.149092] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/programs/GerstnerWaves.vert\n'}
+[1.149141] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/scripts\n'}
+[1.149241] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/scripts/waves.material\n'}
+[1.149287] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures\n'}
+[1.149514] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_rt.jpg\n'}
+[1.149575] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_dn.jpg\n'}
+[1.149612] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_bk.jpg\n'}
+[1.149649] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_up.jpg\n'}
+[1.149725] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_fr.jpg\n'}
+[1.149797] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds.jpg\n'}
+[1.149839] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/wave_normals.dds\n'}
+[1.149892] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/world_models/ocean_waves/materials/textures/clouds_lf.jpg\n'}
+[1.150122] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/launch\n'}
+[1.150247] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/launch/ocean_world.launch.py\n'}
+[1.150308] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/launch/ocean_demos.launch.py\n'}
+[1.150346] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/launch/ocean_world_buoys.launch.py\n'}
+[1.150382] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/launch/wave_wamv.launch.py\n'}
+[1.150420] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/worlds/ocean.world\n'}
+[1.150582] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/worlds/ocean_buoys.world\n'}
+[1.150662] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/worlds/ocean_wamv.world\n'}
+[1.150946] (wave_gazebo) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo/share/ament_index/resource_index/package_run_dependencies/wave_gazebo\n'}
+[1.151535] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/ament_index/resource_index/parent_prefix_path/wave_gazebo\n'}
+[1.151755] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/environment/ament_prefix_path.sh\n'}
+[1.151823] (wave_gazebo) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/environment/ament_prefix_path.dsv\n'}
+[1.152156] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/environment/path.sh\n'}
+[1.152263] (wave_gazebo) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/environment/path.dsv\n'}
+[1.152490] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/local_setup.bash\n'}
+[1.152557] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/local_setup.sh\n'}
+[1.152602] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/local_setup.zsh\n'}
+[1.152833] (wave_gazebo) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/local_setup.dsv\n'}
+[1.153041] (wave_gazebo) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/package.dsv\n'}
+[1.153318] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/ament_index/resource_index/packages/wave_gazebo\n'}
+[1.153395] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/cmake/wave_gazeboConfig.cmake\n'}
+[1.153435] (wave_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/cmake/wave_gazeboConfig-version.cmake\n'}
+[1.153641] (wave_gazebo) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/wave_gazebo/share/wave_gazebo/package.xml\n'}
+[1.157156] (wave_gazebo) CommandEnded: {'returncode': 0}
+[1.189482] (wave_gazebo) JobEnded: {'identifier': 'wave_gazebo', 'rc': 0}
+[1.190445] (-) EventReactorShutdown: {}

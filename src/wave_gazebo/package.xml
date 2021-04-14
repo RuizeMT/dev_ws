@@ -14,8 +14,8 @@
 
   <build_depend>ruby</build_depend>
 
-  <exec_depend>wave_gazebo_plugins</exec_depend>
-  <exec_depend>gazebo_ros</exec_depend>
+  <depend>wave_gazebo_plugins</depend>
+  <depend>gazebo_ros</depend>
   <depend>xacro</depend>
 
   <export>

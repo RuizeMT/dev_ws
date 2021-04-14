@@ -74,23 +74,23 @@ def generate_launch_description():
         ),
         launch.actions.DeclareLaunchArgument(
             name='camera_enabled',
-            default_value='true'
+            default_value='false'
         ),
         launch.actions.DeclareLaunchArgument(
             name='gps_enabled',
-            default_value='true'
+            default_value='false'
         ),
         launch.actions.DeclareLaunchArgument(
             name='imu_enabled',
-            default_value='true'
+            default_value='false'
         ),
         launch.actions.DeclareLaunchArgument(
             name='lidar_enabled',
-            default_value='true'
+            default_value='false'
         ),
         launch.actions.DeclareLaunchArgument(
             name='ground_truth_enabled',
-            default_value='true'
+            default_value='false'
         ),
         launch.actions.DeclareLaunchArgument(
             name='urdf',
@@ -99,13 +99,9 @@ def generate_launch_description():
         ),
         launch_ros.actions.Node(
             package='gazebo_ros',
-            executable='spawn_model',
+            node_executable='spawn_entity.py',
             name='spawn_model_wamv',
-            parameters=[
-                {
-                    '$(arg namespace)/robot_description': None
-                }
-            ]
+            arguments=['-entity', 'wamv', '-database', 'double_pendulum_with_base'],
         ),
         launch.actions.IncludeLaunchDescription(
             launch.launch_description_sources.PythonLaunchDescriptionSource(
@@ -113,7 +109,7 @@ def generate_launch_description():
                     'gazebo_ros'), 'launch/gazebo.launch.py')
             ),
             launch_arguments={
-                'world_name': launch.substitutions.LaunchConfiguration('world'),
+                'world': launch.substitutions.LaunchConfiguration('world'),
                 'paused': launch.substitutions.LaunchConfiguration('paused'),
                 'use_sim_time': launch.substitutions.LaunchConfiguration('use_sim_time'),
                 'extra_gazebo_args': launch.substitutions.LaunchConfiguration('extra_gazebo_args'),

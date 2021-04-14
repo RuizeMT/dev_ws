@@ -1,0 +1,2 @@
+Invoking command in '/home/ruize/dev_ws/build/wave_gazebo': /usr/bin/cmake --build /home/ruize/dev_ws/build/wave_gazebo -- -j4 -l4
+Invoked command in '/home/ruize/dev_ws/build/wave_gazebo' returned '2': /usr/bin/cmake --build /home/ruize/dev_ws/build/wave_gazebo -- -j4 -l4
